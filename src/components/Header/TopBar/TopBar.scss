@@ -1,0 +1,30 @@
+@import '../../../styles/_vars';
+
+.header__topbar {
+  background-color: $color_main;
+  padding: .2em $margin;
+  display: flex;
+}
+
+.header__contact {
+  flex: 1;
+  display: flex;
+  a {
+    margin-right: 2em;
+    color: $color-white;
+    font-size: .8em;
+  }
+  img {
+    width: 16px;
+    margin-right: .5em;
+    vertical-align: bottom;
+  }
+}
+
+.header__social {
+  display: flex;
+  img {
+    width: 16px;
+    margin-left: .5em;
+  }
+}

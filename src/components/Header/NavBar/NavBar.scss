@@ -1,0 +1,27 @@
+@import '../../../styles/_vars';
+
+.header__navbar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 $margin;
+  #logo {
+    width: 150px;
+  }
+  a {
+    margin-left: 2em;
+    padding: .5em;
+    display: flex;
+    align-items: bottom;
+    height: 2em;
+    svg {
+      margin-left: .5em;
+    }
+    .chevron {
+      fill: $color-grey;
+    }
+  }
+  .header__spacing {
+    flex: 1;
+  }
+};

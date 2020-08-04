@@ -1,0 +1,8 @@
+@import '../../styles/_vars';
+
+.button {
+  background-color: $color-button;
+  padding: .5em 3em;
+  border-radius: 2em;
+  color: $color-white;
+}

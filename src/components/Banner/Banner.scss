@@ -1,0 +1,13 @@
+@import '../../styles/_vars';
+
+.banner {
+  height: calc(100vh - 112px);
+  background-image: url('../../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0 $margin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
