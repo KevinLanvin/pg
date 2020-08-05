@@ -1,8 +1,20 @@
 @import '../../styles/_vars';
 
 .button {
-  background-color: $color-button;
   padding: .5em 3em;
   border-radius: 2em;
+  border: 2px solid $color-button;
+  background-color: $color-button;
   color: $color-white;
+  &:hover {
+    border: 2px solid $color-white;
+    background-color: transparent;
+  }
+  &--alt {
+    &:hover {
+      background-color: transparent;
+      color: $color-button;
+      border: 2px solid $color-button;
+    }
+  }
 }
