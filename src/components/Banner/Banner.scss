@@ -1,6 +1,7 @@
 @import '../../styles/_vars';
 
 .banner {
+  width: 100%;
   height: calc(100vh - 112px);
   background-image: url('../../img/banner.jpg');
   background-size: cover;

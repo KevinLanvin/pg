@@ -53,7 +53,7 @@ h1 {
 
 h2 {
   font-family: 'Mathilde';
-  font-size: 7em;
+  font-size: 6em;
   text-align: left;
   color: $color-main;
   font-weight: normal;
@@ -63,6 +63,7 @@ h3 {
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 1.2em;
+  color: $color-main;
 }
 
 body, li, a, p, button {
@@ -72,6 +73,11 @@ body, li, a, p, button {
   font-weight: normal;
 }
 
+p {
+  line-height: 2em;
+  text-align: justify;
+}
+
 .tarifs {
   font-family: 'Raleway';
   font-size: 3.5em;
@@ -79,8 +85,9 @@ body, li, a, p, button {
   font-weight: normal;
 }
 
-.section {
+section {
   width: 80%;
+  margin: auto;
   min-width: 800px;
 }
 
@@ -94,3 +101,8 @@ body, li, a, p, button {
   color: $color-white;
 }
 
+.overlay {
+  position: absolute;
+  background: rgba(0,0,0,.6);
+  top: 0; right: 0; bottom: 0; left: 0;
+}

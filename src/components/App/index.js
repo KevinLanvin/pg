@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../Header';
 import Banner from '../Banner';
+import Description from '../Description';
+import Services from '../Services';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -10,6 +12,8 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <Description />
+      <Services />
     </div>
   );
 }
