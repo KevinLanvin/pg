@@ -15,10 +15,13 @@
         align-items: center;
         &:hover {
           .overlay {
-            display: block;
+            opacity: 1;
           }
           ul > li, h3 {
             color: $color-accent;
+          }
+          .service__title {
+            opacity: 1;
           }
         }
       }
@@ -43,16 +46,20 @@
       z-index: 2;
     }
     .overlay {
-      display: none;
+      opacity: 0;
+      transition: opacity .3s;
       z-index: 3;
     }
     .service__title {
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
+      z-index: 4;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      opacity: 0;
+      transition: opacity .3s;
     }
   }
   &__text {
@@ -63,6 +70,7 @@
     color: $color-main;
     h3 {
       margin-bottom: 1rem;
+      transition: color .3s;
     }
     ul {
       display: flex;
@@ -72,6 +80,7 @@
       li {
         color: $color-main;
         margin: .3em 0;
+        transition: color .3s;
       }
     }
   }
