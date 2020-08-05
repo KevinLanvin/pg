@@ -3,19 +3,30 @@
 .header__navbar {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   padding: 0 $margin;
   #logo {
     width: 150px;
   }
-  a {
+  span {
     margin-left: 2em;
-    padding: .5em;
     display: flex;
-    align-items: bottom;
-    height: 2em;
-    svg {
-      margin-left: .5em;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    a {
+      height: 2em;
+      display: flex;
+      align-items: center;
+      &:hover {
+        color: $color-accent;
+        .chevron {
+          fill: $color-accent;
+        }
+      }
+      svg {
+        margin-left: .5em;
+      }
     }
     .chevron {
       fill: $color-grey;
@@ -23,5 +34,25 @@
   }
   .header__spacing {
     flex: 1;
+  }
+  .dropdown {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid $color-accent;
+    position: absolute;
+    top: calc(100% - 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $color-white;
+    width: max-content;
+    box-shadow: $shadow-dark;
+    span {
+      margin: 2em 3em 0 3em;
+      &:last-child {
+        margin-bottom: 2em;
+      }
+    }
   }
 };
