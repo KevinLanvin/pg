@@ -1,0 +1,51 @@
+@import '../../styles/_vars';
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+.qui-suis-je {
+  width: 100%;
+  background-color: $color-main;
+  position: relative;
+  padding: $gutter-large 0;
+  &__grid {
+    width: 80%;
+    margin: auto;
+    box-shadow: $shadow-dark;
+    background-color: $color-white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: $gutter-large;
+    h2 {
+      margin-bottom: $gutter;
+    }
+    .button {
+      margin-top: $gutter;
+    }
+  }
+  &__img {
+    img {
+      width: 100%;
+      height: auto;
+      max-height: max(70vh, 100%);
+      display: block;
+      object-fit: cover;
+    }
+  }
+  &__flower {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    transform: translateX(25%);
+    width: 12%;
+    height: auto;
+    z-index: 1;
+  }
+}

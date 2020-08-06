@@ -1,0 +1,41 @@
+@import '../../styles/_vars';
+
+.temoignages {
+  width: 100%;
+  background: url(../../img/temoignages.jpg);
+  background-size: cover;
+  padding: $gutter-large 0;
+  &__text {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    padding: $gutter-large;
+    background-color: $color-overlay;
+    h2 {
+      margin-bottom: $gutter;
+    }
+  }
+  &__quote {
+    position: absolute;
+    top: $gutter;
+    left: $gutter;
+    width: 10%;
+    height: auto;
+  }
+  &__paragraph {
+    color: $color-white;
+    font-weight: bold;
+    margin: 0 4*$gutter-large;
+  }
+  .slick-dots {
+    display: flex !important;
+    margin-top: $gutter;
+    margin-right: 4*$gutter-large;
+    justify-content: flex-end;
+    .slick-active {
+      div {
+        background-color: $color-white;
+      }
+    }
+  }
+}

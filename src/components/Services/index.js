@@ -9,7 +9,7 @@ const Services = () => (
     <div className="services__grid">
       <div className="services__service">
         <div className="service__image">
-          <img src={Tmp} alt="Soins Naturels" />
+          <img src="https://picsum.photos/304/600" alt="Soins Naturels" />
           <div className="service__title">
             <h4 className="white center">Soins Naturels</h4>
           </div>
@@ -27,7 +27,7 @@ const Services = () => (
       </div>
       <div className="services__service">
         <div className="service__image">
-          <img src={Tmp} alt="Soins Energetiques" />
+          <img src="https://picsum.photos/303/600" alt="Soins Energetiques" />
           <div className="service__title">
           <h4 className="white center">Soins Énergétiques</h4>
           </div>
@@ -44,7 +44,7 @@ const Services = () => (
       </div>
       <div className="services__service">
         <div className="service__image">
-          <img src={Tmp} alt="Kinesiologie" />
+          <img src="https://picsum.photos/301/600" alt="Kinesiologie" />
           <div className="service__title">
           <h4 className="white center">Kinésiologie</h4>
           </div>
@@ -60,7 +60,7 @@ const Services = () => (
       </div>
       <div className="services__service">
         <div className="service__image">
-          <img src={Tmp} alt="Arret du Tabac" />
+          <img src="https://picsum.photos/302/600" alt="Arret du Tabac" />
           <div className="service__title">
           <h4 className="white center">Arrêt du Tabac</h4>
           </div>
