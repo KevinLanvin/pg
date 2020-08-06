@@ -6,6 +6,7 @@
   border: 2px solid $color-button;
   background-color: $color-button;
   color: $color-white;
+  transition: all .3s;
   &:hover {
     border: 2px solid $color-white;
     background-color: transparent;
