@@ -19,18 +19,20 @@
     position: absolute;
     top: $gutter;
     left: $gutter;
-    width: 10%;
+    width: 6rem;
     height: auto;
   }
   &__paragraph {
     color: $color-white;
     font-weight: bold;
-    margin: 0 4*$gutter-large;
+    min-width: 600px;
+  }
+  &__carousel {
+    min-width: 600px;
   }
   .slick-dots {
     display: flex !important;
     margin-top: $gutter;
-    margin-right: 4*$gutter-large;
     justify-content: flex-end;
     .slick-active {
       div {

@@ -6,6 +6,8 @@ import Services from '../Services';
 import QuandConsulter from '../QuandConsulter';
 import QuiSuisJe from '../QuiSuisJe';
 import Temoignages from '../Temoignages';
+import Blog from '../sections/Blog';
+import Footer from '../Footer';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -20,6 +22,8 @@ function App() {
       <QuandConsulter />
       <QuiSuisJe />
       <Temoignages />
+      <Blog />
+      <Footer />
     </div>
   );
 }

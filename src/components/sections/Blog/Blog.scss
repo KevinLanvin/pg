@@ -1,0 +1,12 @@
+@import '../../../styles/_vars';
+
+.blog {
+  margin-top: $gutter-large;
+  margin-bottom: $gutter-large;
+  &__articles {
+    margin-top: $gutter-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
