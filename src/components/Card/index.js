@@ -16,7 +16,7 @@ const Card = ({
       <div className="card__text">
         <h3 className="card__title center">{title}</h3>
         <p className="card__description">{description}</p>
-        <a className="card__link" href={link}>Voir plus<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg"><defs><filter id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.140513 0 0 0 0 0.064018 0 0 0 0 0.322209 0 0 0 1.000000 0"/></filter></defs><g filter="url(#a)" fill="none"><path className="chevron" d="M15 0C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15zm3.475 15.663l-4.218 4.219a.935.935 0 01-.663.274c-.828 0-1.255-1.008-.663-1.6L16.487 15l-3.556-3.556a.937.937 0 111.326-1.326l4.218 4.22a.937.937 0 010 1.325z" /></g></svg></a>
+        <a className="card__link" href={link}>Voir plus<svg height="24" width="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path className="chevron" d="M256 0C114.615 0 0 114.615 0 256s114.615 256 256 256 256-114.615 256-256S397.385 0 256 0zm59.313 267.314l-72 72A15.95 15.95 0 01232 344.001c-14.126 0-21.421-17.206-11.313-27.313l60.686-60.687-60.686-60.687c-6.249-6.248-6.249-16.379 0-22.627 6.248-6.248 16.379-6.248 22.627 0l72 72c6.248 6.249 6.248 16.379-.001 22.627z"/></svg></a>
       </div>
     </div>
   </div>

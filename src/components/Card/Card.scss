@@ -50,11 +50,16 @@
     display: flex;
     align-items: center;
     color: $color-main;
+    transition: color .3s;
     .chevron {
-      fill: $color-accent;
+      fill: $color-main;
+      transition: fill .3s;
     }
     svg {
       margin-left: .5rem;
     }
+  }
+  &__title {
+    transition: color .3s;
   }
 }
