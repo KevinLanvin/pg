@@ -1,0 +1,70 @@
+@import '../../../styles/_vars';
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+.splitted-section {
+  width: 100%;
+  position: relative;
+  padding: $gutter-large 0;
+  &--alt-color {
+    background-color: $color-main;
+    .splitted-section__grid {
+      box-shadow: $shadow-dark;
+    }
+  }
+  &__grid {
+    width: 80%;
+    margin: auto;
+    background-color: $color-white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &--reverse {
+      .splitted-section__text {
+        order: 2;
+      }
+      .splitted-section__image {
+        order: 1;
+      }
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: $gutter-large;
+    h2 {
+      margin-bottom: $gutter;
+    }
+    .button {
+      margin-top: $gutter;
+    }
+  }
+  &__image {
+    position: relative;
+    padding-top: 100%;
+    img {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    &--rounded {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+  &__flower {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    transform: translateX(25%);
+    width: 12%;
+    height: auto;
+    z-index: 1;
+  }
+}
