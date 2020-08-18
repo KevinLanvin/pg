@@ -7,12 +7,12 @@ const Card = ({
   title,
   description,
   image,
-  alt,
+  imageAlt,
   link,
 }) => (
   <div className="card">
     <div className="card__wrapper">
-      <img className="card__picture" src={image} alt={alt} />
+      <img className="card__picture" src={image} alt={imageAlt} />
       <div className="card__text">
         <h3 className="card__title center">{title}</h3>
         <p className="card__description">{description}</p>
@@ -26,7 +26,7 @@ Card.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  imageAlt: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
 };
 

@@ -40,4 +40,9 @@
       }
     }
   }
+  .slick-list {
+    margin-left: -$gutter-large;
+    margin-right: -$gutter-large;
+  }
+  .slick-slide>div {padding: 0 $gutter-large;}
 }

@@ -1,81 +1,49 @@
 import React from 'react';
-import Tmp from '../../img/description.jpg';
+import PropTypes from 'prop-types';
 
 import './Services.scss';
 
-const Services = () => (
+const Services = ({ title, services }) => (
   <section className="services">
     <h2 className="services__title center">Mes services</h2>
     <div className="services__grid">
-      <div className="services__service">
-        <div className="service__image">
-          <img src="https://picsum.photos/304/600" alt="Soins Naturels" />
-          <div className="service__title">
-            <h4 className="white center">Soins Naturels</h4>
+      { services.map(service => (
+        <div className="services__service" key={service.title}>
+          <div className="service__image">
+            <img src={`${process.env.REACT_APP_BACK_URL}${service.image.url}`} alt={service.title} />
+            <div className="service__title">
+              <h4 className="white center">{service.title}</h4>
+            </div>
+            <div className="overlay" />
           </div>
-          <div className="overlay" />
-        </div>
-        <div className="service__text">
-          <h3>Soins Naturels</h3>
-          <ul>
-            <li>Ventouses</li>
-            <li>Moxibustion</li>
-            <li>Guasha</li>
-            <li>Auriculo-thérapie</li>
-          </ul>
-        </div>
-      </div>
-      <div className="services__service">
-        <div className="service__image">
-          <img src="https://picsum.photos/303/600" alt="Soins Energetiques" />
-          <div className="service__title">
-          <h4 className="white center">Soins Énergétiques</h4>
+          <div className="service__text">
+            <h3>{service.title}</h3>
+            <ul>
+              { service.Examples.map(example => (
+                <li key={example.Label}>{example.Label}</li>
+              ))}
+            </ul>
           </div>
-          <div className="overlay" />
         </div>
-        <div className="service__text">
-          <h3>Soins Énergétiques</h3>
-          <ul>
-            <li>
-              Reiki
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="services__service">
-        <div className="service__image">
-          <img src="https://picsum.photos/301/600" alt="Kinesiologie" />
-          <div className="service__title">
-          <h4 className="white center">Kinésiologie</h4>
-          </div>
-          <div className="overlay" />
-        </div>
-        <div className="service__text">
-          <h3>Kinésiologie</h3>
-          <ul>
-            <li>Touch for health</li>
-            <li>One brain</li>
-          </ul>
-        </div>
-      </div>
-      <div className="services__service">
-        <div className="service__image">
-          <img src="https://picsum.photos/302/600" alt="Arret du Tabac" />
-          <div className="service__title">
-          <h4 className="white center">Arrêt du Tabac</h4>
-          </div>
-          <div className="overlay" />
-        </div>
-        <div className="service__text">
-          <h3>Spécial Arrêt du Tabac</h3>
-          <ul>
-            <li>Hypnose</li>
-            <li>Auriculo-thérapie</li>
-          </ul>
-        </div>
-      </div>
+      ))}
     </div>
   </section>
 );
+
+Services.propTypes = {
+  title: PropTypes.string.isRequired,
+  services: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      link: PropTypes.string,
+      image: PropTypes.shape({ url: PropTypes.string.isRequired }).isRequired,
+      Examples: PropTypes.arrayOf(
+        PropTypes.shape({
+          Label: PropTypes.string.isRequired
+        }).isRequired,
+      ).isRequired,
+    }).isRequired,
+  ).isRequired,
+}
 
 export default Services;
