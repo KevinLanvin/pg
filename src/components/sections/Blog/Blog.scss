@@ -6,7 +6,15 @@
   &__articles {
     margin-top: $gutter-large;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+  }
+  .card {
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
