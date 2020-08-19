@@ -13,6 +13,10 @@
       padding-top: 100%;
     }
     &:hover {
+      .card__text {
+        transform: translateY(35%);
+        box-shadow: $shadow-dark-large;
+      }
       .card__title, .card__link {
         color: $color-accent;
       }
@@ -45,6 +49,7 @@
     background-color: $color-white;
     padding: $gutter;
     border-radius: $radius;
+    transition: all .3s;
   }
   &__link {
     display: flex;
