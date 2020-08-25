@@ -1,0 +1,136 @@
+{
+  "MainTitle": {
+    "title": "Praticienne en Soins Naturels et Energétiques",
+    "Banner": {
+      "url": "http://localhost:3000/img/banner.jpg",
+      "alternativeText": "Bannière"
+    }
+  },
+  "Description": {
+    "title": "Une approche globale",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "image": {
+      "url": "http://localhost:3000/img/description.jpg",
+      "alternativeText": "Description du site"
+    }
+  },
+  "Services": {
+    "title": "Mes services",
+    "services": [
+      {
+        "title": "Soins Naturels",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Ventouses",
+          "Moxibustion",
+          "Guasha",
+          "Auriculo-thérapie"
+        ]
+      },
+      {
+        "title": "Soins Énergétiques",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Reiki"
+        ]
+      },
+      {
+        "title": "Kinésiologie",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Touch for health",
+          "One breath"
+        ]
+      },
+      {
+        "title": "Spécial Arrêt du tabac",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Hypnose",
+          "Auriculo-thérapie"
+        ]
+      }
+    ]
+  },
+  "QuandConsulter": {
+    "title": "Dans quel cas me consulter ?",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "linkTo": "#",
+    "linkLabel": "Voir la liste des pathologies",
+    "image": {
+      "url": "http://localhost:3000/img/quand-consulter.jpg",
+      "alternativeText": ""
+    }
+  },
+  "QuiSuisJe": {
+    "title": "Qui suis-je ?",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "linkTo": "#",
+    "linkLabel": "Voir mon parcours",
+    "image": {
+      "url": "http://localhost:3000/img/quand-consulter.jpg",
+      "alternativeText": ""
+    }
+  },
+  "Temoignages": {
+    "title": "Témoignages",
+    "testimonials": [
+      {
+        "author": "Morgan - 12ans",
+        "paragraph": "C'était Cro bien ! Wesh sa mere"
+      },
+      {
+        "author": "Kiwin - 26ans",
+        "paragraph": "La sérendipité ne peut pas être considérée comme une fin en soi. Le fondement même de la nature humaine nous interdit toute forme de laxisme inhérent à la décrépitude motivationnelle de l'individu en tant que tel."
+      },
+      {
+        "author": "Perrine - 28ans",
+        "paragraph": "Encore mieux que le botox ! Ca détend le visage, j'ai meme pas eu de ride"
+      }
+    ]
+  },
+  "Blog": {
+    "title": "Retrouvez les derniers articles",
+    "articles": [
+      {
+        "title": "Une approche globale",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+        "image": {
+          "url": "http://localhost:3000/img/quand-consulter.jpg",
+          "alternativeText": ""
+        },
+        "linkTo": "#"
+      },
+      {
+        "title": "Une approche globale",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+        "image": {
+          "url": "http://localhost:3000/img/quand-consulter.jpg",
+          "alternativeText": ""
+        },
+        "linkTo": "#"
+      },
+      {
+        "title": "Une approche globale",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+        "image": {
+          "url": "http://localhost:3000/img/quand-consulter.jpg",
+          "alternativeText": ""
+        },
+        "linkTo": "#"
+      }
+    ]
+  }
+}

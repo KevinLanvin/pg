@@ -10,7 +10,7 @@ const Services = ({ title, services }) => (
       { services.map(service => (
         <div className="services__service" key={service.title}>
           <div className="service__image">
-            <img src={`${process.env.REACT_APP_BACK_URL}${service.image.url}`} alt={service.title} />
+            <img src={service.image.url} alt={service.image.alternativeText} />
             <div className="service__title">
               <h4 className="white center">{service.title}</h4>
             </div>
@@ -19,8 +19,8 @@ const Services = ({ title, services }) => (
           <div className="service__text">
             <h3>{service.title}</h3>
             <ul>
-              { service.Examples.map(example => (
-                <li key={example.Label}>{example.Label}</li>
+              { service.examples.map(example => (
+                <li key={example}>{example}</li>
               ))}
             </ul>
           </div>
@@ -37,10 +37,8 @@ Services.propTypes = {
       title: PropTypes.string.isRequired,
       link: PropTypes.string,
       image: PropTypes.shape({ url: PropTypes.string.isRequired }).isRequired,
-      Examples: PropTypes.arrayOf(
-        PropTypes.shape({
-          Label: PropTypes.string.isRequired
-        }).isRequired,
+      examples: PropTypes.arrayOf(
+        PropTypes.string.isRequired,
       ).isRequired,
     }).isRequired,
   ).isRequired,

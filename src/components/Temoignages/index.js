@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 
 import './Temoignages.scss';
 
-const Temoignages = ({ temoignages }) => {
+const Temoignages = ({ testimonials, title }) => {
   const settings = {
     dots: true,
     speed: 500,
@@ -31,11 +31,11 @@ const Temoignages = ({ temoignages }) => {
   return (
     <section className="temoignages">
       <div className="temoignages__text">
-        <h2 className="white center">Témoignages</h2>
+        <h2 className="white center">{title}</h2>
         <Slider {...settings} className="temoignages__carousel">
-          { temoignages.map(temoignage => (
-            <div key={temoignage.Author}>
-              <p className="temoignages__paragraph">{temoignage.Temoignage}<br/>{temoignage.Author}</p>
+          { testimonials.map(temoignage => (
+            <div key={temoignage.author}>
+              <p className="temoignages__paragraph">{temoignage.paragraph}<br/>{temoignage.author}</p>
             </div>
           ))}
         </Slider>
@@ -46,9 +46,10 @@ const Temoignages = ({ temoignages }) => {
 };
 
 Temoignages.propTypes = {
-  temoignages: PropTypes.arrayOf(PropTypes.shape({
-    Temoignage: PropTypes.string.isRequired,
-    Author: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  testimonials: PropTypes.arrayOf(PropTypes.shape({
+    paragraph: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
   }).isRequired).isRequired,
 };
 
