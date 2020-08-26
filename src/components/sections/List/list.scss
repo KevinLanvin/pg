@@ -1,0 +1,24 @@
+@import '../../../styles/_vars';
+
+.list-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: $gutter-large;
+  &__text {
+    padding-right: $gutter;
+  }
+  &__paragraph {
+    margin-top: $gutter;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__elements {
+    list-style-type: disc;
+    li {
+      margin: $gutter/2 0;
+    }
+  }
+}

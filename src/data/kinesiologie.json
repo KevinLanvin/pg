@@ -1,0 +1,80 @@
+{
+  "Breadcrumbs": [
+    {
+      "linkLabel": "Accueil",
+      "linkTo": "#"
+    },
+    {
+      "linkLabel": "Kinésiologie",
+      "linkTo": "#"
+    }
+  ],
+  "Introduction": {
+    "title": "Kinésiologie",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
+  },
+  "Techniques": [
+    {
+      "title": "One brain",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "linkTo": "#",
+      "linkLabel": "En savoir plus"
+    },
+    {
+      "title": "Touch for health",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "linkTo": "#",
+      "linkLabel": "En savoir plus"
+    }
+  ],
+  "ListSection": {
+    "title": "Liste des pathologies",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "list": [
+      "Stress",
+      "Dépression",
+      "Anxiété",
+      "Burn out",
+      "Angoisse"
+    ]
+  },
+  "Services": {
+    "title": "Mes services",
+    "services": [
+      {
+        "title": "Soins Naturels",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Ventouses",
+          "Moxibustion",
+          "Guasha",
+          "Auriculo-thérapie"
+        ]
+      },
+      {
+        "title": "Soins Énergétiques",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Reiki"
+        ]
+      },
+      {
+        "title": "Spécial Arrêt du tabac",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": ""
+        },
+        "examples": [
+          "Hypnose",
+          "Auriculo-thérapie"
+        ]
+      }
+    ]
+  }
+}

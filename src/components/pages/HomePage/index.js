@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Banner from '../../Banner';
-import Services from '../../Services';
+import Banner from '../../sections/Banner';
+import Services from '../../sections/Services';
 import SplittedSection from '../../sections/SplittedSection';
-import Temoignages from '../../Temoignages';
+import Temoignages from '../../sections/Temoignages';
 import Blog from '../../sections/Blog';
 
 import content from '../../../data/homepage.json';

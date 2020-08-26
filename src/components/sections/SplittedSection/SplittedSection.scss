@@ -23,6 +23,8 @@
     &--reverse {
       .splitted-section__text {
         order: 2;
+        padding-right: 0;
+        padding-left: $gutter-large;
       }
       .splitted-section__image {
         order: 1;
@@ -35,6 +37,7 @@
     justify-content: center;
     align-items: flex-start;
     padding: $gutter-large;
+    padding-left: 0;
     h2 {
       margin-bottom: $gutter;
     }

@@ -36,7 +36,10 @@ Services.propTypes = {
     PropTypes.shape({
       title: PropTypes.string.isRequired,
       link: PropTypes.string,
-      image: PropTypes.shape({ url: PropTypes.string.isRequired }).isRequired,
+      image: PropTypes.shape({
+        url: PropTypes.string.isRequired,
+        alternativeText: PropTypes.string.isRequired
+      }).isRequired,
       examples: PropTypes.arrayOf(
         PropTypes.string.isRequired,
       ).isRequired,

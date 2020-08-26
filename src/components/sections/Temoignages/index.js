@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ReactComponent as Quote } from '../../icons/guillemets.svg';
+import { ReactComponent as Quote } from '../../../icons/guillemets.svg';
 import Slider from 'react-slick';
 
 import './Temoignages.scss';
