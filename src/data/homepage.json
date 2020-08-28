@@ -8,7 +8,7 @@
   },
   "Description": {
     "title": "Une approche globale",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "paragraph": "Je vous propose différents types de soins adaptés aux adultes et aux enfants : soins naturels, soins énergétiques, kinésiologie. Mes soins vous apporteront une aide à différents niveaux : physique, émotionnel et énergétique. Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu es amené à vivre. Jim Rohn ",
     "image": {
       "url": "http://localhost:3000/img/description.jpg",
       "alternativeText": "Description du site"
@@ -20,20 +20,20 @@
       {
         "title": "Soins Naturels",
         "image": {
-          "url": "http://localhost:3000/img/description.jpg",
+          "url": "http://localhost:3000/img/soins-naturels-ventouses.jpg",
           "alternativeText": ""
         },
         "examples": [
           "Ventouses",
           "Moxibustion",
           "Guasha",
-          "Auriculo-thérapie"
+          "Réflexologie auriculaire"
         ]
       },
       {
         "title": "Soins Énergétiques",
         "image": {
-          "url": "http://localhost:3000/img/description.jpg",
+          "url": "http://localhost:3000/img/soins-energetiques-reiki.jpg",
           "alternativeText": ""
         },
         "examples": [
@@ -59,16 +59,16 @@
         },
         "examples": [
           "Hypnose",
-          "Auriculo-thérapie"
+          "Réflexologie auriculaire"
         ]
       }
     ]
   },
   "QuandConsulter": {
     "title": "Dans quel cas me consulter ?",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
-    "linkLabel": "Voir la liste des pathologies",
+    "paragraph": "Je reçois aussi bien des adultes que des enfants, avec différents types de problématiques. Je vous apporte une aide globale pour des troubles d’ordres physiques, émotionnels ou énergétiques. Pour une relaxation maximale, vous pouvez également demander une séance de détente et de bien être.",
+    "linkTo": "/consultations",
+    "linkLabel": "En savoir plus sur la consultation",
     "image": {
       "url": "http://localhost:3000/img/quand-consulter.jpg",
       "alternativeText": ""
@@ -76,11 +76,11 @@
   },
   "QuiSuisJe": {
     "title": "Qui suis-je ?",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
+    "paragraph": "Je suis praticienne en soins naturels et énergétiques dans la métropole Lilloise. C'est avec un bagage en neuropsychologie et en médecines alternatives que je vous ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordial dans toutes mes démarches. Ainsi, mes différentes approches vous apporteront bien-être et confiance pour appréhender au mieux votre vie future. ",
+    "linkTo": "/qui-suis-je",
     "linkLabel": "Voir mon parcours",
     "image": {
-      "url": "http://localhost:3000/img/quand-consulter.jpg",
+      "url": "http://localhost:3000/img/praticienne-soins-naturels.jpg",
       "alternativeText": ""
     }
   },

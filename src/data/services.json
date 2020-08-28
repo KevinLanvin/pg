@@ -4,21 +4,21 @@
     {
       "title": "Soins Naturels",
       "image": {
-        "url": "http://localhost:3000/img/description.jpg",
+        "url": "http://localhost:3000/img/soins-naturels-ventouses.jpg",
         "alternativeText": "Soins Naturels"
       },
       "examples": [
         "Ventouses",
         "Moxibustion",
         "Guasha",
-        "Auriculo-thérapie"
+        "Réflexologie auriculaire"
       ],
       "linkTo": "/soins-naturels"
     },
     {
       "title": "Soins Énergétiques",
       "image": {
-        "url": "http://localhost:3000/img/description.jpg",
+        "url": "http://localhost:3000/img/soins-energetiques-reiki.jpg",
         "alternativeText": "Soins Énergétiques"
       },
       "examples": [
@@ -39,12 +39,12 @@
     {
       "title": "Spécial Arrêt du tabac",
       "image": {
-        "url": "http://localhost:3000/img/description.jpg",
+        "url": "http://localhost:3000/img/arret-du-tabac-hypnose.jpg",
         "alternativeText": "Spécial arrêt du tabac"
       },
       "examples": [
         "Hypnose",
-        "Auriculo-thérapie"
+        "Réflexologie auriculaire"
       ]
     }
   ]
