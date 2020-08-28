@@ -5,24 +5,52 @@
       "linkTo": "#"
     },
     {
-      "linkLabel": "Kinésiologie",
+      "linkLabel": "Soins naturels",
       "linkTo": "#"
     }
   ],
   "Introduction": {
-    "title": "Kinésiologie",
+    "title": "Soins naturels",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
   },
   "Techniques": [
     {
-      "title": "One brain",
+      "title": "Les ventouses",
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "linkTo": "#",
+      "linkLabel": "En savoir plus",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Alt"
+      }
+    },
+    {
+      "title": "La moxibustion",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Alt"
+      },
       "linkTo": "#",
       "linkLabel": "En savoir plus"
     },
     {
-      "title": "Touch for health",
+      "title": "Guasha",
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Alt"
+      },
+      "linkTo": "#",
+      "linkLabel": "En savoir plus"
+    },
+    {
+      "title": "Auriculo-thérapie",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Alt"
+      },
       "linkTo": "#",
       "linkLabel": "En savoir plus"
     }
@@ -36,45 +64,6 @@
       "Anxiété",
       "Burn out",
       "Angoisse"
-    ]
-  },
-  "Services": {
-    "title": "Mes services",
-    "services": [
-      {
-        "title": "Soins Naturels",
-        "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
-        },
-        "examples": [
-          "Ventouses",
-          "Moxibustion",
-          "Guasha",
-          "Auriculo-thérapie"
-        ]
-      },
-      {
-        "title": "Soins Énergétiques",
-        "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
-        },
-        "examples": [
-          "Reiki"
-        ]
-      },
-      {
-        "title": "Spécial Arrêt du tabac",
-        "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
-        },
-        "examples": [
-          "Hypnose",
-          "Auriculo-thérapie"
-        ]
-      }
     ]
   }
 }

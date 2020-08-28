@@ -9,6 +9,15 @@ import {
 
 import HomePage from '../pages/HomePage';
 import SoinsNaturels from '../pages/SoinsNaturelsPage';
+import SoinsEnergetiques from '../pages/SoinsEnergetiquesPage';
+import Kinesiologie from '../pages/KinesiologiePage';
+import ArretTabac from '../pages/ArretTabacPage';
+import Ventouses from '../pages/VentousesPage';
+import Moxibustion from '../pages/MoxibustionPage';
+import Guasha from '../pages/GuashaPage';
+import AuriculoTherapie from '../pages/AuriculoTherapiePage';
+import OneBrain from '../pages/OneBrainPage';
+import TouchForHealth from '../pages/TouchForHealthPage';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -24,6 +33,33 @@ function App() {
           </Route>
           <Route path="/soins-naturels" exact>
             <SoinsNaturels />
+          </Route>
+          <Route path="/kinesiologie" exact>
+            <Kinesiologie />
+          </Route>
+          <Route path="/arret-tabac" exact>
+            <ArretTabac />
+          </Route>
+          <Route path="/soins-energetiques" exact>
+            <SoinsEnergetiques />
+          </Route>
+          <Route path="/moxibustion" exact>
+            <Moxibustion />
+          </Route>
+          <Route path="/guasha" exact>
+            <Guasha />
+          </Route>
+          <Route path="/auriculo-therapie" exact>
+            <AuriculoTherapie />
+          </Route>
+          <Route path="/one-brain" exact>
+            <OneBrain />
+          </Route>
+          <Route path="/touch-for-health" exact>
+            <TouchForHealth />
+          </Route>
+          <Route path="/ventouses" exact>
+            <Ventouses />
           </Route>
         </Switch>
         <Footer />

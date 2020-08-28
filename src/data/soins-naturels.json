@@ -1,4 +1,14 @@
 {
+  "Breadcrumbs": [
+    {
+      "linkLabel": "Accueil",
+      "linkTo": "#"
+    },
+    {
+      "linkLabel": "Soins naturels",
+      "linkTo": "#"
+    }
+  ],
   "Introduction": {
     "title": "Soins naturels",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
@@ -54,43 +64,6 @@
       "Anxiété",
       "Burn out",
       "Angoisse"
-    ]
-  },
-  "Services": {
-    "title": "Mes services",
-    "services": [
-      {
-        "title": "Soins Énergétiques",
-        "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
-        },
-        "examples": [
-          "Reiki"
-        ]
-      },
-      {
-        "title": "Kinésiologie",
-        "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
-        },
-        "examples": [
-          "Touch for health",
-          "One breath"
-        ]
-      },
-      {
-        "title": "Spécial Arrêt du tabac",
-        "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
-        },
-        "examples": [
-          "Hypnose",
-          "Auriculo-thérapie"
-        ]
-      }
     ]
   }
 }

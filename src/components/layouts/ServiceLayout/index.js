@@ -10,7 +10,6 @@ const ServiceLayout = ({
   introduction,
   techniques,
   listSection,
-  services
 }) => (
   <>
     <Introduction title={introduction.title} paragraph={introduction.paragraph} />
@@ -22,6 +21,7 @@ const ServiceLayout = ({
         imageAlt={technique.image.alternative}
         isTextOnRight={index % 2 === 0}
         key={technique.title}
+        isButtonAlt
       />
     ))}
     <List
@@ -29,10 +29,7 @@ const ServiceLayout = ({
       paragraph={listSection.paragraph}
       elements={listSection.list}
     />
-    <Services
-      title={services.title}
-      services={services.services}
-    />
+    <Services />
   </>
 );
 
@@ -57,20 +54,6 @@ ServiceLayout.propTypes = {
     title: PropTypes.string.isRequired,
     paragraph: PropTypes.string.isRequired,
     list: PropTypes.arrayOf(PropTypes.string).isRequired,
-  }).isRequired,
-  services: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    services: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        image: PropTypes.shape({
-          url: PropTypes.string.isRequired,
-          alternativeText: PropTypes.string.isRequired,
-        }).isRequired,
-        examples: PropTypes.arrayOf(PropTypes.string),
-        link: PropTypes.string.isRequired,
-      }).isRequired,
-    ).isRequired,
   }).isRequired,
 };
 

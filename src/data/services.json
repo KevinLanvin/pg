@@ -1,0 +1,51 @@
+{
+  "title": "Mes services",
+  "services": [
+    {
+      "title": "Soins Naturels",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Soins Naturels"
+      },
+      "examples": [
+        "Ventouses",
+        "Moxibustion",
+        "Guasha",
+        "Auriculo-thérapie"
+      ],
+      "linkTo": "/soins-naturels"
+    },
+    {
+      "title": "Soins Énergétiques",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Soins Énergétiques"
+      },
+      "examples": [
+        "Reiki"
+      ]
+    },
+    {
+      "title": "Kinésiologie",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Kinésiologie"
+      },
+      "examples": [
+        "One brain",
+        "Touch for health"
+      ]
+    },
+    {
+      "title": "Spécial Arrêt du tabac",
+      "image": {
+        "url": "http://localhost:3000/img/description.jpg",
+        "alternativeText": "Spécial arrêt du tabac"
+      },
+      "examples": [
+        "Hypnose",
+        "Auriculo-thérapie"
+      ]
+    }
+  ]
+}

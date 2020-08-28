@@ -7,9 +7,10 @@
 .splitted-section {
   width: 100%;
   position: relative;
-  padding: $gutter-large 0;
   &--alt-color {
     background-color: $color-main;
+    padding: $gutter-large 0;
+    margin-bottom: 0;
     .splitted-section__grid {
       box-shadow: $shadow-dark;
     }

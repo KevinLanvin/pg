@@ -1,9 +1,9 @@
 import React from 'react';
 
 import ServiceLayout from '../../layouts/ServiceLayout';
-import content from '../../../data/soins-naturels.json';
+import content from '../../../data/kinesiologie.json';
 
-const SoinsNaturelsPage = () => (
+const KinesiologiePage = () => (
   <main>
     <ServiceLayout
       introduction={content.Introduction}
@@ -13,4 +13,4 @@ const SoinsNaturelsPage = () => (
   </main>
 );
 
-export default SoinsNaturelsPage;
+export default KinesiologiePage;
