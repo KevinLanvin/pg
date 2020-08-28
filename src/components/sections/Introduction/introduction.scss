@@ -1,4 +1,7 @@
+@import '../../../styles/_vars';
+
 .introduction {
   width: 80%;
   margin: auto;
+  margin-top: $gutter-large;
 }

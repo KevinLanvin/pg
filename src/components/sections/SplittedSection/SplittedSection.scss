@@ -13,6 +13,9 @@
     .splitted-section__grid {
       box-shadow: $shadow-dark;
     }
+    .splitted-section__text {
+      padding: $gutter-large;
+    }
   }
   &__grid {
     width: 80%;
