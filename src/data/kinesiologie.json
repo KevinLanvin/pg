@@ -10,60 +10,42 @@
     }
   ],
   "Introduction": {
-    "title": "Soins naturels",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
+    "title": "Kinésiologie",
+    "paragraph": "La kinésiologie est une méthode psycho-corporelle qui repose principalement sur la tonicité des muscles. Depuis notre plus jeune âge notre corps enregistre tout. C’est à l’aide de tests musculaires précis que nous interrogeons le corps pour accéder à sa mémoire et ainsi déterminer les blocages émotionnels, le stress et les déséquilibres du corps. En kinésiologie, je me sers de 2 techniques principales pour vous aider à rééquilibrer à divers niveaux (le Touch for health et le One brain). Ces 2 outils ont une approche très différente que vous pouvez découvrir ci-dessous. J’ai décidé d’être heureux parce que c’est bon pour la santé. Voltaire"
   },
   "Techniques": [
     {
-      "title": "Les ventouses",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-      "linkTo": "#",
-      "linkLabel": "En savoir plus",
+      "title": "Touch for health ou la santé par le toucher",
+      "paragraph": "Grâce à cette technique, vous retrouverez un équilibre dans 3 dimensions fondamentales : structurelle (anatomique), biochimique (respiration, nutrition), mentale et émotionnelle (psychologique). C’est ce que nous appelons le triangle de la santé. La réalisation d’une série de tests musculaires permet de déterminer les muscles en faiblesse afin de les corriger. La technique d’équilibration énergétique repose sur l’harmonisation des méridiens (de la médecine traditionnelle chinoise) ainsi que sur des stimulations tactiles de points précis comme les points neuro-lymphatiques, les points neuro-vasculaires, et des points d’acupuncture.",
+      "linkTo": "/contact",
+      "linkLabel": "Prendre rendez-vous",
       "image": {
-        "url": "http://localhost:3000/img/description.jpg",
+        "url": "http://localhost:3000/img/kinesiologie.jpg",
         "alternativeText": "Alt"
       }
     },
     {
-      "title": "La moxibustion",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+      "title": "Le One brain",
+      "paragraph": "Le « one brain » signifie l’intégration du corps, du mental et de l’esprit. Cette méthode a fait ses preuves pour permettre un travail sur la gestion du stress et des émotions. L'objectif consiste à lever vos blocages émotionnels en modifiant votre perception du temps présent sur une situation difficile du passé. Des techniques de libération de stress émotionnel, de visualisation, de mouvements oculaires ou encore de verbalisation des émotions vont permettre de réduire les émotions négatives et le stress associés à l’évènement passé. C’est pourquoi la kinésiologie se trouve particulièrement performante pour aborder toutes problématiques causées par un stress ou un choc émotionnel. De plus, en « One brain » nous travaillons sur tous les niveaux de conscience (conscient, subconscient, corps).",
       "image": {
-        "url": "http://localhost:3000/img/description.jpg",
+        "url": "http://localhost:3000/img/kinesiologie-2.jpg",
         "alternativeText": "Alt"
       },
-      "linkTo": "#",
-      "linkLabel": "En savoir plus"
-    },
-    {
-      "title": "Guasha",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-      "image": {
-        "url": "http://localhost:3000/img/description.jpg",
-        "alternativeText": "Alt"
-      },
-      "linkTo": "#",
-      "linkLabel": "En savoir plus"
-    },
-    {
-      "title": "Auriculo-thérapie",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-      "image": {
-        "url": "http://localhost:3000/img/description.jpg",
-        "alternativeText": "Alt"
-      },
-      "linkTo": "#",
-      "linkLabel": "En savoir plus"
+      "linkTo": "/contact",
+      "linkLabel": "Prendre rendez-vous"
     }
   ],
   "ListSection": {
-    "title": "Liste des pathologies",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Liste des problématiques",
+    "paragraph": "Toute personne ayant ce type d’atteinte peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
-      "Stress",
-      "Dépression",
-      "Anxiété",
-      "Burn out",
-      "Angoisse"
+      "Problématiques psychologiques",
+      "Douleurs physiques",
+	"Dermatoses",
+      "Problèmes gynécologiques",
+      "Problèmes respiratoires",
+	"Rééquilibrage énergétique",
+      "Renforcement du système immunitaires"
     ]
   }
 }

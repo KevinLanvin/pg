@@ -14,39 +14,42 @@
     }
   ],
   "Introduction": {
-    "title": "Ventouses",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Soins énergétiques",
+    "paragraph": "Le soin énergétique permet d’harmoniser et d’équilibrer le flux énergétique du corps et de l’esprit. Grâce à cette harmonisation vous atteindrez un niveau vibratoire qui entrainera un processus naturel de guérison du corps. Retrouvez ma technique de soin énergétique ci-dessous. Arrêtez le mal avant qu'il n'existe; calmez le désordre avant qu'il n'éclate. Lao Tseu",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
+      "url": "http://localhost:3000/img/reiki.JPG",
       "alternativeText": "Ventouses bannière"
     }
   },
   "Technique": {
-    "title": "Les ventouses",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
-    "linkLabel": "Retour aux autres soins naturels",
+    "title": "Le reïki",
+    "paragraph": "Le Reiki est une technique japonaise de soin énergétique par imposition de mains à différents endroits du corps. Le praticien sert de canal à l’énergie pour la transmettre à la personne. Ainsi, vous retrouverez votre équilibre intérieur et d'autres effets positifs. Le Reiki, de son fondateur Mikao Usui, se définit comme une énergie universelle. Plus précisément, le terme REI signifie esprit ou conscience spirituelle et KI renvoie à l’énergie vitale, c'est-à-dire l’énergie que l’on acquiert dès notre naissance. Toutefois, le mot Reiki est plus souvent utilisé pour désigner la méthode en elle-même. ",
+    "linkTo": "/consultations",
+    "linkLabel": "Découvrir les consultations",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
+      "url": "http://localhost:3000/img/reiki-2.JPG",
       "alternativeText": "Les ventouses"
     }
   },
   "Details": {
-    "title": "Les ventouses",
-    "leftColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "rightColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
+    "title": "Effets et déroulement",
+    "leftColumn": "Cette énergie va naturellement s’orienter vers les zones du corps qui en ont le plus besoin. Lors d’une séance de Reiki les personnes se sentent détendues et relaxées car le Reiki permet de libérer les blocages et les tensions, aussi bien physiques qu’émotionnels. Le Reiki peut s’avérer efficace là où d’autres types de soins ne l’auraient pas été ou bien en l’associant à d’autres traitements.",
+    "rightColumn": "Pendant une séance de Reiki, la personne reste habillée. Ce type de soin ne correspond pas à un massage (qui lui n’a pas toujours de visée thérapeutique et nécessite un contact direct avec la peau). Une séance de Reiki dure environ 45 minutes. Cependant, pour certaines pathologies, il faut compter 4 séances complètes (avec possibilité de forfait) pour réaliser un soin en profondeur et pouvoir ressentir les bienfaits du Reiki.",
+    "linkTo": "/contact",
     "linkLabel": "Prendre rendez-vous"
   },
   "ListSection": {
-    "title": "Liste",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Liste des problématiques",
+    "paragraph": "Toute personne ayant ce type d’atteinte peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
-      "Stress",
-      "Dépression",
-      "Anxiété",
-      "Burn out",
-      "Angoisse"
+      "Problématiques psychologiques",
+      "Douleurs physiques",
+	"Dermatoses",
+      "Problèmes gynécologiques",
+      "Problèmes respiratoires",
+	"Rééquilibrage énergétique",
+      "Renforcement du système immunitaires"
     ]
   }
+
 }

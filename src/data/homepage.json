@@ -66,9 +66,9 @@
   },
   "QuandConsulter": {
     "title": "Dans quel cas me consulter ?",
-    "paragraph": "Je reçois aussi bien des adultes que des enfants, avec différents types de problématiques. Je vous apporte une aide globale pour des troubles d’ordres physiques, émotionnels ou énergétiques. Pour une relaxation maximale, vous pouvez également demander une séance de détente et de bien être.",
+    "paragraph": "Adultes comme enfants, mes soins s'adressent à toute personne souhaitant améliorer son bien-être physique, émotionnel ou énergétique. Quelque soit le moment de vie dans lequel vous vous trouvez, une réponse adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me consulter pour une problématique particulière ou simplement pour une séance de détente et relaxation.",
     "linkTo": "/consultations",
-    "linkLabel": "En savoir plus sur la consultation",
+    "linkLabel": "Découvrir les problématiques",
     "image": {
       "url": "http://localhost:3000/img/quand-consulter.jpg",
       "alternativeText": ""
