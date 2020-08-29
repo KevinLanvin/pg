@@ -1,11 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { ReactComponent as Quote } from '../../../icons/guillemets.svg';
 import Slider from 'react-slick';
 
+import content from '../../../data/temoignages.json';
+
 import './Temoignages.scss';
 
-const Temoignages = ({ testimonials, title }) => {
+const Temoignages = () => {
   const settings = {
     dots: true,
     speed: 500,
@@ -31,9 +32,9 @@ const Temoignages = ({ testimonials, title }) => {
   return (
     <section className="temoignages">
       <div className="temoignages__text">
-        <h2 className="white center">{title}</h2>
+        <h2 className="white center">{content.title}</h2>
         <Slider {...settings} className="temoignages__carousel">
-          { testimonials.map(temoignage => (
+          { content.testimonials.map(temoignage => (
             <div key={temoignage.author}>
               <p className="temoignages__paragraph">{temoignage.paragraph}<br/>{temoignage.author}</p>
             </div>
@@ -43,14 +44,6 @@ const Temoignages = ({ testimonials, title }) => {
       </div>
     </section>
   );
-};
-
-Temoignages.propTypes = {
-  title: PropTypes.string.isRequired,
-  testimonials: PropTypes.arrayOf(PropTypes.shape({
-    paragraph: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-  }).isRequired).isRequired,
 };
 
 export default Temoignages;
