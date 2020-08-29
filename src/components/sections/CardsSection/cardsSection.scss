@@ -1,7 +1,7 @@
 @import '../../../styles/_vars';
 
-.blog {
-  &__articles {
+.cards {
+  &__cards {
     margin-top: $gutter-large;
     display: flex;
     justify-content: space-between;

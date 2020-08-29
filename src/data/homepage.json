@@ -83,54 +83,5 @@
       "url": "http://localhost:3000/img/praticienne-soins-naturels.jpg",
       "alternativeText": ""
     }
-  },
-  "Temoignages": {
-    "title": "Témoignages",
-    "testimonials": [
-      {
-        "author": "Morgan - 12ans",
-        "paragraph": "C'était Cro bien ! Wesh sa mere"
-      },
-      {
-        "author": "Kiwin - 26ans",
-        "paragraph": "La sérendipité ne peut pas être considérée comme une fin en soi. Le fondement même de la nature humaine nous interdit toute forme de laxisme inhérent à la décrépitude motivationnelle de l'individu en tant que tel."
-      },
-      {
-        "author": "Perrine - 28ans",
-        "paragraph": "Encore mieux que le botox ! Ca détend le visage, j'ai meme pas eu de ride"
-      }
-    ]
-  },
-  "Blog": {
-    "title": "Retrouvez les derniers articles",
-    "articles": [
-      {
-        "title": "Une approche globale",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-        "image": {
-          "url": "http://localhost:3000/img/quand-consulter.jpg",
-          "alternativeText": ""
-        },
-        "linkTo": "#"
-      },
-      {
-        "title": "Une approche globale",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-        "image": {
-          "url": "http://localhost:3000/img/quand-consulter.jpg",
-          "alternativeText": ""
-        },
-        "linkTo": "#"
-      },
-      {
-        "title": "Une approche globale",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-        "image": {
-          "url": "http://localhost:3000/img/quand-consulter.jpg",
-          "alternativeText": ""
-        },
-        "linkTo": "#"
-      }
-    ]
   }
 }

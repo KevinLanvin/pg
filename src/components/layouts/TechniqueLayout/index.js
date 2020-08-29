@@ -5,7 +5,7 @@ import Introduction from '../../sections/Introduction';
 import SplittedSection from '../../sections/SplittedSection';
 import ColumnSection from '../../sections/ColumnSection';
 import Services from '../../sections/Services';
-import List from '../../sections/List';
+import ListSection from '../../sections/ListSection';
 
 const TechniqueLayout = ({
   introduction,
@@ -36,7 +36,7 @@ const TechniqueLayout = ({
       linkTo={details.linkTo}
       linkLabel={details.linkLabel}
     />
-    <List
+    <ListSection
       title={listSection.title}
       paragraph={listSection.paragraph}
       elements={listSection.list}

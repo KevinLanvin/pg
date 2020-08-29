@@ -2,21 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from '../../Card';
 
-import './Blog.scss';
+import './cardsSection.scss';
 
-const Blog = ({ title, articles }) => {
+const CardsSection = ({ title, cards }) => {
   return (
-    <section className="blog">
+    <section className="cards-section">
       <h2 className="center">{title}</h2>
-      <div className="blog__articles">
-        {articles.map(article => (
+      <div className="cards__cards">
+        {cards.map(card => (
           <Card
-            key={article.title}
-            title={article.title}
-            description={article.description}
-            link={article.linkTo}
-            image={article.image.url}
-            imageAlt={article.image.alternativeText}
+            key={card.title}
+            title={card.title}
+            description={card.description}
+            linkTo={card.linkTo}
+            image={card.image.url}
+            imageAlt={card.image.alternativeText}
+            price={card.price}
+            linkLabel={card.linkLabel}
           />
         ))}
       </div>
@@ -24,9 +26,9 @@ const Blog = ({ title, articles }) => {
   );
 };
 
-Blog.propTypes = {
+CardsSection.propTypes = {
   title: PropTypes.string.isRequired,
-  articles: PropTypes.arrayOf(
+  cards: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
@@ -39,4 +41,4 @@ Blog.propTypes = {
   ).isRequired,
 };
 
-export default Blog;
+export default CardsSection;

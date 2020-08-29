@@ -4,7 +4,7 @@ import Banner from '../../sections/Banner';
 import Services from '../../sections/Services';
 import SplittedSection from '../../sections/SplittedSection';
 import Temoignages from '../../sections/Temoignages';
-import Blog from '../../sections/Blog';
+import BlogSection from '../../sections/BlogSection';
 
 import content from '../../../data/homepage.json';
 
@@ -48,14 +48,8 @@ const HomePage = () => (
       hasFlower
       altColor
     />
-    <Temoignages
-      title={content.Temoignages.title}
-      testimonials={content.Temoignages.testimonials}
-    />
-    <Blog
-      title={content.Blog.title}
-      articles={content.Blog.articles}
-    />
+    <Temoignages />
+    <BlogSection />
   </main>
 );
 

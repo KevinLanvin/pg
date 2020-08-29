@@ -1,0 +1,72 @@
+{
+  "Breadcrumbs": [
+    {
+      "linkLabel": "Accueil",
+      "linkTo": "#"
+    },
+    {
+      "linkLabel": "Soins naturels",
+      "linkTo": "#"
+    }
+  ],
+  "Introduction": {
+    "title": "Consultations",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
+  },
+  "Details": {
+    "title": "Les ventouses",
+    "leftColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "rightColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "linkTo": "#",
+    "linkLabel": "Prendre rendez-vous"
+  },
+  "Prices": {
+    "title": "Tarifs",
+    "cards": [
+      {
+        "title": "Soins naturels et Kinésiologie",
+        "description": "(1h à 1h30)",
+        "price": "60e",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": "Tarif Kinesiologie et Soins naturels"
+        },
+        "linkTo": "/contact",
+        "linkLabel": "Prendre RDV"
+      },
+      {
+        "title": "Soins naturels et Kinésiologie",
+        "description": "(1h à 1h30)",
+        "price": "60e",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": "Tarif Kinesiologie et Soins naturels"
+        },
+        "linkTo": "/contact",
+        "linkLabel": "Prendre RDV"
+      },
+      {
+        "title": "Soins naturels et Kinésiologie",
+        "description": "(1h à 1h30)",
+        "price": "60e",
+        "image": {
+          "url": "http://localhost:3000/img/description.jpg",
+          "alternativeText": "Tarif Kinesiologie et Soins naturels"
+        },
+        "linkTo": "/contact",
+        "linkLabel": "Prendre RDV"
+      }
+    ]
+  },
+  "ListSection": {
+    "title": "Liste des pathologies",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "list": [
+      "Stress",
+      "Dépression",
+      "Anxiété",
+      "Burn out",
+      "Angoisse"
+    ]
+  }
+}

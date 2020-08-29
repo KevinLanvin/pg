@@ -1,0 +1,27 @@
+{
+  "Breadcrumbs": [
+    {
+      "linkLabel": "Accueil",
+      "linkTo": "#"
+    },
+    {
+      "linkLabel": "Soins naturels",
+      "linkTo": "#"
+    }
+  ],
+  "Introduction": {
+    "title": "Contact",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
+  },
+  "Contact": {
+    "title": "Prise de Rdv",
+    "phone": "06.32.80.35.82",
+    "email": "contact@pauline-gorlier.com",
+    "address1": "110 rue Blabla",
+    "address2": "59000 Comines",
+    "facebookLinkTo": "#",
+    "linkedInLinkTo": "#",
+    "latitude": "48.858370",
+    "longitude": "2.294481"
+  }
+}

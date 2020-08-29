@@ -11,7 +11,7 @@ const ColumnSection = ({
   linkTo,
   linkLabel,
 }) => (
-  <section class="column-section">
+  <section className="column-section">
     <h2 className="center">{title}</h2>
     <div className="column-section__text">
       <p>{leftColumn}</p>
