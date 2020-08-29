@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Introduction from '../../sections/Introduction';
 import SplittedSection from '../../sections/SplittedSection';
 import Services from '../../sections/Services';
-import List from '../../sections/List';
+import ListSection from '../../sections/ListSection';
 
 const ServiceLayout = ({
   introduction,
@@ -24,7 +24,7 @@ const ServiceLayout = ({
         isButtonAlt
       />
     ))}
-    <List
+    <ListSection
       title={listSection.title}
       paragraph={listSection.paragraph}
       elements={listSection.list}

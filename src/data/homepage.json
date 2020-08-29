@@ -111,7 +111,8 @@
           "url": "http://localhost:3000/img/quand-consulter.jpg",
           "alternativeText": ""
         },
-        "linkTo": "#"
+        "linkTo": "#",
+        "linkLabel": "Voir plus"
       },
       {
         "title": "Une approche globale",
@@ -120,7 +121,8 @@
           "url": "http://localhost:3000/img/quand-consulter.jpg",
           "alternativeText": ""
         },
-        "linkTo": "#"
+        "linkTo": "#",
+        "linkLabel": "Voir plus"
       },
       {
         "title": "Une approche globale",
@@ -129,7 +131,8 @@
           "url": "http://localhost:3000/img/quand-consulter.jpg",
           "alternativeText": ""
         },
-        "linkTo": "#"
+        "linkTo": "#",
+        "linkLabel": "Voir plus"
       }
     ]
   }

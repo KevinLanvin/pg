@@ -18,6 +18,7 @@ import Guasha from '../pages/GuashaPage';
 import AuriculoTherapie from '../pages/AuriculoTherapiePage';
 import OneBrain from '../pages/OneBrainPage';
 import TouchForHealth from '../pages/TouchForHealthPage';
+import Consultations from '../pages/ConsultationsPage';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -60,6 +61,9 @@ function App() {
           </Route>
           <Route path="/ventouses" exact>
             <Ventouses />
+          </Route>
+          <Route path="/consultations" exact>
+            <Consultations />
           </Route>
         </Switch>
         <Footer />

@@ -56,6 +56,7 @@
     align-items: center;
     color: $color-main;
     transition: color .3s;
+    line-height: 1em;
     .chevron {
       fill: $color-main;
       transition: fill .3s;
@@ -71,15 +72,16 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin-top: $gutter;
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 4.6em;
-      background: linear-gradient(0deg, $color-white 0%, $color-white 33%, transparent 100%);
+    margin: $gutter/2 0;
+  }
+  &__price-container {
+    .card__price {
+      font-size: 4em;
+      line-height: 1em;
+    }
+    .card__description {
+      text-align: center;
+      margin-top: 0;
     }
   }
 }

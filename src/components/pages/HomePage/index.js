@@ -4,7 +4,7 @@ import Banner from '../../sections/Banner';
 import Services from '../../sections/Services';
 import SplittedSection from '../../sections/SplittedSection';
 import Temoignages from '../../sections/Temoignages';
-import Blog from '../../sections/Blog';
+import CardsSection from '../../sections/CardsSection';
 
 import content from '../../../data/homepage.json';
 
@@ -52,9 +52,9 @@ const HomePage = () => (
       title={content.Temoignages.title}
       testimonials={content.Temoignages.testimonials}
     />
-    <Blog
+    <CardsSection
       title={content.Blog.title}
-      articles={content.Blog.articles}
+      cards={content.Blog.articles}
     />
   </main>
 );
