@@ -6,6 +6,7 @@ import SplittedSection from '../../sections/SplittedSection';
 import ColumnSection from '../../sections/ColumnSection';
 import Services from '../../sections/Services';
 import ListSection from '../../sections/ListSection';
+import Disclaimer from '../../sections/DisclaimerSection';
 
 const TechniqueLayout = ({
   introduction,
@@ -42,6 +43,7 @@ const TechniqueLayout = ({
       elements={listSection.list}
     />
     <Services />
+    <Disclaimer />
   </>
 );
 

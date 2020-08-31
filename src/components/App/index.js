@@ -20,6 +20,7 @@ import OneBrain from '../pages/OneBrainPage';
 import TouchForHealth from '../pages/TouchForHealthPage';
 import Consultations from '../pages/ConsultationsPage';
 import Contact from '../pages/ContactPage';
+import QuiSuisJe from '../pages/QuiSuisJePage';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -68,6 +69,9 @@ function App() {
           </Route>
           <Route path="/contact" exact>
             <Contact />
+          </Route>
+          <Route path="/qui-suis-je" exact>
+            <QuiSuisJe />
           </Route>
         </Switch>
         <Footer />

@@ -1,0 +1,12 @@
+@import '../../../styles/_vars';
+
+.disclaimer-section {
+  margin: 0;
+  padding: $gutter 0;
+  width: 100%;
+  background-color: $color-button;
+  p {
+    margin: 0 $margin;
+    color: $color-white;
+  }
+}

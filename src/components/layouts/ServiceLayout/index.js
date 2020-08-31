@@ -5,6 +5,7 @@ import Introduction from '../../sections/Introduction';
 import SplittedSection from '../../sections/SplittedSection';
 import Services from '../../sections/Services';
 import ListSection from '../../sections/ListSection';
+import Disclaimer from '../../sections/DisclaimerSection';
 
 const ServiceLayout = ({
   introduction,
@@ -32,6 +33,7 @@ const ServiceLayout = ({
       elements={listSection.list}
     />
     <Services />
+    <Disclaimer />
   </>
 );
 

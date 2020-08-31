@@ -14,6 +14,11 @@ const ConsultationsPage = () => (
       paragraph={content.Introduction.paragraph}
       image={content.Introduction.image}
     />
+    <ListSection
+      title={content.ListSection.title}
+      paragraph={content.ListSection.paragraph}
+      elements={content.ListSection.list}
+    />
     <CardsSection
       title={content.Prices.title}
       cards={content.Prices.cards}
@@ -24,11 +29,6 @@ const ConsultationsPage = () => (
       rightColumn={content.Details.rightColumn}
       linkTo={content.Details.linkTo}
       linkLabel={content.Details.linkLabel}
-    />
-    <ListSection
-      title={content.ListSection.title}
-      paragraph={content.ListSection.paragraph}
-      elements={content.ListSection.list}
     />
     <Services />
   </main>
