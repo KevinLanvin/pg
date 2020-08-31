@@ -19,14 +19,19 @@ const QuiSuisJePage = () => (
       title={content.Presentation.title}
       text={content.Presentation.paragraph}
       imageSource={content.Presentation.image.url}
-      imageAlt={content.Presentation.image.alternative}
+      imageAlt={content.Presentation.image.alternativeText}
       linkLabel={content.Presentation.linkLabel}
       linkTo={content.Presentation.linkTo}
       isButtonAlt
       hasFlower
       altColor
     />
-    <FormationsSection />
+    <FormationsSection
+      title={content.Formations.title}
+      linkTo={content.Formations.linkTo}
+      linkLabel={content.Formations.linkLabel}
+      formations={content.Formations.formations}
+    />
     <ColumnSection
       title={content.Details.title}
       leftColumn={content.Details.leftColumn}

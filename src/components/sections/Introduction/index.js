@@ -7,7 +7,7 @@ const Introduction = ({ title, paragraph, image }) => (
   <header className="introduction">
     <h1>{title}</h1>
     <p>{paragraph}</p>
-    {!!image && <div class="introduction__banner">
+    {!!image && <div className="introduction__banner">
       <img src={image.url} alt={image.alternativeText} />
     </div>}
   </header>
