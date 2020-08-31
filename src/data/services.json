@@ -23,7 +23,8 @@
       },
       "examples": [
         "Reiki"
-      ]
+      ],
+      "linkTo": "/soins-energetiques"
     },
     {
       "title": "Kinésiologie",
@@ -34,7 +35,8 @@
       "examples": [
         "One brain",
         "Touch for health"
-      ]
+      ],
+      "linkTo": "/kinesiologie"
     },
     {
       "title": "Spécial Arrêt du tabac",
@@ -45,7 +47,8 @@
       "examples": [
         "Hypnose",
         "Réflexologie auriculaire"
-      ]
+      ],
+      "linkTo": "/arret-tabac"
     }
   ]
 }

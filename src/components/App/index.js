@@ -6,6 +6,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import ScrollToTop from '../ScrollToTop';
 
 import HomePage from '../pages/HomePage';
 import SoinsNaturels from '../pages/SoinsNaturelsPage';
@@ -28,6 +29,7 @@ import './app.scss';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <Switch>

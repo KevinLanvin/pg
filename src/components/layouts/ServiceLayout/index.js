@@ -19,7 +19,7 @@ const ServiceLayout = ({
         title={technique.title}
         text={technique.paragraph}
         imageSource={technique.image.url}
-        imageAlt={technique.image.alternative}
+        imageAlt={technique.image.alternativeText}
         isTextOnRight={index % 2 === 0}
         linkTo={technique.linkTo}
         linkLabel={technique.linkLabel}

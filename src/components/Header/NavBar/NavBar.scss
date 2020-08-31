@@ -21,7 +21,8 @@
         opacity: 1;
       }
     }
-    a {
+    a, div {
+      color: $color-grey;
       height: 3em;
       display: flex;
       align-items: center;
