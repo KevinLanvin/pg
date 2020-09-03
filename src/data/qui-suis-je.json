@@ -13,8 +13,8 @@
     "title": "Qui suis-je ?",
     "paragraph": "Praticienne bla bla bla",
     "image": {
-      "url": "http://localhost:3000/img/ventouses.JPG",
-      "alternativeText": "Ventouses bannière"
+      "url": "http://localhost:3000/img/praticienne-soins-naturels-2.JPG",
+      "alternativeText": "praticienne en soins naturels et énergétiques"
     }
   },
   "Presentation": {
@@ -23,7 +23,7 @@
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/ventouses-2.JPG",
+      "url": "http://localhost:3000/img/praticienne-soins-naturels-3.JPG",
       "alternativeText": "Les ventouses"
     }
   },

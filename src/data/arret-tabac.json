@@ -16,12 +16,12 @@
   "Techniques": [
     {
       "title": "L'hypnose thérapeutique",
-      "paragraph": "Retrouvez rapidement votre vitalité avec l’hypnose Ericksonienne. Ce type d'hypnose fait partie des thérapies dites « brèves ». Je compte donc 2 à 3 séances environ pour l’arrêt du tabac. La première séance permet de comprendre votre problématique, d’instaurer une relation de confiance pour ensuite en travailler sur la gestion des émotions et en particulier le stress. Lors de la 2eme séance, nous travaillons à ce moment sur le sujet principal avec un protocole pour l’arrêt du tabac. Enfin, si besoin, une 3e séance pourra vous être recommandée pour renforcer le sevrage et éviter toute rechute.",
+      "paragraph": "Retrouvez rapidement votre vitalité avec l’hypnose Éricksonienne. Ce type d'hypnose fait partie des thérapies dites « brèves ». Je compte donc 2 à 3 séances environ pour l’arrêt du tabac. La première séance permet de comprendre votre problématique, d’instaurer une relation de confiance pour ensuite en travailler sur la gestion des émotions et en particulier le stress. Lors de la 2eme séance, nous travaillons à ce moment sur le sujet principal avec un protocole pour l’arrêt du tabac. Enfin, si besoin, une 3e séance pourra vous être recommandée pour renforcer le sevrage et éviter toute rechute.",
       "linkTo": "#",
       "linkLabel": "Découvrir l'hypnose",
       "image": {
         "url": "http://localhost:3000/img/hypnose.jpg",
-        "alternativeText": "Alt"
+        "alternativeText": "Hypnose Éricksonienne pour arrêt du tabac"
       }
     },
     {
@@ -29,9 +29,9 @@
       "paragraph": "La réflexologie auriculaire est particulièrement efficace pour l'aide au sevrage. Ainsi, l'accompagnement dans l'arrêt de tabac n'en sera que renforcé pour vous assurer un regain de vitalité. Toutefois, mes soins s'inscrivent dans une démarche globale et s'adressent aux personnes motivées par une profonde envie de changement.",
       "image": {
         "url": "http://localhost:3000/img/arret-tabac.jpg",
-        "alternativeText": "Alt"
+        "alternativeText": "Réflexologie auriculaire pour arrêt du tabac"
       },
-      "linkTo": "#",
+      "linkTo": "/auriculo-therapie",
       "linkLabel": "En savoir plus"
     }
           ],

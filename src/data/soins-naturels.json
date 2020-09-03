@@ -21,7 +21,7 @@
       "linkLabel": "En savoir plus",
       "image": {
         "url": "http://localhost:3000/img/soins-naturels-ventouses-2.JPG",
-        "alternativeText": "Alt"
+        "alternativeText": "soins naturels ventouses chinoises"
       }
     },
     {
@@ -29,7 +29,7 @@
       "paragraph": "La moxibustion est une technique simple réalisée à l’aide de la combustion d’une plante ; l’armoise. La moxibustion consiste ainsi à apporter une source de chaleur sur des points précis tels que les points d’acuponcture. Cette méthode vous plongera dans un état relaxant et soulagera vos douleurs.",
       "image": {
         "url": "http://localhost:3000/img/moxibustion.JPG",
-        "alternativeText": "Alt"
+        "alternativeText": "soins naturels moxibustion"
       },
       "linkTo": "/moxibustion",
       "linkLabel": "En savoir plus"
@@ -39,7 +39,7 @@
       "paragraph": "Le massage Guasha est une technique ancestrale chinoise qui consiste en l’utilisation d’une pierre   taillée (la corne de buffle) à bord lisse par frottement sur la peau. Cette technique de frottement énergique permet de faire sortir le « mal », la pathologie, par les pores de la peau. Ainsi, le guasha se révèle très efficace pour soulager vos douleurs et particulièrement celles du dos. Il détoxifiera également votre peau pour vous apporter davantage de bien-être.",
       "image": {
         "url": "http://localhost:3000/img/guasha.JPG",
-        "alternativeText": "Alt"
+        "alternativeText": "soins naturels gaussa"
       },
       "linkTo": "/guasha",
       "linkLabel": "En savoir plus"
@@ -49,9 +49,9 @@
       "paragraph": "La réflexologie auriculaire est une technique d’acuponcture au niveau de l’oreille. Elle consiste à traiter certaines pathologies en stimulant des zones réflexes au niveau de l’oreille dans le but d’envoyer une information au corps. Comme l'oreille regroupe tous les points du corps, cette technique est une véritable mine d'or pour réduire les douleurs, le stress et les addictions.",
       "image": {
         "url": "http://localhost:3000/img/reflexologie-auriculaire.JPG",
-        "alternativeText": "Alt"
+        "alternativeText": "soins naturels réflexologie auriculaire"
       },
-      "linkTo": "#",
+      "linkTo": "/auriculo-therapie",
       "linkLabel": "En savoir plus"
     }
   ],

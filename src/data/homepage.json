@@ -11,7 +11,7 @@
     "paragraph": "Je vous propose différents types de soins adaptés aux adultes et aux enfants : soins naturels, soins énergétiques, kinésiologie. Mes soins vous apporteront une aide à différents niveaux : physique, émotionnel et énergétique. Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu es amené à vivre. Jim Rohn ",
     "image": {
       "url": "http://localhost:3000/img/description.jpg",
-      "alternativeText": "Description du site"
+      "alternativeText": "praticienne en soins naturels et énergétiques"
     }
   },
   "Services": {
@@ -21,7 +21,7 @@
         "title": "Soins Naturels",
         "image": {
           "url": "http://localhost:3000/img/soins-naturels-ventouses.jpg",
-          "alternativeText": ""
+          "alternativeText": "soins naturels"
         },
         "examples": [
           "Ventouses",
@@ -34,7 +34,7 @@
         "title": "Soins Énergétiques",
         "image": {
           "url": "http://localhost:3000/img/soins-energetiques-reiki.jpg",
-          "alternativeText": ""
+          "alternativeText": "soins énergétiques"
         },
         "examples": [
           "Reiki"
@@ -44,7 +44,7 @@
         "title": "Kinésiologie",
         "image": {
           "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
+          "alternativeText": "kinésiologie"
         },
         "examples": [
           "Touch for health",
@@ -55,7 +55,7 @@
         "title": "Spécial Arrêt du tabac",
         "image": {
           "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": ""
+          "alternativeText": "Arrêt du tabac en hypnose et réflexologie auriculaire"
         },
         "examples": [
           "Hypnose",
@@ -71,7 +71,7 @@
     "linkLabel": "Découvrir les problématiques",
     "image": {
       "url": "http://localhost:3000/img/quand-consulter.jpg",
-      "alternativeText": ""
+      "alternativeText": "consultation en soins naturels et énergétiques"
     }
   },
   "QuiSuisJe": {
@@ -81,7 +81,7 @@
     "linkLabel": "Voir mon parcours",
     "image": {
       "url": "http://localhost:3000/img/praticienne-soins-naturels.jpg",
-      "alternativeText": ""
+      "alternativeText": "Pauline Gorlier praticienne en soins naturels et énergétiques"
     }
   }
 }
