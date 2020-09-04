@@ -20,7 +20,7 @@ const Card = ({
       <div className="card__text">
         <h3 className="card__title center">{title}</h3>
         {!!price &&
-        <div class="card__price-container">
+        <div className="card__price-container">
           <p className="card__price">{price}</p>
           <p className="card__description">{description}</p>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Introduction from '../../sections/Introduction';
 import Temoignages from '../../sections/Temoignages';
-import BlogSection from '../../sections/BlogSection';
+// import BlogSection from '../../sections/BlogSection';
 import ContactSection from '../../sections/ContactSection';
 
 import content from '../../../data/contact.json';
@@ -25,7 +25,7 @@ const ContactPage = () => (
       longitude={content.Contact.longitude}
     />
     <Temoignages />
-    <BlogSection />
+    {/* <BlogSection /> */}
   </main>
 );
 

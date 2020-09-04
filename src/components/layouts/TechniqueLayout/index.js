@@ -23,7 +23,7 @@ const TechniqueLayout = ({
       text={technique.paragraph}
       citation={technique.citation}
       imageSource={technique.image.url}
-      imageAlt={technique.image.alternative}
+      imageAlt={technique.image.alternativeText}
       key={technique.title}
       linkLabel={technique.linkLabel}
       linkTo={technique.linkTo}
@@ -51,7 +51,7 @@ TechniqueLayout.propTypes = {
     title: PropTypes.string.isRequired,
     paragraph: PropTypes.string.isRequired
   }),
-  techniques: PropTypes.shape({
+  technique: PropTypes.shape({
       title: PropTypes.string.isRequired,
       paragraph: PropTypes.string.isRequired,
       image: PropTypes.shape({

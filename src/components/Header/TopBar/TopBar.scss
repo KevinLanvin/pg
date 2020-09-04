@@ -2,21 +2,21 @@
 
 .header__topbar {
   background-color: $color-main;
-  padding: .2em $margin;
+  padding: .2rem $margin;
   display: flex;
 }
 
 .header__contact {
   flex: 1;
   display: flex;
-  a {
-    margin-right: 2em;
+  a,li {
+    margin-right: 2rem;
     color: $color-white;
-    font-size: .8em;
+    font-size: .8rem;
   }
   img {
     width: 16px;
-    margin-right: .5em;
+    margin-right: .5rem;
     vertical-align: bottom;
   }
 }

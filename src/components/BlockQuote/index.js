@@ -5,9 +5,9 @@ import { ReactComponent as Quote } from '../../icons/guillemets.svg';
 import './blockQuote.scss';
 
 const BlockQuote = ({ text, bordered }) => (
-  <div class="blockQuote">
+  <div className="blockQuote">
     {text.split(/(?<=\.)/).map(e => (
-      <p>{e}</p>
+      <p key={e}>{e}</p>
     ))}
     <Quote className="blockQuote__icon blockQuote__icon--right"/>
     <Quote className="blockQuote__icon blockQuote__icon--left"/>
