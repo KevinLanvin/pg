@@ -1,0 +1,15 @@
+@import '../../../styles/_vars';
+
+.not-found {
+  min-height: 100vh;
+  &__message {
+    width: 80%;
+    margin: $gutter $margin 0 $margin;
+  }
+  .button {
+    display: block;
+    margin-left: $margin;
+    margin-bottom: $gutter;
+    width: fit-content;
+  }
+}

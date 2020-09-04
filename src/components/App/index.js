@@ -23,6 +23,7 @@ import Consultations from '../pages/ConsultationsPage';
 import Contact from '../pages/ContactPage';
 import QuiSuisJe from '../pages/QuiSuisJePage';
 import MentionsLegales from '../pages/MentionsLegalesPage';
+import NotFound from '../pages/NotFoundPage';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -78,6 +79,9 @@ function App() {
           </Route>
           <Route path="/mentions-legales" exact>
             <MentionsLegales />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
         <Footer />
