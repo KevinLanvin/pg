@@ -1,0 +1,13 @@
+@import '../../../styles/_vars';
+
+.mentions-legales {
+  width: 80%;
+  margin: 0 $margin;
+  .introduction {
+    width: 100%;
+  }
+  p {
+    line-height: 1.2em;
+    margin: $gutter 0;
+  }
+}

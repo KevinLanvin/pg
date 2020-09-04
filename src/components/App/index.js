@@ -22,6 +22,7 @@ import TouchForHealth from '../pages/TouchForHealthPage';
 import Consultations from '../pages/ConsultationsPage';
 import Contact from '../pages/ContactPage';
 import QuiSuisJe from '../pages/QuiSuisJePage';
+import MentionsLegales from '../pages/MentionsLegalesPage';
 
 import '../../styles/index.scss';
 import './app.scss';
@@ -74,6 +75,9 @@ function App() {
           </Route>
           <Route path="/qui-suis-je" exact>
             <QuiSuisJe />
+          </Route>
+          <Route path="/mentions-legales" exact>
+            <MentionsLegales />
           </Route>
         </Switch>
         <Footer />
