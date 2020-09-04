@@ -6,6 +6,7 @@ import content from '../../../data/kinesiologie.json';
 const KinesiologiePage = () => (
   <main>
     <ServiceLayout
+      breadcrumbs={content.Breadcrumbs}
       introduction={content.Introduction}
       techniques={content.Techniques}
       listSection={content.ListSection}

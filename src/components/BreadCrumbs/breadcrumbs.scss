@@ -1,0 +1,15 @@
+@import '../../styles/_vars';
+
+.breadcrumbs {
+  margin: $gutter $margin;
+  a {
+    padding: $gutter/4 0;
+    margin-right: $gutter/2;
+  }
+  &__element {
+    padding-right: $gutter/2;
+    * {
+      color: $color-main;
+    }
+  }
+}

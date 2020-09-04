@@ -6,6 +6,7 @@ import content from '../../../data/auriculo-therapie.json';
 const AuriculoTherapiePage = () => (
   <main>
     <TechniqueLayout
+      breadcrumbs={content.Breadcrumbs}
       introduction={content.Introduction}
       technique={content.Technique}
       details={content.Details}

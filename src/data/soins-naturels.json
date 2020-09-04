@@ -2,7 +2,7 @@
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
-      "linkTo": "#"
+      "linkTo": "/"
     },
     {
       "linkLabel": "Soins naturels",

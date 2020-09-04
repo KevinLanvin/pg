@@ -1,4 +1,5 @@
 import React from 'react';
+import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import Temoignages from '../../sections/Temoignages';
 import ColumnSection from '../../sections/ColumnSection';
@@ -10,6 +11,7 @@ import content from '../../../data/qui-suis-je.json';
 
 const QuiSuisJePage = () => (
   <main>
+    <BreadCrumbs breadcrumbs={content.Breadcrumbs} />
     <Introduction
       title={content.Introduction.title}
       paragraph={content.Introduction.paragraph}

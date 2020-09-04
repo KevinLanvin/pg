@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import SplittedSection from '../../sections/SplittedSection';
 import Services from '../../sections/Services';
@@ -8,11 +9,13 @@ import ListSection from '../../sections/ListSection';
 import Disclaimer from '../../sections/DisclaimerSection';
 
 const ServiceLayout = ({
+  breadcrumbs,
   introduction,
   techniques,
   listSection,
 }) => (
   <>
+    <BreadCrumbs breadcrumbs={breadcrumbs} />
     <Introduction title={introduction.title} paragraph={introduction.paragraph} image={introduction.image} citation={introduction.citation} />
     { techniques.map((technique, index) => (
       <SplittedSection

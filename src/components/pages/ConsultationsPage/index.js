@@ -1,4 +1,5 @@
 import React from 'react';
+import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import CardsSection from '../../sections/CardsSection';
 import ColumnSection from '../../sections/ColumnSection';
@@ -9,6 +10,7 @@ import content from '../../../data/consultations.json';
 
 const ConsultationsPage = () => (
   <main>
+    <BreadCrumbs breadcrumbs={content.Breadcrumbs} />
     <Introduction
       title={content.Introduction.title}
       paragraph={content.Introduction.paragraph}

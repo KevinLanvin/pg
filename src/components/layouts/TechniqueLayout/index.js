@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import SplittedSection from '../../sections/SplittedSection';
 import ColumnSection from '../../sections/ColumnSection';
@@ -9,12 +10,14 @@ import ListSection from '../../sections/ListSection';
 import Disclaimer from '../../sections/DisclaimerSection';
 
 const TechniqueLayout = ({
+  breadcrumbs,
   introduction,
   technique,
   details,
   listSection
 }) => (
   <>
+    <BreadCrumbs breadcrumbs={breadcrumbs}/>
     <Introduction
       {...introduction}
     />
