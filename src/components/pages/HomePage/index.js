@@ -21,6 +21,7 @@ const HomePage = () => {
       <SplittedSection
         title={content.Description.title}
         text={content.Description.paragraph}
+        citation={content.Description.citation}
         imageSource={content.Description.image.url}
         imageAlt={content.Description.image.alternativeText}
         isTextOnRight

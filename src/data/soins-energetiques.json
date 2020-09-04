@@ -15,11 +15,12 @@
   ],
   "Introduction": {
     "title": "Soins énergétiques",
-    "paragraph": "Le soin énergétique permet d’harmoniser et d’équilibrer le flux énergétique du corps et de l’esprit. Grâce à cette harmonisation vous atteindrez un niveau vibratoire qui entrainera un processus naturel de guérison du corps. Retrouvez ma technique de soin énergétique ci-dessous. Arrêtez le mal avant qu'il n'existe; calmez le désordre avant qu'il n'éclate. Lao Tseu",
+    "paragraph": "Le soin énergétique permet d’harmoniser et d’équilibrer le flux énergétique du corps et de l’esprit. Grâce à cette harmonisation vous atteindrez un niveau vibratoire qui entrainera un processus naturel de guérison du corps. Retrouvez ma technique de soin énergétique ci-dessous.",
     "image": {
       "url": "http://localhost:3000/img/reiki.JPG",
       "alternativeText": "Soins énergétiques reïki"
-    }
+    },
+    "citation": "Arrêtez le mal avant qu'il n'existe; calmez le désordre avant qu'il n'éclate. Lao Tseu"
   },
   "Technique": {
     "title": "Le reïki",

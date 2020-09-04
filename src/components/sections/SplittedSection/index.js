@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Button from '../../Button';
+import BlockQuote from '../../BlockQuote';
 import { ReactComponent as Flower } from '../../../icons/flower.svg';
 
 import './SplittedSection.scss';
@@ -13,6 +14,7 @@ const SplittedSection = ({
   linkTo,
   imageSource,
   imageAlt,
+  citation,
   hasFlower = false,
   isTextOnRight = false,
   isButtonAlt = false,
@@ -30,6 +32,7 @@ const SplittedSection = ({
         <p>{text}</p>
         {linkLabel && isButtonAlt && <Button alt name={linkLabel} link={linkTo} />}
         {linkLabel && !isButtonAlt && <Button name={linkLabel} link={linkTo} />}
+        {citation && <BlockQuote text={citation} />}
       </div>
       <div className={imageClass}>
         <img src={imageSource} alt={imageAlt} />

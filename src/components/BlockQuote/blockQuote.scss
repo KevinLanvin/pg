@@ -1,0 +1,48 @@
+@import '../../styles/_vars';
+
+.blockQuote {
+  position: relative;
+  width: 80%;
+  min-width: 40vw;
+  margin: $gutter auto;
+  padding: $gutter/2 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    color: $color-button;
+    line-height: 1.5em;
+    font-weight: bold;
+    padding: 0 $gutter-large;
+    text-align: center;
+  }
+  .guillemets {
+    fill: $color-button;
+  }
+  &__icon {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    &--left {
+      top: 0;
+      left: 0;
+    }
+    &--right {
+      bottom: 0;
+      right: 0;
+      transform: rotate(180deg);
+    }
+  }
+  &__border {
+    position: absolute;
+    height: 1px;
+    width: 25%;
+    background-color: $color-button;
+    &--top {
+      top: 0;
+    }
+    &--bottom {
+      bottom: 0;
+    }
+  }
+}

@@ -13,11 +13,12 @@ const ServiceLayout = ({
   listSection,
 }) => (
   <>
-    <Introduction title={introduction.title} paragraph={introduction.paragraph} />
+    <Introduction title={introduction.title} paragraph={introduction.paragraph} image={introduction.image} citation={introduction.citation} />
     { techniques.map((technique, index) => (
       <SplittedSection
         title={technique.title}
         text={technique.paragraph}
+        citation={technique.citation}
         imageSource={technique.image.url}
         imageAlt={technique.image.alternativeText}
         isTextOnRight={index % 2 === 0}

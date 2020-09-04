@@ -16,13 +16,12 @@ const TechniqueLayout = ({
 }) => (
   <>
     <Introduction
-      title={introduction.title}
-      paragraph={introduction.paragraph}
-      image={introduction.image}
+      {...introduction}
     />
     <SplittedSection
       title={technique.title}
       text={technique.paragraph}
+      citation={technique.citation}
       imageSource={technique.image.url}
       imageAlt={technique.image.alternative}
       key={technique.title}
