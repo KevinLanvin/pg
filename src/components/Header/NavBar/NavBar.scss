@@ -6,8 +6,9 @@
   align-items: stretch;
   padding: 0 $margin;
   background-color: $color-white;
+  height: 6rem;
   #logo {
-    width: 150px;
+    height: 100%;
   }
   span {
     margin-left: 2em;

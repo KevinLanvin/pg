@@ -6,7 +6,7 @@ import './blockQuote.scss';
 
 const BlockQuote = ({ text, bordered }) => (
   <div className="blockQuote">
-    {text.split(/(?<=\.)/).map(e => (
+    {text.split('.').map(e => (
       <p key={e}>{e}</p>
     ))}
     <Quote className="blockQuote__icon blockQuote__icon--right"/>

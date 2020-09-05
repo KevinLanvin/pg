@@ -123,3 +123,18 @@ section {
   background: rgba(0,0,0,.6);
   top: 0; right: 0; bottom: 0; left: 0;
 }
+
+@media (max-width: $breakpoint) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body, li, a, p, button {
+    font-size: 1.05em;
+    line-height: 1.5em;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+}

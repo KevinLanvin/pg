@@ -4,6 +4,7 @@
   background-color: $color-main;
   padding: .2rem $margin;
   display: flex;
+  height: 1.6rem;
 }
 
 .header__contact {
@@ -26,5 +27,11 @@
   img {
     width: 16px;
     margin-left: .5em;
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .header__topbar {
+    display: none;
   }
 }
