@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
+import { useController } from "react-scroll-parallax";
 import Header from '../Header';
 import Footer from '../Footer';
 import {
@@ -29,6 +30,12 @@ import '../../styles/index.scss';
 import './app.scss';
 
 function App() {
+  const { parallaxController } = useController();
+  useLayoutEffect(() => {
+    const handler = () => parallaxController.update();
+    window.addEventListener('load', handler);
+    return () => window.removeEventListener('load', handler);
+  }, [parallaxController]);
   return (
     <Router>
       <ScrollToTop />

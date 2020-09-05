@@ -7,13 +7,16 @@
   &__grid {
     display: flex;
     justify-content: space-between;
+    .react-reveal {
+      width: 100%;
+      margin: 0 $gutter/2;
+    }
     .services {
       &__service {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin: 0 $gutter/2;
         &:first-child {
           margin-left: 0;
         }
@@ -91,5 +94,37 @@
         transition: color .3s;
       }
     }
+  }
+}
+
+.fadeIn {
+  animation-name: fade-in;
+  animation-fill-mode: both;
+}
+
+.fadeOut {
+  animation-name: fade-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {
+    transform: scale(.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(.85);
+    opacity: 0;
   }
 }
