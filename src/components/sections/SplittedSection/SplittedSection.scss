@@ -24,6 +24,7 @@
     background-color: $color-white;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     &--reverse {
       .splitted-section__text {
         order: 2;
@@ -63,6 +64,7 @@
     &--rounded {
       border-radius: 50%;
       overflow: hidden;
+      max-height: 0;
     }
   }
   &__flower {
