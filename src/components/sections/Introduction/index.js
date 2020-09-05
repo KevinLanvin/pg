@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import BlockQuote from '../../BlockQuote';
+import ParallaxImage from '../../ParallaxImage';
 import './introduction.scss';
 
 const Introduction = ({
@@ -15,7 +16,7 @@ const Introduction = ({
     <p>{paragraph}</p>
     {!!citation && <BlockQuote text={citation} bordered />}
     {!!image && <div className="introduction__banner">
-      <img src={image.url} alt={image.alternativeText} />
+      <ParallaxImage src={image.url} alt={image.alternativeText} className="introduction__banner--background" />
     </div>}
   </header>
 );

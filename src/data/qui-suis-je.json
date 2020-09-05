@@ -13,7 +13,7 @@
     "title": "Qui suis-je ?",
     "paragraph": "Praticienne bla bla bla",
     "image": {
-      "url": "http://localhost:3000/img/praticienne-soins-naturels-2.JPG",
+      "url": "http://localhost:3000/img/praticienne-soins-naturels-2.jpg",
       "alternativeText": "praticienne en soins naturels et énergétiques"
     }
   },
