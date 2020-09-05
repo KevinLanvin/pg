@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Slider from 'react-slick';
 import ArrowIcon from '../../../icons/arrow.svg';
 
-import Button from '../../Button';
 import './formationsSection.scss';
 
 const Arrow = (props) => {
@@ -30,7 +29,7 @@ const FormationsSection = ({
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
-    infinite: false,
+    infinite: true,
     autoPlay: false,
     draggable: false,
     nextArrow: <Arrow />,
@@ -51,10 +50,6 @@ const FormationsSection = ({
           </div>
         ))}
       </Slider>
-      <Button
-        name={linkLabel}
-        link={linkTo}
-      />
     </section>
   );
 };
