@@ -1,7 +1,6 @@
 import React from 'react';
 import { ReactComponent as Quote } from '../../../icons/guillemets.svg';
 import Slider from 'react-slick';
-import ParallaxImage from '../../ParallaxImage';
 import Background from '../../../img/temoignages.jpg';
 
 import content from '../../../data/temoignages.json';
@@ -34,7 +33,7 @@ const Temoignages = () => {
   return (
     <section className="temoignages">
       <div className="temoignages__background">
-        <ParallaxImage src={Background} alt="Temoignages" className="temoignages__background--image" />
+        <img src={Background} alt="Temoignages" className="temoignages__background--image" />
       </div>
       <div className="temoignages__text">
         <h2 className="white center">{content.title}</h2>

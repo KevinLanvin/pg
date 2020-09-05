@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from '../../Button';
-import ParallaxImage from '../../ParallaxImage';
 
 import './Banner.scss';
 
@@ -14,7 +13,6 @@ const Banner = ({
   <section className="banner">
     <h1 className="white">{title}</h1>
     <Button name="En savoir plus" onClick={onClick} />
-    {/* <ParallaxImage src={image} alt={imageAlt} className="banner__image" /> */}
     <div className="banner__image">
       <img src={image} alt={imageAlt} />
     </div>
