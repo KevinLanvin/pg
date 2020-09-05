@@ -39,7 +39,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+#root {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
 }
 
 ul {
