@@ -46,3 +46,20 @@
     }
   }
 }
+
+@media (max-width: $breakpoint) {
+  .blockQuote {
+    width: 100%;
+    p {
+      padding: 0 $gutter;
+    }
+    &__icon {
+      &--left {
+        left: -$gutter/2;
+      }
+      &--right {
+        right: -$gutter/2;
+      }
+    }
+  }
+}
