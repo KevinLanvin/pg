@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 import {
@@ -27,11 +27,20 @@ import '../../styles/index.scss';
 import './app.scss';
 
 function App() {
+  const [ mobile, setMobile ] = useState(window.innerWidth <= 1150);
+  const updateSize = () => {
+    setMobile(window.innerWidth <= 1150);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', updateSize);
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
       <div className="App">
-        <Header />
+        <Header mobile={mobile} />
         <Switch>
           <Route path="/" exact>
             <HomePage />
@@ -76,7 +85,7 @@ function App() {
             <NotFound />
           </Route>
         </Switch>
-        <Footer />
+        <Footer mobile={mobile} />
       </div>
     </Router>
   );
