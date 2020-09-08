@@ -39,14 +39,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#root {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden
-}
-
 ul {
   list-style-type: none;
   padding: 0;

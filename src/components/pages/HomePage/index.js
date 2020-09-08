@@ -16,7 +16,7 @@ const HomePage = () => {
         imageAlt={content.MainTitle.Banner.alternativeText}
         title={content.MainTitle.title}
         onClick={() => {
-          const root = document.getElementById('root');
+          const root = document.getElementsByClassName('App')[0];
           root.style.scrollBehavior = "smooth";
           root.scrollTo(0, descriptionEl.current.offsetTop);
           root.style.scrollBehavior = "normal";

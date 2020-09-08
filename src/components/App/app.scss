@@ -1,2 +1,7 @@
 .App {
+  perspective: 1px;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
