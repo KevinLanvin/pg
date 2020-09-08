@@ -13,7 +13,9 @@
   &__bottom-bar {
     width: 100%;
     background-color: $color-main;
-    p {
+    display: flex;
+    justify-content: center;
+    p, a {
       color: white;
       font-size: .8em;
       text-align: center;
@@ -21,5 +23,14 @@
   }
   &__link {
     margin: 0 1rem;
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .footer__bottom-bar {
+    flex-direction: column;
+    p, a {
+      padding: $gutter/2 0;
+    }
   }
 }
