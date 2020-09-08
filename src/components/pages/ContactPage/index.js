@@ -14,6 +14,7 @@ const ContactPage = () => (
       title={content.Introduction.title}
       paragraph={content.Introduction.paragraph}
       image={content.Introduction.image}
+      citation={content.Introduction.citation}
     />
     <ContactSection
       title={content.Contact.title}
