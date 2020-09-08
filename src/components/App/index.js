@@ -17,8 +17,6 @@ import Ventouses from '../pages/VentousesPage';
 import Moxibustion from '../pages/MoxibustionPage';
 import Guasha from '../pages/GuashaPage';
 import AuriculoTherapie from '../pages/AuriculoTherapiePage';
-import OneBrain from '../pages/OneBrainPage';
-import TouchForHealth from '../pages/TouchForHealthPage';
 import Consultations from '../pages/ConsultationsPage';
 import Contact from '../pages/ContactPage';
 import QuiSuisJe from '../pages/QuiSuisJePage';
@@ -58,12 +56,6 @@ function App() {
           </Route>
           <Route path="/auriculo-therapie" exact>
             <AuriculoTherapie />
-          </Route>
-          <Route path="/one-brain" exact>
-            <OneBrain />
-          </Route>
-          <Route path="/touch-for-health" exact>
-            <TouchForHealth />
           </Route>
           <Route path="/ventouses" exact>
             <Ventouses />
