@@ -129,21 +129,22 @@
 
 .header__mobile-menu {
   position: fixed;
-  top: 6rem; right: 0; bottom: 0;
+  top: 6rem; right: 0; bottom: 0; left: 0;
   height: calc(100vh - 6rem);
   background-color: $color-white;
   transform: translateX(150%);
   transition: transform .3s;
   padding: $gutter;
-  box-shadow: $shadow-dark;
   span {
     margin: 0;
-  }
-  &> a {
-    padding: $gutter/4;
+    &> a {
+      padding: $gutter/2;
+      height: auto;
+      line-height: 1.5rem;
+    }
   }
   .header__sublink {
-    padding: $gutter/8 0 $gutter/8 $gutter;
+    padding: $gutter/2 0 $gutter/2 $gutter;
   }
   &--visible {
     transform: translateX(0);
