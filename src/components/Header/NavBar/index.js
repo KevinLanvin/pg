@@ -7,7 +7,7 @@ import Logo from '../../../img/logo.svg';
 const NavBar = () => (
 
   <nav className="header__navbar">
-    <NavLink to="/">
+    <NavLink to="/" className="logo">
       <img src={Logo} alt="Logo" id="logo" />
     </NavLink>
     <div className="header__spacing"></div>

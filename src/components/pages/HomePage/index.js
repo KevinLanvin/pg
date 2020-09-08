@@ -15,7 +15,12 @@ const HomePage = () => {
         image={content.MainTitle.Banner.url}
         imageAlt={content.MainTitle.Banner.alternativeText}
         title={content.MainTitle.title}
-        onClick={() => window.scrollTo(0, descriptionEl.current.offsetTop - 114)}
+        onClick={() => {
+          const root = document.getElementById('root');
+          root.style.scrollBehavior = "smooth";
+          root.scrollTo(0, descriptionEl.current.offsetTop);
+          root.style.scrollBehavior = "normal";
+        }}
       />
       <div ref={descriptionEl}>
       <SplittedSection

@@ -1,20 +1,25 @@
 import React from 'react';
 import { useLocation, NavLink } from 'react-router-dom';
-import { Reveal } from 'react-reveal';
+import { useInView } from 'react-intersection-observer';
+import classNames from 'classnames';
 
 import servicesData from '../../../data/services.json';
 import './Services.scss';
 
 const Services = () => {
   const location = useLocation();
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
+  const gridClass = classNames('services__grid', { 'services__grid--visible': inView })
   return (
     <section className="services">
       <h2 className="services__title center">{servicesData.title}</h2>
-      <div className="services__grid">
+      <div className={gridClass} ref={ref}>
         { servicesData.services.map((service, index) =>
           service.linkTo !== location.pathname ? (
-            <Reveal effect="fadeIn" delay={index*300} key={service.title}>
-              <NavLink to={service.linkTo} className="services__service">
+              <NavLink to={service.linkTo} className="services__service" key={service.title}>
                 <div className="service__image">
                   <img src={service.image.url} alt={service.image.alternativeText} />
                   <div className="service__title">
@@ -31,7 +36,6 @@ const Services = () => {
                   </ul>
                 </div>
               </NavLink>
-            </Reveal>
           ):null)}
       </div>
     </section>
