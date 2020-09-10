@@ -16,3 +16,15 @@
     }
   }
 }
+
+@media (max-width: $breakpoint) {
+  .cards {
+    &__cards {
+      flex-wrap: wrap;
+    }
+  }
+  .card {
+    width: 100%;
+    margin-bottom: $gutter;
+  }
+}
