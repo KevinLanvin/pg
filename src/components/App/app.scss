@@ -1,7 +1,20 @@
+@import '../../styles/_vars';
+
 .App {
-  perspective: 1px;
+  overflow: hidden;
   height: 100vh;
-  width: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
+  &__content {
+    margin-top: 7.6rem;
+    perspective: 1px;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .App__content {
+    margin-top: 6rem;
+  }
 }

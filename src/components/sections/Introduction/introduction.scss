@@ -1,8 +1,7 @@
 @import '../../../styles/_vars';
 
 .introduction {
-  width: 80%;
-  margin: $gutter auto;
+  margin: $gutter-large $margin;
   &__banner {
     width: 100%;
     height: 0;

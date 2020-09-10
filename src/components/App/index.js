@@ -41,51 +41,53 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <Header mobile={mobile} />
-        <Switch>
-          <Route path="/" exact>
-            <HomePage />
-          </Route>
-          <Route path="/soins-naturels" exact>
-            <SoinsNaturels />
-          </Route>
-          <Route path="/kinesiologie" exact>
-            <Kinesiologie />
-          </Route>
-          <Route path="/arret-tabac" exact>
-            <ArretTabac />
-          </Route>
-          <Route path="/soins-energetiques" exact>
-            <SoinsEnergetiques />
-          </Route>
-          <Route path="/moxibustion" exact>
-            <Moxibustion />
-          </Route>
-          <Route path="/guasha" exact>
-            <Guasha />
-          </Route>
-          <Route path="/auriculo-therapie" exact>
-            <AuriculoTherapie />
-          </Route>
-          <Route path="/ventouses" exact>
-            <Ventouses />
-          </Route>
-          <Route path="/consultations" exact>
-            <Consultations />
-          </Route>
-          <Route path="/contact" exact>
-            <Contact />
-          </Route>
-          <Route path="/qui-suis-je" exact>
-            <QuiSuisJe />
-          </Route>
-          <Route path="/mentions-legales" exact>
-            <MentionsLegales />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
-        </Switch>
-        <Footer mobile={mobile} />
+        <div className="App__content">
+          <Switch>
+            <Route path="/" exact>
+              <HomePage />
+            </Route>
+            <Route path="/soins-naturels" exact>
+              <SoinsNaturels />
+            </Route>
+            <Route path="/kinesiologie" exact>
+              <Kinesiologie />
+            </Route>
+            <Route path="/arret-tabac" exact>
+              <ArretTabac />
+            </Route>
+            <Route path="/soins-energetiques" exact>
+              <SoinsEnergetiques />
+            </Route>
+            <Route path="/moxibustion" exact>
+              <Moxibustion />
+            </Route>
+            <Route path="/guasha" exact>
+              <Guasha />
+            </Route>
+            <Route path="/auriculo-therapie" exact>
+              <AuriculoTherapie />
+            </Route>
+            <Route path="/ventouses" exact>
+              <Ventouses />
+            </Route>
+            <Route path="/consultations" exact>
+              <Consultations />
+            </Route>
+            <Route path="/contact" exact>
+              <Contact />
+            </Route>
+            <Route path="/qui-suis-je" exact>
+              <QuiSuisJe />
+            </Route>
+            <Route path="/mentions-legales" exact>
+              <MentionsLegales />
+            </Route>
+            <Route path="*">
+              <NotFound />
+            </Route>
+          </Switch>
+          <Footer mobile={mobile} />
+        </div>
       </div>
     </Router>
   );
