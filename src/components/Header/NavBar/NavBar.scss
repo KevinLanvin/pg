@@ -134,17 +134,18 @@
   background-color: $color-white;
   transform: translateX(150%);
   transition: transform .3s;
-  padding: $gutter;
+  padding: $margin;
   span {
     margin: 0;
     &> a {
       padding: $gutter/2;
+      padding-left: 0;
       height: auto;
       line-height: 1.5rem;
     }
   }
   .header__sublink {
-    padding: $gutter/2 0 $gutter/2 $gutter;
+    padding: $gutter/4 0 $gutter/4 $gutter/2;
   }
   &--visible {
     transform: translateX(0);

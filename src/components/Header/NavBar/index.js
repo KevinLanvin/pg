@@ -8,6 +8,7 @@ import Logo from '../../../img/logo.svg';
 const NavBar = ({ mobile }) => {
   const [menuVisible, setMenuVisible] = useState(false);
   const navMobileClass = classNames('header__mobile-menu', { 'header__mobile-menu--visible': menuVisible });
+  const closeMenu = () => setMenuVisible(false)
 
   return (
     <nav className="header__navbar">
@@ -44,13 +45,13 @@ const NavBar = ({ mobile }) => {
           </label>
           <div className={navMobileClass}>
             <span>Services</span>
-            <span><NavLink className="header__sublink" to="/soins-naturels">Soins naturels</NavLink></span>
-            <span><NavLink className="header__sublink" to="/soins-energetiques">Soins énergétiques</NavLink></span>
-            <span><NavLink className="header__sublink" to="/kinesiologie">Kinésiologie</NavLink></span>
-            <span><NavLink className="header__sublink" to="/arret-tabac">Arrêt du Tabac</NavLink></span>
-            <span><NavLink to="/qui-suis-je">Qui suis-je ?</NavLink></span>
-            <span><NavLink to="/consultations">Consultations</NavLink></span>
-            <span><NavLink to="/contact">Contact</NavLink></span>
+            <span><NavLink className="header__sublink" to="/soins-naturels" onClick={closeMenu}>Soins naturels</NavLink></span>
+            <span><NavLink className="header__sublink" to="/soins-energetiques" onClick={closeMenu}>Soins énergétiques</NavLink></span>
+            <span><NavLink className="header__sublink" to="/kinesiologie" onClick={closeMenu}>Kinésiologie</NavLink></span>
+            <span><NavLink className="header__sublink" to="/arret-tabac" onClick={closeMenu}>Arrêt du Tabac</NavLink></span>
+            <span><NavLink to="/qui-suis-je" onClick={closeMenu}>Qui suis-je ?</NavLink></span>
+            <span><NavLink to="/consultations" onClick={closeMenu}>Consultations</NavLink></span>
+            <span><NavLink to="/contact" onClick={closeMenu}>Contact</NavLink></span>
           </div>
         </>
       )}
