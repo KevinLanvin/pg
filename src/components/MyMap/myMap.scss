@@ -7,3 +7,8 @@
     background-color: $color-button;
   }
 }
+
+@media (max-width: $breakpoint) {
+  .leaflet-container {
+  }
+}

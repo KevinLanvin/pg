@@ -15,7 +15,8 @@ const ContactSection = ({
   facebookLinkTo,
   linkedInLinkTo,
   latitude,
-  longitude
+  longitude,
+  mobile = false,
 }) => (
   <section className="contact-section">
     <div className="contact-section__card-wrapper">
@@ -34,6 +35,7 @@ const ContactSection = ({
       <Map
         latitude={Number.parseFloat(latitude)}
         longitude={Number.parseFloat(longitude)}
+        mobile={mobile}
       />
     </div>
   </section>
@@ -49,6 +51,7 @@ ContactSection.propTypes = {
   linkedInLinkTo: PropTypes.string.isRequired,
   latitude: PropTypes.string.isRequired,
   longitude: PropTypes.string.isRequired,
+  mobile: PropTypes.bool,
 };
 
 export default ContactSection;

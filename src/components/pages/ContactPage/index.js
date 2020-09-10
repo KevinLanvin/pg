@@ -27,6 +27,7 @@ const ContactPage = ({ mobile = false }) => (
       linkedInLinkTo={content.Contact.linkedInLinkTo}
       latitude={content.Contact.latitude}
       longitude={content.Contact.longitude}
+      mobile={mobile}
     />
     <Temoignages mobile={mobile} />
     {/* <BlogSection /> */}
