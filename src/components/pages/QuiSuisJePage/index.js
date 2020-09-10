@@ -34,6 +34,7 @@ const QuiSuisJePage = ({ mobile = false }) => (
       linkTo={content.Formations.linkTo}
       linkLabel={content.Formations.linkLabel}
       formations={content.Formations.formations}
+      mobile={mobile}
     />
     <ColumnSection
       title={content.Details.title}

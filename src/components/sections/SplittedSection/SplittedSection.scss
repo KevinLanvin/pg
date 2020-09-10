@@ -97,7 +97,10 @@
       width: 24%;
     }
     &__text {
-      padding: $gutter 0;
+      padding: 0;
+    }
+    &__image {
+      margin-top: $gutter;
     }
   }
 }

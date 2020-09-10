@@ -61,4 +61,10 @@
   }
 }
 
-
+@media(max-width: $breakpoint) {
+  .formations-section {
+    &__carousel {
+      margin: 0;
+    }
+  }
+}

@@ -23,11 +23,12 @@ const FormationsSection = ({
   formations,
   linkTo,
   linkLabel,
+  mobile = false,
 }) => {
   const settings = {
     dots: false,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: mobile ? 1 : 5,
     slidesToScroll: 1,
     infinite: true,
     autoPlay: false,
@@ -68,6 +69,7 @@ FormationsSection.propTypes = {
       }).isRequired,
     }).isRequired,
   ).isRequired,
+  mobile: PropTypes.bool,
 };
 
 export default FormationsSection;
