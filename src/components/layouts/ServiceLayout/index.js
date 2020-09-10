@@ -25,7 +25,7 @@ const ServiceLayout = ({
         citation={technique.citation}
         imageSource={technique.image.url}
         imageAlt={technique.image.alternativeText}
-        isTextOnRight={index % 2 === 0}
+        isTextOnRight={index % 2 === 0 && !mobile}
         linkTo={technique.linkTo}
         linkLabel={technique.linkLabel}
         key={technique.title}
