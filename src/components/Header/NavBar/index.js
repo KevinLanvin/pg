@@ -12,7 +12,7 @@ const NavBar = ({ mobile }) => {
 
   return (
     <nav className="header__navbar">
-      <NavLink to="/" className="logo">
+      <NavLink to="/" className="logo" onClick={closeMenu}>
         <img src={Logo} alt="Logo" id="logo" />
       </NavLink>
       <div className="header__spacing"></div>
