@@ -50,7 +50,7 @@ a {
 
 h1 {
   font-family: 'Mathilde';
-  font-size: 10em;
+  font-size: 10rem;
   text-align: center;
   color: $color-main;
   font-weight: normal;
@@ -58,7 +58,8 @@ h1 {
 
 h2 {
   font-family: 'Mathilde';
-  font-size: 5em;
+  font-size: 5rem;
+  line-height: 4rem;
   text-align: left;
   color: $color-main;
   font-weight: normal;
@@ -102,7 +103,6 @@ section {
   width: 80%;
   margin: auto;
   margin-bottom: $gutter-large;
-  min-width: 800px;
 }
 
 // Utils
@@ -134,5 +134,9 @@ section {
   h1 {
     font-size: 5rem;
     line-height: 5rem;
+  }
+  h2 {
+    font-size: 4rem;
+    line-height: 3rem;
   }
 }

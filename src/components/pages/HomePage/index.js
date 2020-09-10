@@ -1,4 +1,5 @@
 import React, {useRef} from 'react';
+import PropTypes from 'prop-types';
 
 import Banner from '../../sections/Banner';
 import Services from '../../sections/Services';
@@ -7,7 +8,7 @@ import Temoignages from '../../sections/Temoignages';
 
 import content from '../../../data/homepage.json';
 
-const HomePage = () => {
+const HomePage = ({ mobile = false }) => {
   const descriptionEl = useRef('description');
   return (
     <main>
@@ -36,6 +37,7 @@ const HomePage = () => {
       <Services
         title={content.Services.title}
         services={content.Services.services}
+        mobile={mobile}
       />
       <SplittedSection
         title={content.QuandConsulter.title}
@@ -63,4 +65,7 @@ const HomePage = () => {
   );
 };
 
+HomePage.propTypes = {
+  mobile: PropTypes.bool,
+};
 export default HomePage;

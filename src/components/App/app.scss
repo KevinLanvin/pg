@@ -6,7 +6,7 @@
   &__content {
     margin-top: 7.6rem;
     perspective: 1px;
-    height: 100vh;
+    height: calc(100vh - 7.6rem);
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -16,5 +16,6 @@
 @media (max-width: $breakpoint) {
   .App__content {
     margin-top: 6rem;
+    height: calc(100vh - 6rem);
   }
 }

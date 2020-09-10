@@ -22,7 +22,6 @@
   &__grid {
     width: 80%;
     margin: auto;
-    background-color: $color-white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     &--reverse {
@@ -43,6 +42,7 @@
     align-items: flex-start;
     padding: $gutter-large;
     padding-left: 0;
+    background-color: $color-white;
     h2 {
       margin-bottom: $gutter;
     }
@@ -76,5 +76,25 @@
     width: 12%;
     height: auto;
     z-index: 1;
+  }
+}
+
+@media(max-width: $breakpoint) {
+  .splitted-section{
+    &__grid {
+      grid-template-columns: 1fr;
+      &--reverse .splitted-section__text {
+        padding: 0;
+        padding-top: $gutter;
+      }
+    }
+    &--alt-color {
+      .splitted-section__text {
+        padding: $gutter;
+      }
+    }
+    &__flower {
+      width: 24%;
+    }
   }
 }

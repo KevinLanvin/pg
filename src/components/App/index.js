@@ -44,7 +44,7 @@ function App() {
         <div className="App__content">
           <Switch>
             <Route path="/" exact>
-              <HomePage />
+              <HomePage mobile={mobile} />
             </Route>
             <Route path="/soins-naturels" exact>
               <SoinsNaturels />

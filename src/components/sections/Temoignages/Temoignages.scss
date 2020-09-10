@@ -58,3 +58,34 @@
   }
   .slick-slide>div {padding: 0 $gutter-large;}
 }
+
+@media(max-width: $breakpoint) {
+  .temoignages {
+    padding: $gutter;
+    &__text {
+      padding: $gutter;
+      width: 100%;
+    }
+    &__quote {
+      top: $gutter/4;
+      left: $gutter/4;
+      width: 3rem;
+    }
+    &__paragraph {
+      width: 100%;
+      min-width: unset;
+    }
+    &__carousel {
+      min-width: unset;
+    }
+    &__background {
+      display: flex;
+      justify-content: stretch;
+      align-items: stretch;
+      &--image {
+        position: relative;
+        width: 100%;
+      }
+    }
+  }
+}

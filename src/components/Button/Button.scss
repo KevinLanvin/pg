@@ -1,13 +1,15 @@
 @import '../../styles/_vars';
 
 .button {
-  padding: .5em 3em;
-  border-radius: 2em;
+  padding: .5rem 3rem;
+  border-radius: 5rem;
   border: 2px solid $color-button;
   background-color: $color-button;
   color: $color-white;
   transition: all .3s;
   cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
   &:hover {
     border: 2px solid $color-white;
     background-color: transparent;
@@ -18,5 +20,11 @@
       color: $color-button;
       border: 2px solid $color-button;
     }
+  }
+}
+
+@media(max-width: $breakpoint) {
+  .button {
+    padding: .5rem 1rem;
   }
 }
