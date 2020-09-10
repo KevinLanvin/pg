@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import TechniqueLayout from '../../layouts/TechniqueLayout';
 import content from '../../../data/guasha.json';
 
-const GuashaPage = () => (
+const GuashaPage = ({ mobile = false }) => (
   <main>
     <TechniqueLayout
       breadcrumbs={content.Breadcrumbs}
@@ -11,8 +12,13 @@ const GuashaPage = () => (
       technique={content.Technique}
       details={content.Details}
       listSection={content.ListSection}
+      mobile={mobile}
     />
   </main>
 );
+
+GuashaPage.propTypes= {
+  mobile: PropTypes.bool,
+};
 
 export default GuashaPage;

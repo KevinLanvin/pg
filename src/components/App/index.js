@@ -47,43 +47,43 @@ function App() {
               <HomePage mobile={mobile} />
             </Route>
             <Route path="/soins-naturels" exact>
-              <SoinsNaturels />
+              <SoinsNaturels mobile={mobile} />
             </Route>
             <Route path="/kinesiologie" exact>
-              <Kinesiologie />
+              <Kinesiologie mobile={mobile} />
             </Route>
             <Route path="/arret-tabac" exact>
-              <ArretTabac />
+              <ArretTabac mobile={mobile} />
             </Route>
             <Route path="/soins-energetiques" exact>
-              <SoinsEnergetiques />
+              <SoinsEnergetiques mobile={mobile} />
             </Route>
             <Route path="/moxibustion" exact>
-              <Moxibustion />
+              <Moxibustion mobile={mobile} />
             </Route>
             <Route path="/guasha" exact>
-              <Guasha />
+              <Guasha mobile={mobile} />
             </Route>
             <Route path="/auriculo-therapie" exact>
-              <AuriculoTherapie />
+              <AuriculoTherapie mobile={mobile} />
             </Route>
             <Route path="/ventouses" exact>
-              <Ventouses />
+              <Ventouses mobile={mobile} />
             </Route>
             <Route path="/consultations" exact>
-              <Consultations />
+              <Consultations mobile={mobile} />
             </Route>
             <Route path="/contact" exact>
-              <Contact />
+              <Contact mobile={mobile} />
             </Route>
             <Route path="/qui-suis-je" exact>
-              <QuiSuisJe />
+              <QuiSuisJe mobile={mobile} />
             </Route>
             <Route path="/mentions-legales" exact>
-              <MentionsLegales />
+              <MentionsLegales mobile={mobile} />
             </Route>
             <Route path="*">
-              <NotFound />
+              <NotFound mobile={mobile} />
             </Route>
           </Switch>
           <Footer mobile={mobile} />

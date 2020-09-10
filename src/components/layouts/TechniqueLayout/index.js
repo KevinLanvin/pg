@@ -14,7 +14,8 @@ const TechniqueLayout = ({
   introduction,
   technique,
   details,
-  listSection
+  listSection,
+  mobile = false,
 }) => (
   <>
     <BreadCrumbs breadcrumbs={breadcrumbs}/>
@@ -44,7 +45,7 @@ const TechniqueLayout = ({
       paragraph={listSection.paragraph}
       elements={listSection.list}
     />
-    <Services />
+    <Services mobile={mobile} />
     <Disclaimer />
   </>
 );
@@ -76,6 +77,7 @@ TechniqueLayout.propTypes = {
     paragraph: PropTypes.string.isRequired,
     list: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
+  mobile: PropTypes.bool,
 };
 
 export default TechniqueLayout;

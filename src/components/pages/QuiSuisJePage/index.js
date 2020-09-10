@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import Temoignages from '../../sections/Temoignages';
@@ -9,7 +10,7 @@ import Disclaimer from '../../sections/DisclaimerSection';
 
 import content from '../../../data/qui-suis-je.json';
 
-const QuiSuisJePage = () => (
+const QuiSuisJePage = ({ mobile = false }) => (
   <main>
     <BreadCrumbs breadcrumbs={content.Breadcrumbs} />
     <Introduction
@@ -41,9 +42,13 @@ const QuiSuisJePage = () => (
       linkTo={content.Details.linkTo}
       linkLabel={content.Details.linkLabel}
     />
-    <Temoignages />
+    <Temoignages mobile={mobile} />
     <Disclaimer />
   </main>
 );
+
+QuiSuisJePage.propTypes= {
+  mobile: PropTypes.bool,
+};
 
 export default QuiSuisJePage;

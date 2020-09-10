@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import TechniqueLayout from '../../layouts/TechniqueLayout';
 import content from '../../../data/ventouses.json';
 
-const VentousesPage = () => (
+const VentousesPage = ({ mobile = false }) => (
   <main>
     <TechniqueLayout
       breadcrumbs={content.Breadcrumbs}
@@ -11,8 +12,13 @@ const VentousesPage = () => (
       technique={content.Technique}
       details={content.Details}
       listSection={content.ListSection}
+      mobile={mobile}
     />
   </main>
 );
+
+VentousesPage.propTypes= {
+  mobile: PropTypes.bool,
+};
 
 export default VentousesPage;

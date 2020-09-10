@@ -25,3 +25,23 @@
     }
   }
 }
+
+@media(max-width: $breakpoint) {
+  .list-section {
+    grid-template-columns: 1fr;
+    grid-gap: $gutter;
+    &__list {
+      justify-content: space-between;
+    }
+    &__text {
+      padding: 0;
+    }
+    &__flower {
+      width: 35%;
+    }
+    &__elements {
+      width: 60%;
+      padding-left: $gutter;
+    }
+  }
+}

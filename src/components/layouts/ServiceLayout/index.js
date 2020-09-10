@@ -13,6 +13,7 @@ const ServiceLayout = ({
   introduction,
   techniques,
   listSection,
+  mobile = false,
 }) => (
   <>
     <BreadCrumbs breadcrumbs={breadcrumbs} />
@@ -36,7 +37,7 @@ const ServiceLayout = ({
       paragraph={listSection.paragraph}
       elements={listSection.list}
     />
-    <Services />
+    <Services mobile={mobile} />
     <Disclaimer />
   </>
 );
@@ -63,6 +64,7 @@ ServiceLayout.propTypes = {
     paragraph: PropTypes.string.isRequired,
     list: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
+  mobile: PropTypes.bool,
 };
 
 export default ServiceLayout;

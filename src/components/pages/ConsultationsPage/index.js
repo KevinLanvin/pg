@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import CardsSection from '../../sections/CardsSection';
@@ -8,7 +9,7 @@ import Services from '../../sections/Services';
 
 import content from '../../../data/consultations.json';
 
-const ConsultationsPage = () => (
+const ConsultationsPage = ({ mobile = false }) => (
   <main>
     <BreadCrumbs breadcrumbs={content.Breadcrumbs} />
     <Introduction
@@ -32,8 +33,12 @@ const ConsultationsPage = () => (
       linkTo={content.Details.linkTo}
       linkLabel={content.Details.linkLabel}
     />
-    <Services />
+    <Services mobile={mobile} />
   </main>
 );
+
+ConsultationsPage.propTypes= {
+  mobile: PropTypes.bool,
+};
 
 export default ConsultationsPage;

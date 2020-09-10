@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import BreadCrumbs from '../../BreadCrumbs';
 import Introduction from '../../sections/Introduction';
 import Temoignages from '../../sections/Temoignages';
@@ -7,7 +8,7 @@ import ContactSection from '../../sections/ContactSection';
 
 import content from '../../../data/contact.json';
 
-const ContactPage = () => (
+const ContactPage = ({ mobile = false }) => (
   <main>
     <BreadCrumbs breadcrumbs={content.Breadcrumbs} />
     <Introduction
@@ -27,9 +28,13 @@ const ContactPage = () => (
       latitude={content.Contact.latitude}
       longitude={content.Contact.longitude}
     />
-    <Temoignages />
+    <Temoignages mobile={mobile} />
     {/* <BlogSection /> */}
   </main>
 );
+
+ContactPage.propTypes= {
+  mobile: PropTypes.bool,
+};
 
 export default ContactPage;

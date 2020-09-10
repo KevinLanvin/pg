@@ -19,3 +19,13 @@
     }
   }
 }
+
+@media(max-width: $breakpoint) {
+  .introduction {
+    margin: $gutter $margin;
+    margin-bottom: 0;
+    h1 {
+      margin-bottom: $gutter;
+    }
+  }
+}
