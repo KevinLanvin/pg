@@ -2,11 +2,11 @@
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
-      "linkTo": "#"
+      "linkTo": "/"
     },
     {
-      "linkLabel": "Soins naturels",
-      "linkTo": "#"
+      "linkLabel": "Arrêt du tabac",
+      "linkTo": "/arret-tabac"
     }
   ],
   "Introduction": {

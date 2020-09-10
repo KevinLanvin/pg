@@ -2,29 +2,29 @@
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
-      "linkTo": "#"
+      "linkTo": "/"
     },
     {
       "linkLabel": "Qui suis-je ?",
-      "linkTo": "#"
+      "linkTo": "/qui-suis-je"
     }
   ],
   "Introduction": {
     "title": "Qui suis-je ?",
-    "paragraph": "Praticienne bla bla bla",
+    "paragraph": "Praticienne en soins naturels et énergétiques à Lille, je vous propose des techniques variées et adaptées à vos problématiques : reïki, ventouses chinoises, massage guasha, moxibustion, réflexologie auriculaire, kinésiologie, ... Découvrez mon parcours et les valeurs qu'il me tient à coeur de partager !",
     "image": {
       "url": "http://localhost:3000/img/praticienne-soins-naturels-2.jpg",
       "alternativeText": "praticienne en soins naturels et énergétiques"
     }
   },
   "Presentation": {
-    "title": "Les effets des ventouses",
+    "title": "Mon parcours de praticienne en soins naturels et énergétiques",
     "paragraph": "L’utilisation des ventouses a plusieurs actions. En plus de libérer les toxines du corps, elle va permettre une meilleure circulation du sang, du QI (notre énergie vitale) et des liquides organiques (lymphe). Elle augmente aussi le nombre de globules rouges dans le corps et provoque la libération d’endorphines et de sérotonine. Les ventouses participent ainsi à une stimulation du système immunitaire. Elles sont très efficaces sur des pathologies de types inflammatoires et des atteintes musculaires (rhumatismes, contractures...), elles ont un effet antalgique et peuvent avoir une action détoxifiante sur les organes.",
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
       "url": "http://localhost:3000/img/praticienne-soins-naturels-3.JPG",
-      "alternativeText": "Les ventouses"
+      "alternativeText": "Praticienne lille"
     }
   },
   "Formations": {
@@ -66,10 +66,10 @@
       },
       {
         "year": "2019",
-        "name": "Formation Réflexologie",
+        "name": "Formation Réflexologie auriculaire",
         "image": {
           "url": "http://localhost:3000/img/auriculo.svg",
-          "alternativeText": "Auriculo"
+          "alternativeText": "Réflexologie auriculaire"
         }
       },
       {
@@ -83,7 +83,7 @@
     ]
   },
   "Details": {
-    "title": "Les techniques d'application",
+    "title": "Mes valeurs",
     "leftColumn": "Il existe différents types de ventouses et différentes méthodes d’utilisation de celles-ci. J’utilise principalement, lors des séances, les ventouses en verre (ventouses les plus courantes en occident) à chaud. L’effet est puissant et immédiat. Je me sers aussi de ventouses sèches à froid ou en silicone selon la forme physique de la personne. Par exemple, les ventouses en silicone sont plus souvent utilisées pour les personnes fragiles, les enfants ou pour réaliser un massage aux ventouses. Il est également possible d’avoir recours à une technique de ventouses mobiles qu’on appelle « ventouse baladeuse » sur le dos de la personne afin de repérer les nœuds énergétiques et lever le blocage. La ventouse baladeuse sert de drainage et se révèle très efficace sur des pathologies de la peau comme l’eczéma. ",
     "rightColumn": "Les ventouses peuvent laisser des marques plus ou moins rouges et foncées mais sans infliger de douleur (juste un tiraillement pendant la pose). Ces marques sont un indicateur sur les toxines du corps. Plus les traces apparaissent rouges, plus cela signifie qu’il y a de toxines dans le corps. Aussi, plus la couleur est foncée plus les toxines sont anciennes et « profondes ». Toutefois, les marques s’estompent au bout de quelques jours. La pose de ventouses dure entre 5 à 20 minutes selon la problématique, la réaction de la peau, et la fragilité de la personne. ",
     "linkTo": "/contact",

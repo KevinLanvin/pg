@@ -2,51 +2,54 @@
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
-      "linkTo": "#"
+      "linkTo": "/"
     },
     {
       "linkLabel": "Soins naturels",
-      "linkTo": "#"
+      "linkTo": "/soins-naturels"
     },
     {
-      "linkLabel": "Ventouses",
-      "linkTo": "#"
+      "linkLabel": "Moxibustion",
+      "linkTo": "/moxibustion"
     }
   ],
   "Introduction": {
-    "title": "Ventouses",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "La moxibustion",
+    "paragraph": "Le terme « Moxa » signifie « herbe brulée. Il s'agit d'une technique qui vise à soulager les douleurs par une source de chaleur. Découvrez tous les bienfaits de la moxibustion ci-dessous ! ",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
-      "alternativeText": "Ventouses bannière"
+      "url": "http://localhost:3000/img/moxibustion-3.jpg",
+      "alternativeText": "Moxibustion bannière"
     }
   },
   "Technique": {
-    "title": "Les ventouses",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
+    "title": "Les effets de la moxibustion",
+    "paragraph": "La moxibustion va permettre d’activer les défenses naturelles de l’organisme : elle est auto-immunitaire. La chaleur va non seulement induire un état relaxant et de soulagement de la douleur mais va aussi permettre de chasser l’humidité du corps. La moxibustion agit également sur la circulation sanguine et lymphatique, elle stimule l’énergie du « QI » (notre énergie vitale) et augmente le nombre de globules blancs dans le corps. S’ajoutent à cela les différentes propriétés de l’armoise ; elle est purifiante, bactéricide et apaise les douleurs.",
+    "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
-      "alternativeText": "Les ventouses"
+      "url": "http://localhost:3000/img/moxibustion-2.jpg",
+      "alternativeText": "La moxibustion"
     }
   },
   "Details": {
-    "title": "Les ventouses",
-    "leftColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "rightColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
+    "title": "Techniques d'application",
+    "leftColumn": "La peau est donc le récepteur de départ et cet effet thermique va être transféré par les nerfs jusqu’au cerveau. Il est possible d’utiliser un cône de moxa sur une tranche d’ail (qui est aussi bactéricide) dans le cas de verrues ou furoncles. Il existe différents moyens d’utilisation de la moxibustion mais je me sers principalement de 3 outils en moxibustion. ",
+    "rightColumn": "Le bâton de moxa est utilisé sur des points d’acuponcture précis (voir photo), le tiger warmer pour libérer les tensions, soulager les maux de dos ou encore pour une relaxation optimale, et enfin la boîte à moxa est souvent utilisée pour rebooster, tonifier, et redonner de l’énergie en cas de grande fatigue ou de dépression.",
+    "linkTo": "/contact",
     "linkLabel": "Prendre rendez-vous"
   },
-  "ListSection": {
-    "title": "Liste",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+"ListSection": {
+    "title": "Liste des problématiques",
+    "paragraph": "Toute personne ayant ce type d’atteinte peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
-      "Stress",
-      "Dépression",
-      "Anxiété",
-      "Burn out",
-      "Angoisse"
+      "Problématiques psychologiques",
+      "Douleurs physiques",
+	"Dermatoses",
+      "Problèmes gynécologiques",
+      "Problèmes respiratoires",
+	"Rééquilibrage énergétique",
+      "Renforcement du système immunitaires"
     ]
   }
+
 }

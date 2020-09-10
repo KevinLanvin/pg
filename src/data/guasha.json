@@ -2,51 +2,53 @@
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
-      "linkTo": "#"
+      "linkTo": "/"
     },
     {
       "linkLabel": "Soins naturels",
-      "linkTo": "#"
+      "linkTo": "/soins-naturels"
     },
     {
-      "linkLabel": "Ventouses",
-      "linkTo": "#"
+      "linkLabel": "Guasha",
+      "linkTo": "/guasha"
     }
   ],
   "Introduction": {
-    "title": "Ventouses",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Le massage guasha",
+    "paragraph": "Le terme « Gua » signifie « gratter » et « sha » renvoie à la « maladie ». Ce massage consiste à purifier le corps pour prévenir les maladies. Retrouvez les bienfaits du guasha et ses techniques d'utilisation",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
+      "url": "http://localhost:3000/img/guasha-2.jpg",
       "alternativeText": "Ventouses bannière"
     }
   },
   "Technique": {
-    "title": "Les ventouses",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
+    "title": "Les effets du guasha",
+    "paragraph": "Le grattage de la peau avec cette pierre libère ainsi les agents pathogènes de la surface de la peau. A la suite du massage Guasha la peau de la personne peut devenir très rouge (c'est ce qu’on appelle le « sha »). Cette couleur rougeâtre est le signe de l’élimination des toxines. L’intensité du rougissement cutané est une indication sur la quantité de toxines présentes dans corps (et donc éliminées). Aussi, plus le « sha » est foncé, plus cela signifie qu’il est vieux. Toutefois, les marques provoquées s’estompent généralement entre 1 à 3 jours. Enfin, le massage Guasha permet également une amélioration de la circulation sanguine et du système immunitaire. ",
+    "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
-      "alternativeText": "Les ventouses"
+      "url": "http://localhost:3000/img/guasha.jpg",
+      "alternativeText": "Le guasha"
     }
   },
   "Details": {
-    "title": "Les ventouses",
-    "leftColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "rightColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "linkTo": "#",
+    "title": "Les techniques d'application",
+    "leftColumn": "Le guasha est un massage énergique qui se fait par frottement d'une pierre contre la peau.",
+    "rightColumn": "C'est grâce à ce frottement que les toxines vont émerger à la surface et ainsi être évacuées.",
+    "linkTo": "/contact",
     "linkLabel": "Prendre rendez-vous"
   },
   "ListSection": {
-    "title": "Liste",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Liste des problématiques",
+    "paragraph": "Toute personne ayant ce type d’atteinte peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
-      "Stress",
-      "Dépression",
-      "Anxiété",
-      "Burn out",
-      "Angoisse"
+      "Problématiques psychologiques",
+      "Douleurs physiques",
+	"Dermatoses",
+      "Problèmes gynécologiques",
+      "Problèmes respiratoires",
+	"Rééquilibrage énergétique",
+      "Renforcement du système immunitaires"
     ]
   }
 }

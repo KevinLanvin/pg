@@ -2,21 +2,21 @@
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
-      "linkTo": "#"
+      "linkTo": "/"
     },
     {
-      "linkLabel": "Soins naturels",
-      "linkTo": "#"
+      "linkLabel": "Consultations",
+      "linkTo": "/consultations"
     }
   ],
   "Introduction": {
     "title": "Consultations",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio."
+    "paragraph": "À qui s'adressent ces soins ? Quels sont les tarifs ? Comment se déroule une séance ? Quelles problématiques ? Retrouvez toutes les réponses à vos questions !"
   },
   "Details": {
-    "title": "Les ventouses",
-    "leftColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
-    "rightColumn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Le déroulement d'une consultation",
+    "leftColumn": "Chaque consultation démarre par un entretien qui va me permettre de comprendre la problématique de la personne. Il est nécessaire d’instaurer une situation de confiance entre le praticien, moi-même, et le consultant pour que ce dernier se sente le plus à l’aise possible. C’est pourquoi je sais me montrer à l’écoute et bienveillante et je ferai de mon mieux pour répondre à vos besoins. À la suite d'un premier échange je réaliserai le soin rigoureusement. Mon but est de vous proposer des soins en ne m’attardant non pas sur un seul aspect de la problématique mais en comprenant les liens qui peuvent exister entre vos problématiques physiques et émotionnelles ou encore énergétiques.",
+    "rightColumn": " Il est très important de prendre en compte dans ma pratique la globalité de la personne car bien souvent certaines pathologies physiques sont liées à des problématiques émotionnelles. Comme dit Christophe André : « Les émotions sont le trait d’union entre le corps et l’esprit ». De plus, en fin de séance je prends toujours un petit temps pour répondre à vos questions. ",
     "linkTo": "#",
     "linkLabel": "Prendre rendez-vous"
   },
@@ -24,12 +24,12 @@
     "title": "Tarifs",
     "cards": [
       {
-        "title": "Soins naturels et Kinésiologie",
-        "description": "(1h à 1h30)",
-        "price": "60e",
+        "title": "Soins énergétiques",
+        "description": "(1h - forfait 4 séances : 185€)",
+        "price": "50€",
         "image": {
           "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": "Tarif Kinesiologie et Soins naturels"
+          "alternativeText": "Tarifs soins énergétiques"
         },
         "linkTo": "/contact",
         "linkLabel": "Prendre RDV"
@@ -37,21 +37,21 @@
       {
         "title": "Soins naturels et Kinésiologie",
         "description": "(1h à 1h30)",
-        "price": "60e",
+        "price": "60€",
         "image": {
           "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": "Tarif Kinesiologie et Soins naturels"
+          "alternativeText": "Tarifs Kinesiologie et Soins naturels"
         },
         "linkTo": "/contact",
         "linkLabel": "Prendre RDV"
       },
       {
-        "title": "Soins naturels et Kinésiologie",
+        "title": "Arrêt du tabac",
         "description": "(1h à 1h30)",
-        "price": "60e",
+        "price": "70€",
         "image": {
-          "url": "http://localhost:3000/img/description.jpg",
-          "alternativeText": "Tarif Kinesiologie et Soins naturels"
+          "url": "http://localhost:3000/img/tarifs-arret-tabac.jpg",
+          "alternativeText": "Tarif arrêt du tabac"
         },
         "linkTo": "/contact",
         "linkLabel": "Prendre RDV"
@@ -59,14 +59,16 @@
     ]
   },
   "ListSection": {
-    "title": "Liste des pathologies",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur nisi ante, sodales aliquam orci bibendum vel. Nunc ac aliquet nulla. Fusce eget feugiat ex. Phasellus id augue tellus. Aliquam pellentesque auctor sem, et vehicula ex condimentum et. Nunc pulvinar cursus imperdiet. Ut felis leo, ultrices vel sollicitudin ac, sodales elementum velit. Proin sit amet ex ut orci volutpat consequat vitae vitae magna. Suspendisse et condimentum odio.",
+    "title": "Liste des problématiques",
+    "paragraph": "Toute personne ayant ce type d’atteinte peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
-      "Stress",
-      "Dépression",
-      "Anxiété",
-      "Burn out",
-      "Angoisse"
+      "Problématiques psychologiques",
+      "Douleurs physiques",
+	"Dermatoses",
+      "Problèmes gynécologiques",
+      "Problèmes respiratoires",
+	"Rééquilibrage énergétique",
+      "Renforcement du système immunitaires"
     ]
   }
 }
