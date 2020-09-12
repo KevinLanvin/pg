@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useLocation, NavLink } from 'react-router-dom';
-import { useInView } from 'react-intersection-observer';
 import classNames from 'classnames';
+import useIntersect from '../../../utils/useIntersect';
 
 import servicesData from '../../../data/services.json';
 import './Services.scss';
 
 const Services = ({ mobile = false }) => {
   const location = useLocation();
-  const { ref, inView, entry } = useInView();
+  const [ ref, entry ] = useIntersect({ threshold: 0});
 
-  const gridClass = classNames('services__grid', {'services__grid--visible' : inView });
+  const gridClass = classNames('services__grid', {'services__grid--visible' : entry.intersectionRatio > 0 });
 
   return (
     <section className="services">
