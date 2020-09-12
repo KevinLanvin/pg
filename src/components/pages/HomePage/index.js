@@ -20,7 +20,7 @@ const HomePage = ({ mobile = false }) => {
           const root = document.getElementsByClassName('App__content')[0];
           root.style.scrollBehavior = "smooth";
           root.scrollTo(0, descriptionEl.current.offsetTop);
-          root.style.scrollBehavior = "normal";
+          root.style.scrollBehavior = "auto";
         }}
       />
       <div ref={descriptionEl}>
