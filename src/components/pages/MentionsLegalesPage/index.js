@@ -15,15 +15,15 @@ const MentionsLegalesPage = () => (
       En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, il est précisé aux utilisateurs du site www.pauline-gorlier.com l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi :<br/>
 <strong>Propriétaire</strong> : Pauline Gorlier – Praticienne en soins naturels et énergétiques. Numéro d’immatriculation : 84535187300011 – 10 rue blablabla 59000 Lille <br />
 
-<strong>Créateur et réalisateur du site web :</strong> mgdg – Kevin Lanvin <br />
+<strong>Créateur et réalisateur du site web :</strong> <a href="www.mgdg.fr">MGDG</a> – Kevin Lanvin <br />
 
-<strong>Responsable publication:</strong> Pauline Gorlier – contact@pauline-gorlier.com <br />
+<strong>Responsable publication:</strong> <a href="mailto:contact@pauline-gorlier.com">Pauline Gorlier</a><br />
 Le responsable publication est une personne morale. <br />
-<strong>Webmaster :</strong> Kevin Lanvin – morgan@mgdg.fr <br />
+<strong>Webmaster :</strong> Kevin Lanvin – <a href="mailto:contact@mgdg.fr">MGDG</a><br />
 
 <strong>Hébergeur :</strong> OVH – 2 rue Kellermann – 59053 Roubaix – France <br />
 
-<strong>Crédits :</strong> Le modèle de mentions légales est offert par Subdelirium.com
+<strong>Crédits :</strong> Le modèle de mentions légales est offert par <a href="Subdelirium.com">Subdelirium.com</a>
     </p>
     <h3>2. Conditions générales d’utilisation du site et des services proposés.</h3>
     <p>
