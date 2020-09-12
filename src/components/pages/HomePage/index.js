@@ -18,9 +18,11 @@ const HomePage = ({ mobile = false }) => {
         title={content.MainTitle.title}
         onClick={() => {
           const root = document.getElementsByClassName('App__content')[0];
-          root.style.scrollBehavior = "smooth";
-          root.scrollTo(0, descriptionEl.current.offsetTop);
-          root.style.scrollBehavior = "auto";
+          root.scrollTo({
+            left: 0,
+            top: descriptionEl.current.offsetTop - 49,
+            behavior: 'smooth'
+          });
         }}
       />
       <div ref={descriptionEl}>
