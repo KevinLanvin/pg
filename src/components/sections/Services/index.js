@@ -9,11 +9,10 @@ import './Services.scss';
 
 const Services = ({ mobile = false }) => {
   const location = useLocation();
-  const { ref, inView } = useInView({
-    threshold: 0,
-  });
+  const { ref, inView, entry } = useInView();
 
-  const gridClass = classNames('services__grid', { 'services__grid--visible': inView })
+  const gridClass = classNames('services__grid', {'services__grid--visible' : inView });
+
   return (
     <section className="services">
       <h2 className="services__title center">{servicesData.title}</h2>
