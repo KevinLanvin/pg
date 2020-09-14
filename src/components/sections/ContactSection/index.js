@@ -26,8 +26,8 @@ const ContactSection = ({
         <p>{email}</p>
         <p>{address1}<br/>{address2}</p>
         <p>
-          <a href={linkedInLinkTo}><img src={LinkedInIcon} alt="Linked In Pauline Gorlier" /></a>
-          <a href={facebookLinkTo}><img src={FacebookIcon} alt="Facebook Pauline Gorlier" /></a>
+          <a href={linkedInLinkTo} target="_blank" rel="noopener noreferrer"><img src={LinkedInIcon} alt="Linked In Pauline Gorlier" /></a>
+          <a href={facebookLinkTo} target="_blank" rel="noopener noreferrer"><img src={FacebookIcon} alt="Facebook Pauline Gorlier" /></a>
         </p>
       </div>
     </div>
