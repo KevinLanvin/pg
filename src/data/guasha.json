@@ -17,7 +17,7 @@
     "title": "Le massage guasha",
     "paragraph": "Le terme « Gua » signifie « gratter » et « sha » renvoie à la « maladie ». Ce massage consiste à purifier le corps pour prévenir les maladies. Retrouvez les bienfaits du guasha et ses techniques d'utilisation",
     "image": {
-      "url": "http://localhost:3000/img/guasha-2.jpg",
+      "url": "/img/guasha-2.jpg",
       "alternativeText": "Ventouses bannière"
     }
   },
@@ -27,7 +27,7 @@
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/guasha.jpg",
+      "url": "/img/guasha.jpg",
       "alternativeText": "Le guasha"
     }
   },

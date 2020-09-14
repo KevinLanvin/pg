@@ -17,7 +17,7 @@
     "title": "La réflexologie auriculaire",
     "paragraph": "La réflexologie auriculaire rappelle l'acupuncture mais se restreint à l'oreille. Pourquoi ? Dans le pavillon de l’oreille, on retrouve une projection de toutes les zones du corps et des organes. Issue de la médecine chinoise, cette technique réduira vos maux et douleurs. Découvrez les techniques d'application et ses effets !  ",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
+      "url": "/img/description.jpg",
       "alternativeText": "Réflexologie auriculaire bannière"
     }
   },
@@ -27,7 +27,7 @@
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/description.jpg",
+      "url": "/img/description.jpg",
       "alternativeText": "Réflexologie auriculaire"
     }
   },

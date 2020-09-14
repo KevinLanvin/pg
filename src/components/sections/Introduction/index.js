@@ -15,7 +15,7 @@ const Introduction = ({
     <p>{paragraph}</p>
     {!!citation && <BlockQuote text={citation} bordered />}
     {!!image && <div className="introduction__banner">
-      <img src={image.url} alt={image.alternativeText} className="introduction__banner--background" />
+      <img src={`${process.env.REACT_APP_BACKEND_URL}${image.url}`} alt={image.alternativeText} className="introduction__banner--background" />
     </div>}
   </header>
 );

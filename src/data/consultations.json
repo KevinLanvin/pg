@@ -28,7 +28,7 @@
         "description": "(1h - forfait 4 séances : 185€)",
         "price": "50€",
         "image": {
-          "url": "http://localhost:3000/img/tarifs-soins-energetiques.jpg",
+          "url": "/img/tarifs-soins-energetiques.jpg",
           "alternativeText": "Tarifs soins énergétiques"
         },
         "linkTo": "/contact",
@@ -39,7 +39,7 @@
         "description": "(1h à 1h30)",
         "price": "60€",
         "image": {
-          "url": "http://localhost:3000/img/tarifs-kinesiologie.jpg",
+          "url": "/img/tarifs-kinesiologie.jpg",
           "alternativeText": "Tarifs Kinesiologie et Soins naturels"
         },
         "linkTo": "/contact",
@@ -50,7 +50,7 @@
         "description": "(1h à 1h30)",
         "price": "70€",
         "image": {
-          "url": "http://localhost:3000/img/tarifs-arret-tabac.jpg",
+          "url": "/img/tarifs-arret-tabac.jpg",
           "alternativeText": "Tarif arrêt du tabac"
         },
         "linkTo": "/contact",

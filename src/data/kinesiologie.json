@@ -21,7 +21,7 @@
       "linkTo": "/contact",
       "linkLabel": "Prendre rendez-vous",
       "image": {
-        "url": "http://localhost:3000/img/kinesiologie.jpg",
+        "url": "/img/kinesiologie.jpg",
         "alternativeText": "kinesiologie touch for health"
       }
     },
@@ -29,7 +29,7 @@
       "title": "Le One brain",
       "paragraph": "Le « one brain » signifie l’intégration du corps, du mental et de l’esprit. Cette méthode a fait ses preuves pour permettre un travail sur la gestion du stress et des émotions. L'objectif consiste à lever vos blocages émotionnels en modifiant votre perception du temps présent sur une situation difficile du passé. Des techniques de libération de stress émotionnel, de visualisation, de mouvements oculaires ou encore de verbalisation des émotions vont permettre de réduire les émotions négatives et le stress associés à l’évènement passé. C’est pourquoi la kinésiologie se trouve particulièrement performante pour aborder toutes problématiques causées par un stress ou un choc émotionnel. De plus, en « One brain » nous travaillons sur tous les niveaux de conscience (conscient, subconscient, corps).",
       "image": {
-        "url": "http://localhost:3000/img/kinesiologie-2.jpg",
+        "url": "/img/kinesiologie-2.jpg",
         "alternativeText": "kinesiologie one brain"
       },
       "linkTo": "/contact",

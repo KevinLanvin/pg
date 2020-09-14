@@ -13,7 +13,7 @@
     "title": "Qui suis-je ?",
     "paragraph": "Praticienne en soins naturels et énergétiques à Lille, je vous propose des techniques variées et adaptées à vos problématiques : reïki, ventouses chinoises, massage guasha, moxibustion, réflexologie auriculaire, kinésiologie, ... Découvrez mon parcours et les valeurs qu'il me tient à coeur de partager !",
     "image": {
-      "url": "http://localhost:3000/img/praticienne-soins-naturels-2.jpg",
+      "url": "/img/praticienne-soins-naturels-2.jpg",
       "alternativeText": "praticienne en soins naturels et énergétiques"
     }
   },
@@ -23,7 +23,7 @@
     "linkTo": "/consultations",
     "linkLabel": "Découvrir les tarifs",
     "image": {
-      "url": "http://localhost:3000/img/praticienne-soins-naturels-3.JPG",
+      "url": "/img/praticienne-soins-naturels-3.JPG",
       "alternativeText": "Praticienne lille"
     }
   },
@@ -36,7 +36,7 @@
         "year": "2016",
         "name": "Formation hypnose Ericksonienne",
         "image": {
-          "url": "http://localhost:3000/img/hypnose.svg",
+          "url": "/img/hypnose.svg",
           "alternativeText": "Hypnose"
         }
       },
@@ -44,7 +44,7 @@
         "year": "2018",
         "name": "Maitrise en NeuroPsychologie",
         "image": {
-          "url": "http://localhost:3000/img/neuropsy.svg",
+          "url": "/img/neuropsy.svg",
           "alternativeText": "NeuroPsychologie"
         }
       },
@@ -52,7 +52,7 @@
         "year": "2016-2019",
         "name": "Formation Reïki",
         "image": {
-          "url": "http://localhost:3000/img/reiki.svg",
+          "url": "/img/reiki.svg",
           "alternativeText": "Reiki"
         }
       },
@@ -60,7 +60,7 @@
         "year": "2019",
         "name": "Formation Ventouses / Moxibustion / Guasha",
         "image": {
-          "url": "http://localhost:3000/img/ventouses.svg",
+          "url": "/img/ventouses.svg",
           "alternativeText": "Ventouses Moxibustion Guasha"
         }
       },
@@ -68,7 +68,7 @@
         "year": "2019",
         "name": "Formation Réflexologie auriculaire",
         "image": {
-          "url": "http://localhost:3000/img/auriculo.svg",
+          "url": "/img/auriculo.svg",
           "alternativeText": "Réflexologie auriculaire"
         }
       },
@@ -76,7 +76,7 @@
         "year": "2020",
         "name": "Formation Kinésiologie",
         "image": {
-          "url": "http://localhost:3000/img/kinesiologie.svg",
+          "url": "/img/kinesiologie.svg",
           "alternativeText": "Kinésiologie"
         }
       }

@@ -16,7 +16,7 @@ const Card = ({
 }) => (
   <Link className="card" to={linkTo}>
     <div className="card__wrapper">
-      <img className="card__picture" src={image} alt={imageAlt} />
+      <img className="card__picture" src={`${process.env.REACT_APP_BACKEND_URL}${image}`} alt={imageAlt} />
       <div className="card__text">
         <h3 className="card__title center">{title}</h3>
         {!!price &&

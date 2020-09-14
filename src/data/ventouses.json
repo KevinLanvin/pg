@@ -16,7 +16,7 @@
   "Introduction": {
     "title": "Les Ventouses chinoises",
     "image": {
-      "url": "http://localhost:3000/img/ventouses.JPG",
+      "url": "/img/ventouses.JPG",
       "alternativeText": "Ventouses bannière"
     }
   },
@@ -26,7 +26,7 @@
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/ventouses-2.JPG",
+      "url": "/img/ventouses-2.JPG",
       "alternativeText": "Les ventouses"
     }
   },

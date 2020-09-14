@@ -17,7 +17,7 @@
     "title": "La moxibustion",
     "paragraph": "Le terme « Moxa » signifie « herbe brulée. Il s'agit d'une technique qui vise à soulager les douleurs par une source de chaleur. Découvrez tous les bienfaits de la moxibustion ci-dessous ! ",
     "image": {
-      "url": "http://localhost:3000/img/moxibustion-3.jpg",
+      "url": "/img/moxibustion-3.jpg",
       "alternativeText": "Moxibustion bannière"
     }
   },
@@ -27,7 +27,7 @@
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels",
     "image": {
-      "url": "http://localhost:3000/img/moxibustion-2.jpg",
+      "url": "/img/moxibustion-2.jpg",
       "alternativeText": "La moxibustion"
     }
   },

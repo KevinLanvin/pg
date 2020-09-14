@@ -4,7 +4,7 @@
     {
       "title": "Soins Naturels",
       "image": {
-        "url": "http://localhost:3000/img/soins-naturels-ventouses.JPG",
+        "url": "/img/soins-naturels-ventouses.JPG",
         "alternativeText": "Soins Naturels"
       },
       "examples": [
@@ -18,7 +18,7 @@
     {
       "title": "Soins Énergétiques",
       "image": {
-        "url": "http://localhost:3000/img/soins-energetiques-reiki.JPG",
+        "url": "/img/soins-energetiques-reiki.JPG",
         "alternativeText": "Soins Énergétiques"
       },
       "examples": [
@@ -29,7 +29,7 @@
     {
       "title": "Kinésiologie",
       "image": {
-        "url": "http://localhost:3000/img/description.jpg",
+        "url": "/img/description.jpg",
         "alternativeText": "Kinésiologie"
       },
       "examples": [
@@ -41,7 +41,7 @@
     {
       "title": "Spécial Arrêt du tabac",
       "image": {
-        "url": "http://localhost:3000/img/arret-du-tabac-hypnose.jpg",
+        "url": "/img/arret-du-tabac-hypnose.jpg",
         "alternativeText": "Spécial arrêt du tabac"
       },
       "examples": [

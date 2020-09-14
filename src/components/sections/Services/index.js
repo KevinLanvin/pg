@@ -21,7 +21,7 @@ const Services = ({ mobile = false }) => {
           service.linkTo !== location.pathname ? (
             <NavLink to={service.linkTo} className="services__service" key={service.title}>
               <div className="service__image">
-                <img src={service.image.url} alt={service.image.alternativeText} />
+                <img src={`${process.env.REACT_APP_BACKEND_URL}${service.image.url}`} alt={service.image.alternativeText} />
                 <div className="service__title">
                   <h4 className="white center">{service.title}</h4>
                 </div>

@@ -35,7 +35,7 @@ const SplittedSection = ({
         {citation && <BlockQuote text={citation} />}
       </div>
       <div className={imageClass}>
-        <img src={imageSource} alt={imageAlt} />
+        <img src={`${process.env.REACT_APP_BACKEND_URL}${imageSource}`} alt={imageAlt} />
       </div>
     </div>
     {hasFlower && <Flower className="splitted-section__flower" />}

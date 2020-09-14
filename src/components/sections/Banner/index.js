@@ -14,7 +14,7 @@ const Banner = ({
     <h1 className="white">{title}</h1>
     <Button name="En savoir plus" onClick={onClick} />
     <div className="banner__image">
-      <img src={image} alt={imageAlt} />
+      <img src={`${process.env.REACT_APP_BACKEND_URL}${image}`} alt={imageAlt} />
     </div>
   </section>
 );
