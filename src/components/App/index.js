@@ -6,6 +6,8 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import ReactGA from 'react-ga';
+
 import ScrollToTop from '../ScrollToTop';
 
 import HomePage from '../pages/HomePage';
@@ -25,6 +27,9 @@ import NotFound from '../pages/NotFoundPage';
 
 import '../../styles/index.scss';
 import './app.scss';
+
+ReactGA.initialize('');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [ mobile, setMobile ] = useState(window.innerWidth <= 1150);
