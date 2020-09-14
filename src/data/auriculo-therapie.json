@@ -10,7 +10,7 @@
     },
     {
       "linkLabel": "Réflexologie auriculaire",
-      "linkTo": "/auriculo-therapie"
+      "linkTo": "/reflexologie-auriculaire"
     }
   ],
   "Introduction": {
@@ -33,14 +33,14 @@
   },
   "Details": {
     "title": "Les techniques d'application",
-    "leftColumn": "Il existe ainsi une cartographie des parties du corps au niveau de l’oreille (tout comme sur le pied en réflexologie plantaire), c’est ce que l’on appelle la « somatotopie auriculaire ». Le praticien va donc les zones douloureuses à l’aide d’un stylet puis, pour effectuer la stimulation des zones voulues, il peut utiliser des aiguilles semi-permanentes (ASP) à usage unique. ",
+    "leftColumn": "Il existe ainsi une cartographie des parties du corps au niveau de l’oreille (tout comme sur le pied en réflexologie plantaire), c’est ce que l’on appelle la « somatotopie auriculaire ». Le praticien va donc chercher les zones douloureuses à l’aide d’un stylet puis, pour effectuer la stimulation des zones voulues, il peut utiliser des aiguilles semi-permanentes (ASP) à usage unique. ",
     "rightColumn": "Toutefois, en réflexologie auriculaire, il existe des techniques moins invasives comme l’utilisation de graines végétales (qui seront gardées plusieurs jours sur l’oreille) ou le massage auriculaire des zones réflexes avec un stylet.",
     "linkTo": "/contact",
     "linkLabel": "Prendre rendez-vous"
   },
   "ListSection": {
     "title": "Liste des problématiques",
-    "paragraph": "Toute personne ayant ce type d’atteinte peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
+    "paragraph": "Toute personne ayant ce type de problématiques peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
       "Problématiques psychologiques",
       "Douleurs physiques",

@@ -64,7 +64,7 @@ function App() {
             <Route path="/guasha" exact>
               <Guasha mobile={mobile} />
             </Route>
-            <Route path="/auriculo-therapie" exact>
+            <Route path="/reflexologie-auriculaire" exact>
               <AuriculoTherapie mobile={mobile} />
             </Route>
             <Route path="/ventouses" exact>
