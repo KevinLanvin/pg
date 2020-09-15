@@ -50,8 +50,8 @@ const NavBar = ({ mobile }) => {
             <span></span>
           </label>
           <div className={navMobileClass}>
-            <span>Services</span>
-            <span><NavLink className="header__sublink" to="/soins-naturels" onClick={closeMenu}>Soins naturels</NavLink></span>
+            <span className={servicesClass}>Services</span>
+            <span><NavLink className={`header__sublink ${soinsNaturelsClass}`} to="/soins-naturels" onClick={closeMenu}>Soins naturels</NavLink></span>
             <span><NavLink className="header__sublink" to="/soins-energetiques" onClick={closeMenu}>Soins énergétiques</NavLink></span>
             <span><NavLink className="header__sublink" to="/kinesiologie" onClick={closeMenu}>Kinésiologie</NavLink></span>
             <span><NavLink className="header__sublink" to="/arret-tabac" onClick={closeMenu}>Arrêt du Tabac</NavLink></span>

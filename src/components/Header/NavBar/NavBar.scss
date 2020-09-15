@@ -156,4 +156,7 @@
   &--visible {
     transform: translateX(0);
   }
+  .active {
+    color: $color-accent;
+  }
 }
