@@ -12,12 +12,12 @@
   "Introduction": {
     "title": "Soins naturels",
     "paragraph": "Les soins naturels se caractérisent par l’utilisation de techniques ancestrales oubliées par la médecine moderne. Ils visent à stimuler les défenses immunitaires par des moyens naturels pour que l'organisme se guérisse lui-même. Ainsi, aucun produit chimique n'est utilisé. Découvrez ci-dessous mes différentes méthodes de soins naturels.",
-    "citation": "L'homme n'a pas été crée pour tomber malade mais pour s'auto-guérir. Jean Pélissier"
+    "citation": "L'homme n'a pas été créé pour tomber malade mais pour s'auto-guérir. Jean Pélissier"
   },
   "Techniques": [
     {
       "title": "Les ventouses chinoises",
-      "paragraph": "L’utilisation des ventouses est une technique ancestrale qui, toutefois, reste efficace de nos jours pour palier à la surconsommation d’antibiotiques et la résistance à certaines bactéries.  La pose de ventouses contribue à la dilatation des pores de la peau et va « aspirer » et éliminer les toxines du corps. Elle augmente aussi le nombre de globules rouges dans le corps et provoque la libération d’endorphines et de sérotonine pour une sensation de bien-être maximale.",
+      "paragraph": "L’utilisation des ventouses est une technique ancestrale qui, toutefois, reste efficace de nos jours pour pallier la surconsommation d’antibiotiques et la résistance à certaines bactéries.  La pose de ventouses contribue à la dilatation des pores de la peau et va « aspirer » et éliminer les toxines du corps. Elle augmente aussi le nombre de globules rouges dans le corps et provoque la libération d’endorphines et de sérotonine pour une sensation de bien-être maximale.",
       "linkTo": "/ventouses",
       "linkLabel": "En savoir plus",
       "image": {
@@ -66,7 +66,7 @@
       "Problèmes gynécologiques",
       "Problèmes respiratoires",
 	"Rééquilibrage énergétique",
-      "Renforcement du système immunitaires"
+      "Renforcement du système immunitaire"
     ]
   }
 }

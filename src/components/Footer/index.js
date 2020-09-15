@@ -23,7 +23,7 @@ const Footer = ({ mobile = false }) => (
           <Link to="/mentions-legales" className="footer__link">Mentions Légales</Link>
         </>
       )}
-      <p>Site réalisé par <a href="mgdg.fr" target="_blank" rel="noopener noreferrer">MGDG</a> et <a href="https://www.linkedin.com/in/kevin-lanvin-0208281b5/" target="_blank" rel="noopener noreferrer">Kévin Lanvin</a></p>
+      <p>Site réalisé par <a href="https://mgdg.fr" target="_blank" rel="noopener noreferrer">MGDG</a> et <a href="https://www.linkedin.com/in/kevin-lanvin-0208281b5/" target="_blank" rel="noopener noreferrer">Kévin Lanvin</a></p>
     </div>
   </footer>
 );

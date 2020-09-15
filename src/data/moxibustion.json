@@ -17,7 +17,7 @@
     "title": "La moxibustion",
     "paragraph": "Le terme « Moxa » signifie « herbe brulée ». Il s'agit d'une technique qui vise à soulager les douleurs par une source de chaleur. Découvrez tous les bienfaits de la moxibustion ci-dessous ! ",
     "image": {
-      "url": "/img/moxibustion-3.jpg",
+      "url": "/img/moxibustion-3.JPG",
       "alternativeText": "Moxibustion bannière"
     }
   },
@@ -27,7 +27,7 @@
     "linkTo": "/contact",
     "linkLabel": "Prendre rendez-vous",
     "image": {
-      "url": "/img/moxibustion-2.jpg",
+      "url": "/img/moxibustion-2.JPG",
       "alternativeText": "La moxibustion"
     }
   },
@@ -38,17 +38,17 @@
     "linkTo": "/soins-naturels",
     "linkLabel": "Retour aux autres soins naturels"
   },
-"ListSection": {
+  "ListSection": {
     "title": "Liste des problématiques",
     "paragraph": "Toute personne ayant ce type de problématiques peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
     "list": [
       "Problématiques psychologiques",
       "Douleurs physiques",
-	"Dermatoses",
+      "Dermatoses",
       "Problèmes gynécologiques",
       "Problèmes respiratoires",
-	"Rééquilibrage énergétique",
-      "Renforcement du système immunitaires"
+      "Rééquilibrage énergétique",
+      "Renforcement du système immunitaire"
     ]
   }
 
