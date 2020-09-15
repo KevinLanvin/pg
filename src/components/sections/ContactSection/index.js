@@ -23,7 +23,7 @@ const ContactSection = ({
       <div className="contact-section__card">
         <h2>{title}</h2>
         <p>{phone}</p>
-        <p>{email}</p>
+        <p><a href={`mailto:${email}`}>{email}</a></p>
         <p>{address1}<br/>{address2}</p>
         <p>
           <a href={linkedInLinkTo} target="_blank" rel="noopener noreferrer"><img src={LinkedInIcon} alt="Linked In Pauline Gorlier" /></a>
