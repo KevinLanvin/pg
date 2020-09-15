@@ -43,6 +43,9 @@
     }
     .chevron {
       fill: $color-grey;
+      &--active {
+        fill: $color-accent;
+      }
     }
   }
   .header__spacing {
