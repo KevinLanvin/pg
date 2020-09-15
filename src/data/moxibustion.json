@@ -24,8 +24,8 @@
   "Technique": {
     "title": "Les effets de la moxibustion",
     "paragraph": "La moxibustion va permettre d’activer les défenses naturelles de l’organisme : elle est auto-immunitaire. La chaleur va non seulement induire un état relaxant et de soulagement de la douleur mais va aussi permettre de chasser l’humidité du corps. La moxibustion agit également sur la circulation sanguine et lymphatique, elle stimule l’énergie du « QI » (notre énergie vitale) et augmente le nombre de globules blancs dans le corps. S’ajoutent à cela les différentes propriétés de l’armoise ; elle est purifiante, bactéricide et apaise les douleurs.",
-    "linkTo": "/soins-naturels",
-    "linkLabel": "Retour aux autres soins naturels",
+    "linkTo": "/contact",
+    "linkLabel": "Prendre rendez-vous",
     "image": {
       "url": "/img/moxibustion-2.jpg",
       "alternativeText": "La moxibustion"
@@ -35,8 +35,8 @@
     "title": "Techniques d'application",
     "leftColumn": "La peau est donc le récepteur de départ et cet effet thermique va être transféré par les nerfs jusqu’au cerveau. Il est possible d’utiliser un cône de moxa sur une tranche d’ail (qui est aussi bactéricide) dans le cas de verrues ou furoncles. Il existe différents moyens d’utilisation de la moxibustion mais je me sers principalement de 3 outils en moxibustion. ",
     "rightColumn": "Le bâton de moxa est utilisé sur des points d’acuponcture précis, le Tiger warmer permet de libérer les tensions, soulager les maux de dos ou encore pour une relaxation optimale, et enfin la boîte à moxa est souvent utilisée pour rebooster, tonifier, et redonner de l’énergie en cas de grande fatigue ou de dépression.",
-    "linkTo": "/contact",
-    "linkLabel": "Prendre rendez-vous"
+    "linkTo": "/soins-naturels",
+    "linkLabel": "Retour aux autres soins naturels"
   },
 "ListSection": {
     "title": "Liste des problématiques",

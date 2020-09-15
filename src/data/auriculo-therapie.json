@@ -24,8 +24,8 @@
   "Technique": {
     "title": "Les effets de la réflexologie auriculaire",
     "paragraph": "La réflexologie auriculaire est une technique très efficace car le pavillon de l’oreille possède beaucoup d’innervations et se trouve proche du cerveau. L’information est donc envoyée au cerveau très rapidement et celui-ci peut, à son tour, transmettre l’information aux organes et différentes parties du corps concernées. La réflexologie auriculaire permet ainsi d’observer des bienfaits assez rapides.",
-    "linkTo": "/soins-naturels",
-    "linkLabel": "Retour aux autres soins naturels",
+    "linkTo": "/contact",
+    "linkLabel": "Prendre rendez-vous",
     "image": {
       "url": "/img/reflexologie-auriculaire-2.jpg",
       "alternativeText": "Réflexologie auriculaire"
@@ -35,8 +35,8 @@
     "title": "Les techniques d'application",
     "leftColumn": "Il existe ainsi une cartographie des parties du corps au niveau de l’oreille (tout comme sur le pied en réflexologie plantaire), c’est ce que l’on appelle la « somatotopie auriculaire ». Le praticien va donc chercher les zones douloureuses à l’aide d’un stylet puis, pour effectuer la stimulation des zones voulues, il peut utiliser des aiguilles semi-permanentes (ASP) à usage unique. ",
     "rightColumn": "Toutefois, en réflexologie auriculaire, il existe des techniques moins invasives comme l’utilisation de graines végétales (qui seront gardées plusieurs jours sur l’oreille) ou le massage auriculaire des zones réflexes avec un stylet.",
-    "linkTo": "/contact",
-    "linkLabel": "Prendre rendez-vous"
+    "linkTo": "/soins-naturels",
+    "linkLabel": "Retour aux autres soins naturels"
   },
   "ListSection": {
     "title": "Liste des problématiques",

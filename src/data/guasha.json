@@ -24,8 +24,8 @@
   "Technique": {
     "title": "Les effets du guasha",
     "paragraph": "Le grattage de la peau avec cette pierre libère ainsi les agents pathogènes de la surface de la peau. A la suite du massage Guasha la peau de la personne peut devenir très rouge (c'est ce qu’on appelle le « sha »). Cette couleur rougeâtre est le signe de l’élimination des toxines. L’intensité du rougissement cutané est une indication sur la quantité de toxines présentes dans corps (et donc éliminées). Aussi, plus le « sha » est foncé, plus cela signifie qu’il est vieux. Toutefois, les marques provoquées s’estompent généralement entre 1 à 3 jours. Enfin, le massage Guasha permet également une amélioration de la circulation sanguine et du système immunitaire. ",
-    "linkTo": "/soins-naturels",
-    "linkLabel": "Retour aux autres soins naturels",
+    "linkTo": "/contact",
+    "linkLabel": "Prendre rendez-vous",
     "image": {
       "url": "/img/guasha-1.jpg",
       "alternativeText": "Le guasha"
@@ -35,8 +35,8 @@
     "title": "Les techniques d'application",
     "leftColumn": "Le guasha est un massage énergique qui se fait par frottement d'une pierre contre la peau.",
     "rightColumn": "C'est grâce à ce frottement que les toxines vont émerger à la surface et ainsi être évacuées.",
-    "linkTo": "/contact",
-    "linkLabel": "Prendre rendez-vous"
+    "linkTo": "/soins-naturels",
+    "linkLabel": "Retour aux autres soins naturels"
   },
   "ListSection": {
     "title": "Liste des problématiques",
