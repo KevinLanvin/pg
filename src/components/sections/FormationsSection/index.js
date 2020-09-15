@@ -31,7 +31,7 @@ const FormationsSection = ({
     slidesToShow: mobile ? 1 : 5,
     slidesToScroll: 1,
     infinite: true,
-    autoPlay: false,
+    autoplay: true,
     draggable: false,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
