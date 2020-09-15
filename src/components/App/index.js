@@ -28,7 +28,7 @@ import NotFound from '../pages/NotFoundPage';
 import '../../styles/index.scss';
 import './app.scss';
 
-ReactGA.initialize('');
+ReactGA.initialize('UA-178029621-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
