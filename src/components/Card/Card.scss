@@ -76,13 +76,26 @@
   }
   &__price-container {
     .card__price {
-      font-size: 4em;
+      font-size: 4rem;
       line-height: 1em;
       text-align: center;
     }
     .card__description {
       text-align: center;
       margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .card {
+    &__text {
+      transform: translateY(20%);
+    }
+    &__price-container {
+      .card__price {
+        font-size: 2rem;
+      }
     }
   }
 }
