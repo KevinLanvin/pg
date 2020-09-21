@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useLocation, NavLink } from 'react-router-dom';
-import classNames from 'classnames';
 import useIntersect from '../../../utils/useIntersect';
 
 import servicesData from '../../../data/services.json';
@@ -9,14 +8,19 @@ import './Services.scss';
 
 const Services = ({ mobile = false }) => {
   const location = useLocation();
-  const [ ref, entry ] = useIntersect({ threshold: 0});
-
-  const gridClass = classNames('services__grid', {'services__grid--visible' : entry.intersectionRatio > 0 });
+  const [ ref, entry ] = useIntersect({});
+  useEffect(() => {
+    if(entry.isIntersecting) {
+      document.getElementsByClassName('services__grid')[0].classList.add('services__grid--visible');
+    } else {
+      document.getElementsByClassName('services__grid')[0].classList.remove('services__grid--visible');
+    }
+  }, [entry.isIntersecting]);
 
   return (
     <section className="services">
       <h2 className="services__title center">{servicesData.title}</h2>
-      <div className={gridClass} ref={ref}>
+      <div className="services__grid" ref={ref}>
         { servicesData.services.map((service, index) =>
           service.linkTo !== location.pathname ? (
             <NavLink to={service.linkTo} className="services__service" key={service.title}>
@@ -47,5 +51,7 @@ const Services = ({ mobile = false }) => {
 Services.propTypes = {
   mobile: PropTypes.bool,
 };
+
+Services.shouldComponentUpdate = () => false;
 
 export default Services;
