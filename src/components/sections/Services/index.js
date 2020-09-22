@@ -1,26 +1,26 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { useLocation, NavLink } from 'react-router-dom';
-import useIntersect from '../../../utils/useIntersect';
+import { InView } from 'react-intersection-observer';
 
 import servicesData from '../../../data/services.json';
 import './Services.scss';
 
 const Services = ({ mobile = false }) => {
   const location = useLocation();
-  const [ ref, entry ] = useIntersect({});
-  useEffect(() => {
-    if(entry.isIntersecting) {
+
+  const changeInView = inView => {
+    if(inView) {
       document.getElementsByClassName('services__grid')[0].classList.add('services__grid--visible');
     } else {
       document.getElementsByClassName('services__grid')[0].classList.remove('services__grid--visible');
     }
-  }, [entry.isIntersecting]);
+  };
 
   return (
     <section className="services">
       <h2 className="services__title center">{servicesData.title}</h2>
-      <div className="services__grid" ref={ref}>
+      <InView as="div" className="services__grid" onChange={(inView, entry) => changeInView(inView)}>
         { servicesData.services.map((service, index) =>
           service.linkTo !== location.pathname ? (
             <NavLink to={service.linkTo} className="services__service" key={service.title}>
@@ -43,7 +43,7 @@ const Services = ({ mobile = false }) => {
               )}
             </NavLink>
           ):null)}
-      </div>
+      </InView>
     </section>
   );
 };
