@@ -1,4 +1,10 @@
 {
+  "Head": {
+    "title": "Pauline Gorlier - Moxibustion",
+    "description": "La moxibustion est une technique simple réalisée à l’aide de la combustion d’une plante ; l’armoise. La moxibustion consiste ainsi à apporter une source de chaleur sur des points précis tels que les points d’acuponcture. Cette méthode vous plongera dans un état relaxant et soulagera vos douleurs.",
+    "url": "https://pauline-gorlier.com/moxibustion",
+    "image": "https://www.pauline-gorlier.com/img/moxibustion.JPG"
+  },
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",
@@ -51,5 +57,4 @@
       "Renforcement du système immunitaire"
     ]
   }
-
 }

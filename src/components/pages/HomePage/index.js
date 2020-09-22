@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 
 import Banner from '../../sections/Banner';
 import Services from '../../sections/Services';
@@ -12,6 +13,20 @@ const HomePage = ({ mobile = false }) => {
   const descriptionEl = useRef('description');
   return (
     <main>
+      <Helmet>
+        <title>{content.Head.title}</title>
+        <meta name="title" content={content.Head.title} />
+        <meta name="description" content={content.Head.description} />
+        <meta property="og:url" content={content.Head.url} />
+        <meta property="og:title" content={content.Head.title} />
+        <meta property="og:description" content={content.Head.description} />
+        <meta property="og:image" content={content.Head.image} />
+        <meta property="twitter:url" content={content.Head.url} />
+        <meta property="twitter:title" content={content.Head.title} />
+        <meta property="twitter:description" content={content.Head.description} />
+        <meta property="twitter:image" content={content.Head.image} />
+      </Helmet>
+
       <Banner
         image={content.MainTitle.Banner.url}
         imageAlt={content.MainTitle.Banner.alternativeText}
@@ -26,15 +41,15 @@ const HomePage = ({ mobile = false }) => {
         }}
       />
       <div ref={descriptionEl}>
-      <SplittedSection
-        title={content.Description.title}
-        text={content.Description.paragraph}
-        citation={content.Description.citation}
-        imageSource={content.Description.image.url}
-        imageAlt={content.Description.image.alternativeText}
-        isTextOnRight
-        roundedImage
-      />
+        <SplittedSection
+          title={content.Description.title}
+          text={content.Description.paragraph}
+          citation={content.Description.citation}
+          imageSource={content.Description.image.url}
+          imageAlt={content.Description.image.alternativeText}
+          isTextOnRight
+          roundedImage
+        />
       </div>
       <Services
         title={content.Services.title}

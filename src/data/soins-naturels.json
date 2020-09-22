@@ -1,4 +1,10 @@
 {
+  "Head": {
+    "title":"Pauline Gorlier - Soins naturels",
+    "description": "Les soins naturels se caractérisent par l’utilisation de techniques ancestrales oubliées par la médecine moderne. Ils visent à stimuler les défenses immunitaires par des moyens naturels pour que l'organisme se guérisse lui-même.",
+    "url": "https://pauline-gorlier.com/soins-naturels",
+    "image": "https://pauline-gorlier.com/img/soins-naturels-ventouses.JPG"
+  },
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",

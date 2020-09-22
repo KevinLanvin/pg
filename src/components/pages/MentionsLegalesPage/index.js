@@ -1,10 +1,20 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Introduction from '../../sections/Introduction';
 
 import './mentionsLegalesPage.scss';
 
 const MentionsLegalesPage = () => (
   <main className="mentions-legales">
+    <Helmet>
+      <title>Pauline Gorlier - Mentions Légales</title>
+      <meta name="title" content="Pauline Gorlier - Mentions Légales" />
+      <meta property="og:url" content="https://pauline-gorlier.com/mentions-legales" />
+      <meta property="og:title" content="Pauline Gorlier - Mentions Légales" />
+      <meta property="twitter:url" content="https://pauline-gorlier.com/mentions-legales" />
+      <meta property="twitter:title" content="Pauline Gorlier - Mentions Légales" />
+    </Helmet>
+
     <Introduction
       title="Mentions Légales"
       paragraph="Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., nous portons à la connaissance des utilisateurs et visiteurs du site : www.pauline-gorlier.com les informations suivantes :"

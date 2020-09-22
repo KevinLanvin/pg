@@ -1,4 +1,10 @@
 {
+  "Head": {
+    "title": "Pauline Gorlier - Consultations et tarifs",
+    "description": "Découvrez le déroulement d'une séance ainsi que les tarifs des différents services proposés (Soins énergétiques, Soins Naturels et Kinésiologie, Arrêt du tabac).",
+    "url": "https://pauline-gorlier.com/consultations",
+    "image": "https://pauline-gorlier.com/img/reiki.JPG"
+  },
   "Breadcrumbs": [
     {
       "linkLabel": "Accueil",

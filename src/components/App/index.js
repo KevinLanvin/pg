@@ -7,6 +7,7 @@ import {
   Route
 } from 'react-router-dom';
 import ReactGA from 'react-ga';
+import { Helmet } from 'react-helmet';
 
 import ScrollToTop from '../ScrollToTop';
 
@@ -45,6 +46,21 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
+        <Helmet>
+          <title>Pauline Gorlier - Soins naturels et énergétiques à Lille</title>
+          <meta name="title" content="Pauline Gorlier - Soins naturels et énergétiques à Lille" />
+          <meta name="description" content="Pauline Gorlier, Praticienne en Soins Naturels et Energétiques à Lille. Soignez votre corps et votre esprit pour retrouver l'équilibre dans votre vie." />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://pauline-gorlier.com/" />
+          <meta property="og:title" content="Pauline Gorlier - Soins naturels et énergétiques à Lille" />
+          <meta property="og:description" content="Pauline Gorlier, Praticienne en Soins Naturels et Energétiques à Lille. Soignez votre corps et votre esprit pour retrouver l'équilibre dans votre vie." />
+          <meta property="og:image" content="https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg" />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://pauline-gorlier.com/" />
+          <meta property="twitter:title" content="Pauline Gorlier - Soins naturels et énergétiques à Lille" />
+          <meta property="twitter:description" content="Pauline Gorlier, Praticienne en Soins Naturels et Energétiques à Lille. Soignez votre corps et votre esprit pour retrouver l'équilibre dans votre vie." />
+          <meta property="twitter:image" content="https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg" />
+        </Helmet>
         <Header mobile={mobile} />
         <div className="App__content">
           <Switch>
