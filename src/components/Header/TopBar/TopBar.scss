@@ -24,9 +24,15 @@
 
 .header__social {
   display: flex;
+  align-items: center;
+  a {
+    height: 100%;
+    display: block;
+    margin-left: 1em;
+  }
   img {
     width: 16px;
-    margin-left: .5em;
+    vertical-align: middle;
   }
 }
 

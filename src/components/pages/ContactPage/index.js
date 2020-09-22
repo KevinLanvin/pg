@@ -25,6 +25,7 @@ const ContactPage = ({ mobile = false }) => (
       address2={content.Contact.address2}
       facebookLinkTo={content.Contact.facebookLinkTo}
       linkedInLinkTo={content.Contact.linkedInLinkTo}
+      instagramLinkTo={content.Contact.instagramLinkTo}
       latitude={content.Contact.latitude}
       longitude={content.Contact.longitude}
       mobile={mobile}
