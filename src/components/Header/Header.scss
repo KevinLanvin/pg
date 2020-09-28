@@ -1,16 +1,1 @@
 @import '../../styles/_vars';
-
-.header {
-  width: 100%;
-  height: 7.6rem;
-  box-shadow: $shadow-dark;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-}
-
-@media (max-width: $breakpoint) {
-  .header {
-    height: 6rem;
-  }
-}

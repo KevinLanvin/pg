@@ -2,26 +2,12 @@
 
 .temoignages {
   width: 100%;
-  padding: $gutter-large 0;
   position: relative;
-  &__background {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    overflow: hidden;
-    &--image {
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      width: 100%;
-      object-fit: cover;
-      object-position: center;
-      transform: translateZ(-.5px) scale(2);
-    }
-  }
   &__text {
-    width: 80%;
-    margin: auto;
-    position: relative;
     padding: $gutter-large;
+    width: 80%;
+    margin: $gutter-large auto;
+    position: relative;
     background-color: $color-overlay;
     h2 {
       margin-bottom: $gutter;

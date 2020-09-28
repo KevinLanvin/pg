@@ -32,10 +32,9 @@ const HomePage = ({ mobile = false }) => {
         imageAlt={content.MainTitle.Banner.alternativeText}
         title={content.MainTitle.title}
         onClick={() => {
-          const root = document.getElementsByClassName('App__content')[0];
-          root.scrollTo({
+          window.scrollTo({
             left: 0,
-            top: descriptionEl.current.offsetTop - 49,
+            top: descriptionEl.current.offsetTop - 126,
             behavior: 'smooth'
           });
         }}

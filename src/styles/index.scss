@@ -28,15 +28,16 @@
 
 * {
   box-sizing: border-box;
-  transform-style: preserve-3d;
   margin: 0;
   &:focus {
     outline: none;
   }
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 ul {
@@ -122,9 +123,6 @@ section {
 }
 
 @media (max-width: $breakpoint) {
-  html, body {
-    overflow-x: hidden;
-  }
 
   body, li, a, p, button {
     font-size: 1.05em;

@@ -62,53 +62,51 @@ function App() {
           <meta property="twitter:image" content="https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg" />
         </Helmet>
         <Header mobile={mobile} />
-        <div className="App__content">
-          <Switch>
-            <Route path="/" exact>
-              <HomePage mobile={mobile} />
-            </Route>
-            <Route path="/soins-naturels" exact>
-              <SoinsNaturels mobile={mobile} />
-            </Route>
-            <Route path="/kinesiologie" exact>
-              <Kinesiologie mobile={mobile} />
-            </Route>
-            <Route path="/arret-tabac" exact>
-              <ArretTabac mobile={mobile} />
-            </Route>
-            <Route path="/soins-energetiques" exact>
-              <SoinsEnergetiques mobile={mobile} />
-            </Route>
-            <Route path="/moxibustion" exact>
-              <Moxibustion mobile={mobile} />
-            </Route>
-            <Route path="/guasha" exact>
-              <Guasha mobile={mobile} />
-            </Route>
-            <Route path="/reflexologie-auriculaire" exact>
-              <AuriculoTherapie mobile={mobile} />
-            </Route>
-            <Route path="/ventouses" exact>
-              <Ventouses mobile={mobile} />
-            </Route>
-            <Route path="/consultations" exact>
-              <Consultations mobile={mobile} />
-            </Route>
-            <Route path="/contact" exact>
-              <Contact mobile={mobile} />
-            </Route>
-            <Route path="/qui-suis-je" exact>
-              <QuiSuisJe mobile={mobile} />
-            </Route>
-            <Route path="/mentions-legales" exact>
-              <MentionsLegales mobile={mobile} />
-            </Route>
-            <Route path="*">
-              <NotFound mobile={mobile} />
-            </Route>
-          </Switch>
-          <Footer mobile={mobile} />
-        </div>
+        <Switch>
+          <Route path="/" exact>
+            <HomePage mobile={mobile} />
+          </Route>
+          <Route path="/soins-naturels" exact>
+            <SoinsNaturels mobile={mobile} />
+          </Route>
+          <Route path="/kinesiologie" exact>
+            <Kinesiologie mobile={mobile} />
+          </Route>
+          <Route path="/arret-tabac" exact>
+            <ArretTabac mobile={mobile} />
+          </Route>
+          <Route path="/soins-energetiques" exact>
+            <SoinsEnergetiques mobile={mobile} />
+          </Route>
+          <Route path="/moxibustion" exact>
+            <Moxibustion mobile={mobile} />
+          </Route>
+          <Route path="/guasha" exact>
+            <Guasha mobile={mobile} />
+          </Route>
+          <Route path="/reflexologie-auriculaire" exact>
+            <AuriculoTherapie mobile={mobile} />
+          </Route>
+          <Route path="/ventouses" exact>
+            <Ventouses mobile={mobile} />
+          </Route>
+          <Route path="/consultations" exact>
+            <Consultations mobile={mobile} />
+          </Route>
+          <Route path="/contact" exact>
+            <Contact mobile={mobile} />
+          </Route>
+          <Route path="/qui-suis-je" exact>
+            <QuiSuisJe mobile={mobile} />
+          </Route>
+          <Route path="/mentions-legales" exact>
+            <MentionsLegales mobile={mobile} />
+          </Route>
+          <Route path="*">
+            <NotFound mobile={mobile} />
+          </Route>
+        </Switch>
+        <Footer mobile={mobile} />
       </div>
     </Router>
   );

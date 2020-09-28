@@ -6,10 +6,12 @@ import NavBar from './NavBar';
 import './Header.scss';
 
 const Header = ({ mobile = false }) => (
-  <header className="header">
+  <>
+    {/* <header className="header"> */}
     {!mobile && <TopBar />}
     <NavBar mobile={mobile} />
-  </header>
+    {/* </header> */}
+  </>
 );
 
 Header.propTypes = {
