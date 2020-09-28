@@ -4,7 +4,8 @@ import { useLocation } from 'react-router-dom';
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {
-    window.scroll(0,0);
+    window.scrollTo(0,0);
+    window.onbeforeunload = () => window.scrollTo(0,0);
   }, [pathname]);
   return null;
 };
