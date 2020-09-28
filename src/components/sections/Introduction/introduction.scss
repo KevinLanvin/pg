@@ -2,6 +2,9 @@
 
 .introduction {
   margin: $gutter-large $margin;
+  .parallax-banner {
+    margin-top: $gutter;
+  }
 }
 
 @media(max-width: $breakpoint) {
