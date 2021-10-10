@@ -1,80 +1,80 @@
 {
-  "Head": {
-    "title": "Pauline Gorlier - Consultations et tarifs",
-    "description": "Découvrez le déroulement d'une séance ainsi que les tarifs des différents services proposés (Soins énergétiques, Soins Naturels et Kinésiologie, Arrêt du tabac).",
-    "url": "https://pauline-gorlier.com/consultations",
-    "image": "https://pauline-gorlier.com/img/reiki.JPG"
-  },
-  "Breadcrumbs": [
-    {
-      "linkLabel": "Accueil",
-      "linkTo": "/"
-    },
-    {
-      "linkLabel": "Consultations",
-      "linkTo": "/consultations"
-    }
-  ],
-  "Introduction": {
-    "title": "Consultations",
-    "paragraph": "À qui s'adressent ces soins ? Quels sont les tarifs ? Comment se déroule une séance ? Quelles problématiques ? Retrouvez toutes les réponses à vos questions !"
-  },
-  "Details": {
-    "title": "Le déroulement d'une consultation",
-    "leftColumn": "Chaque consultation démarre par un entretien qui va me permettre de comprendre la problématique de la personne. Il est nécessaire d’instaurer une situation de confiance entre le praticien, moi-même, et le consultant pour que ce dernier se sente le plus à l’aise possible. C’est pourquoi je sais me montrer à l’écoute et bienveillante et je ferai de mon mieux pour répondre à vos besoins. À la suite d'un premier échange je réaliserai le soin rigoureusement. Mon but est de vous proposer des soins en ne m’attardant non pas sur un seul aspect de la problématique mais en comprenant les liens qui peuvent exister entre vos problématiques physiques et émotionnelles ou encore énergétiques.",
-    "rightColumn": " Il est très important de prendre en compte dans ma pratique la globalité de la personne car bien souvent certaines pathologies physiques sont liées à des problématiques émotionnelles. Comme dit Christophe André : « Les émotions sont le trait d’union entre le corps et l’esprit ». De plus, en fin de séance je prends toujours un petit temps pour répondre à vos questions. ",
-    "linkTo": "/contact",
-    "linkLabel": "Prendre rendez-vous"
-  },
-  "Prices": {
-    "title": "Tarifs",
-    "cards": [
-      {
-        "title": "Soins énergétiques",
-        "description": "(1h - forfait 4 séances : 185€)",
-        "price": "50€",
-        "image": {
-          "url": "/img/tarifs-soins-energetiques.jpg",
-          "alternativeText": "Tarifs soins énergétiques"
-        },
-        "linkTo": "/contact",
-        "linkLabel": "Prendre RDV"
-      },
-      {
-        "title": "Soins naturels et Kinésiologie",
-        "description": "(1h à 1h30)",
-        "price": "60€",
-        "image": {
-          "url": "/img/tarifs-kinesiologie.jpg",
-          "alternativeText": "Tarifs Kinesiologie et Soins naturels"
-        },
-        "linkTo": "/contact",
-        "linkLabel": "Prendre RDV"
-      },
-      {
-        "title": "Arrêt du tabac",
-        "description": "(1h à 1h30)",
-        "price": "70€",
-        "image": {
-          "url": "/img/tarifs-arret-tabac.jpg",
-          "alternativeText": "Tarif arrêt du tabac"
-        },
-        "linkTo": "/contact",
-        "linkLabel": "Prendre RDV"
-      }
-    ]
-  },
-  "ListSection": {
-    "title": "Liste des problématiques",
-    "paragraph": "Toute personne ayant ce type de problématiques peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
-    "list": [
-      "Problématiques psychologiques",
-      "Douleurs physiques",
-	"Dermatoses",
-      "Problèmes gynécologiques",
-      "Problèmes respiratoires",
-	"Rééquilibrage énergétique",
-      "Renforcement du système immunitaire"
-    ]
-  }
+	"Head": {
+		"title": "Pauline Gorlier - Consultations et tarifs",
+		"description": "Découvrez le déroulement d'une séance ainsi que les tarifs des différents services proposés (Soins énergétiques, Soins Naturels et Kinésiologie, Arrêt du tabac).",
+		"url": "https://pauline-gorlier.com/consultations",
+		"image": "https://pauline-gorlier.com/img/reiki.JPG"
+	},
+	"Breadcrumbs": [
+		{
+			"linkLabel": "Accueil",
+			"linkTo": "/"
+		},
+		{
+			"linkLabel": "Consultations",
+			"linkTo": "/consultations"
+		}
+	],
+	"Introduction": {
+		"title": "Consultations",
+		"paragraph": "À qui s'adressent ces soins ? Quels sont les tarifs ? Comment se déroule une séance ? Quelles problématiques ? Retrouvez toutes les réponses à vos questions !"
+	},
+	"Details": {
+		"title": "Le déroulement d'une consultation",
+		"leftColumn": "Chaque consultation démarre par un entretien qui va me permettre de comprendre la problématique de la personne. Il est nécessaire d’instaurer une situation de confiance entre le praticien, moi-même, et le consultant pour que ce dernier se sente le plus à l’aise possible. C’est pourquoi je sais me montrer à l’écoute et bienveillante et je ferai de mon mieux pour répondre à vos besoins. À la suite d'un premier échange je réaliserai le soin rigoureusement. Mon but est de vous proposer des soins en ne m’attardant non pas sur un seul aspect de la problématique mais en comprenant les liens qui peuvent exister entre vos problématiques physiques et émotionnelles ou encore énergétiques.",
+		"rightColumn": " Il est très important de prendre en compte dans ma pratique la globalité de la personne car bien souvent certaines pathologies physiques sont liées à des problématiques émotionnelles. Comme dit Christophe André : « Les émotions sont le trait d’union entre le corps et l’esprit ». De plus, en fin de séance je prends toujours un petit temps pour répondre à vos questions. ",
+		"linkTo": "/contact",
+		"linkLabel": "Prendre rendez-vous"
+	},
+	"Prices": {
+		"title": "Tarifs",
+		"cards": [
+			{
+				"title": "Soins énergétiques",
+				"description": "(1h - forfait 4 séances : 185€)",
+				"price": "60€",
+				"image": {
+					"url": "/img/tarifs-soins-energetiques.jpg",
+					"alternativeText": "Tarifs soins énergétiques"
+				},
+				"linkTo": "/contact",
+				"linkLabel": "Prendre RDV"
+			},
+			{
+				"title": "Soins naturels et Kinésiologie",
+				"description": "(1h à 1h30)",
+				"price": "60€",
+				"image": {
+					"url": "/img/tarifs-kinesiologie.jpg",
+					"alternativeText": "Tarifs Kinesiologie et Soins naturels"
+				},
+				"linkTo": "/contact",
+				"linkLabel": "Prendre RDV"
+			},
+			{
+				"title": "Arrêt du tabac",
+				"description": "(1h30)",
+				"price": "150€",
+				"image": {
+					"url": "/img/tarifs-arret-tabac.jpg",
+					"alternativeText": "Tarif arrêt du tabac"
+				},
+				"linkTo": "/contact",
+				"linkLabel": "Prendre RDV"
+			}
+		]
+	},
+	"ListSection": {
+		"title": "Liste des problématiques",
+		"paragraph": "Toute personne ayant ce type de problématiques peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse,  sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
+		"list": [
+			"Problématiques psychologiques",
+			"Douleurs physiques",
+			"Dermatoses",
+			"Problèmes gynécologiques",
+			"Problèmes respiratoires",
+			"Rééquilibrage énergétique",
+			"Renforcement du système immunitaire"
+		]
+	}
 }

@@ -1,47 +1,50 @@
 @import '../../../styles/_vars';
 
 .list-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  &__text {
-    padding-right: $gutter;
-  }
-  &__paragraph {
-    margin-top: $gutter;
-  }
-  &__list {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  &__elements {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style-type: disc;
-    li {
-      margin: $gutter/4 0;
-    }
-  }
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	&__text {
+		padding-right: $gutter;
+	}
+	&__paragraph {
+		margin-top: $gutter;
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	&__flower {
+		width: 25%;
+	}
+	&__elements {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		list-style-type: disc;
+		li {
+			margin: $gutter/4 0;
+		}
+	}
 }
 
-@media(max-width: $breakpoint) {
-  .list-section {
-    grid-template-columns: 1fr;
-    grid-gap: $gutter;
-    &__list {
-      justify-content: space-between;
-    }
-    &__text {
-      padding: 0;
-    }
-    &__flower {
-      width: 35%;
-    }
-    &__elements {
-      width: 60%;
-      padding-left: $gutter;
-    }
-  }
+@media (max-width: $breakpoint) {
+	.list-section {
+		grid-template-columns: 1fr;
+		grid-gap: $gutter;
+		&__list {
+			justify-content: space-between;
+		}
+		&__text {
+			padding: 0;
+		}
+		&__flower {
+			width: 35%;
+		}
+		&__elements {
+			width: 60%;
+			padding-left: $gutter;
+		}
+	}
 }
