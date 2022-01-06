@@ -46,6 +46,11 @@ const ContactSection = ({
 				</p>
 			</div>
 		</div>
+		<img
+			src='/img/cabinet.JPG'
+			alt='Cabinet'
+			className='contact-section__image'
+		/>
 		{/* <div className='contact-section__map'>
 			<Map
 				latitude={Number.parseFloat(latitude)}

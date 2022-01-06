@@ -1,98 +1,98 @@
 {
-  "Head": {
-    "title":"Pauline Gorlier - Qui suis-je",
-    "description": "Praticienne en soins naturels et énergétiques à Lille, je vous propose des techniques variées et adaptées à vos problématiques : reïki, ventouses chinoises, massage guasha, moxibustion, réflexologie auriculaire, kinésiologie ...",
-    "url": "https://pauline-gorlier.com/qui-suis-je",
-    "image": "https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg"
-  },
-  "Breadcrumbs": [
-    {
-      "linkLabel": "Accueil",
-      "linkTo": "/"
-    },
-    {
-      "linkLabel": "Qui suis-je ?",
-      "linkTo": "/qui-suis-je"
-    }
-  ],
-  "Introduction": {
-    "title": "Qui suis-je ?",
-    "paragraph": "Praticienne en soins naturels et énergétiques à Lille, je vous propose des techniques variées et adaptées à vos problématiques : reïki, ventouses chinoises, massage guasha, moxibustion, réflexologie auriculaire, kinésiologie ... Découvrez mon parcours et les valeurs qu'il me tient à coeur de partager !",
-    "image": {
-      "url": "/img/praticienne-soins-naturels-2.jpg",
-      "alternativeText": "praticienne en soins naturels et énergétiques"
-    }
-  },
-  "Presentation": {
-    "title": "Mon parcours de praticienne en soins naturels et énergétiques",
-    "paragraph": "Depuis très jeune je me suis intéressée au monde de la médecine et à l’aide à la personne. C’est pourquoi dans un premier temps j’ai suivi un cursus en neuropsychologie. C’est ensuite grâce à la rencontre de personnes que je me suis ouverte aux techniques alternatives. De nature très curieuse, j’ai d’abord découvert l’univers de l’hypnose et du reiki, deux pratiques qui m’ont réellement convaincue. C’est à ce moment que j’ai su que je voulais continuer dans cette voie et que j’allais en faire mon métier. J’ai donc décidé de me former à d’autres disciplines pour enrichir mes connaissances et afin de proposer différents outils pour m’adapter au mieux à chacun d’entre vous. Grâce à mon parcours j’ai appris à développer un bon sens de l’écoute. Ce qui reste primordial pour moi c’est d’instaurer une relation de confiance pour que vous puissiez vous sentir le plus à l’aise possible ainsi que de réaliser mes soins avec rigueur pour répondre à vos besoins.",
-    "linkTo": "/consultations",
-    "linkLabel": "Découvrir les tarifs",
-    "image": {
-      "url": "/img/praticienne-soins-naturels-3.JPG",
-      "alternativeText": "Praticienne lille"
-    }
-  },
-  "Formations": {
-    "title": "Mes formations",
-    "linkTo": "/consultations",
-    "linkLabel": "Découvrir la liste des problématiques",
-    "formations": [
-      {
-        "year": "2016",
-        "name": "Formation hypnose Ericksonienne",
-        "image": {
-          "url": "/img/hypnose.svg",
-          "alternativeText": "Hypnose"
-        }
-      },
-      {
-        "year": "2018",
-        "name": "Maitrise en NeuroPsychologie",
-        "image": {
-          "url": "/img/neuropsy.svg",
-          "alternativeText": "NeuroPsychologie"
-        }
-      },
-      {
-        "year": "2016-2019",
-        "name": "Formation Reïki",
-        "image": {
-          "url": "/img/reiki.svg",
-          "alternativeText": "Reiki"
-        }
-      },
-      {
-        "year": "2019",
-        "name": "Formation Ventouses / Moxibustion / Guasha",
-        "image": {
-          "url": "/img/ventouses.svg",
-          "alternativeText": "Ventouses Moxibustion Guasha"
-        }
-      },
-      {
-        "year": "2019",
-        "name": "Formation Réflexologie auriculaire",
-        "image": {
-          "url": "/img/auriculo.svg",
-          "alternativeText": "Réflexologie auriculaire"
-        }
-      },
-      {
-        "year": "2020",
-        "name": "Formation Kinésiologie",
-        "image": {
-          "url": "/img/kinesiologie.svg",
-          "alternativeText": "Kinésiologie"
-        }
-      }
-    ]
-  },
-  "Details": {
-    "title": "",
-    "leftColumn": "",
-    "rightColumn": "",
-    "linkTo": "/contact",
-    "linkLabel": "Prendre rendez-vous"
-  }
+	"Head": {
+		"title": "Pauline Gorlier - Qui suis-je",
+		"description": "Praticienne en soins naturels et énergétiques à Lille, je vous propose des techniques variées et adaptées à vos besoins : reïki, ventouses chinoises, massage guasha, moxibustion, réflexologie auriculaire, kinésiologie ...",
+		"url": "https://pauline-gorlier.com/qui-suis-je",
+		"image": "https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg"
+	},
+	"Breadcrumbs": [
+		{
+			"linkLabel": "Accueil",
+			"linkTo": "/"
+		},
+		{
+			"linkLabel": "Qui suis-je ?",
+			"linkTo": "/qui-suis-je"
+		}
+	],
+	"Introduction": {
+		"title": "Qui suis-je ?",
+		"paragraph": "Praticienne bien-être à Lille, je vous propose des techniques variées et adaptées à vos besoins : reiki, magnétisme, techniques chinoises, massage guasha, refléxologie auriculaire, kinésiologie, hypnose... Découvrez mon parcours et les valeurs qu'il me tient à coeur de partager !",
+		"image": {
+			"url": "/img/praticienne-soins-naturels-2.jpg",
+			"alternativeText": "praticienne en soins naturels et énergétiques"
+		}
+	},
+	"Presentation": {
+		"title": "Mon parcours de praticienne bien-être",
+		"paragraph": "Depuis très jeune je me suis intéressée au monde de la médecine et à l’aide à la personne. C’est pourquoi dans un premier temps j’ai suivi un cursus en neuropsychologie. C’est ensuite grâce à la rencontre de personnes que je me suis ouverte aux techniques alternatives. De nature très curieuse, j’ai d’abord découvert l’univers de l’hypnose et du reiki, deux pratiques qui m’ont réellement convaincue. C’est à ce moment que j’ai su que je voulais continuer dans cette voie et que j’allais en faire mon métier. J’ai donc décidé de me former à d’autres disciplines pour enrichir mes connaissances et afin de proposer différents outils pour m’adapter au mieux à chacun d’entre vous. Grâce à mon parcours j’ai appris à développer un bon sens de l’écoute. Ce qui reste primordial pour moi c’est d’instaurer une relation de confiance pour que vous puissiez vous sentir le plus à l’aise possible ainsi que de réaliser mes séances avec rigueur pour répondre à vos besoins.",
+		"linkTo": "/consultations",
+		"linkLabel": "Découvrir les tarifs",
+		"image": {
+			"url": "/img/praticienne-soins-naturels-3.JPG",
+			"alternativeText": "Praticienne lille"
+		}
+	},
+	"Formations": {
+		"title": "Mes formations",
+		"linkTo": "/consultations",
+		"linkLabel": "Découvrir la liste des problématiques",
+		"formations": [
+			{
+				"year": "2016",
+				"name": "Formation hypnose Ericksonienne",
+				"image": {
+					"url": "/img/hypnose.svg",
+					"alternativeText": "Hypnose"
+				}
+			},
+			{
+				"year": "2018",
+				"name": "Maitrise en NeuroPsychologie",
+				"image": {
+					"url": "/img/neuropsy.svg",
+					"alternativeText": "NeuroPsychologie"
+				}
+			},
+			{
+				"year": "2016-2019",
+				"name": "Formation Reïki",
+				"image": {
+					"url": "/img/reiki.svg",
+					"alternativeText": "Reiki"
+				}
+			},
+			{
+				"year": "2019",
+				"name": "Formation Ventouses / Moxibustion / Guasha",
+				"image": {
+					"url": "/img/ventouses.svg",
+					"alternativeText": "Ventouses Moxibustion Guasha"
+				}
+			},
+			{
+				"year": "2019",
+				"name": "Formation Réflexologie auriculaire",
+				"image": {
+					"url": "/img/auriculo.svg",
+					"alternativeText": "Réflexologie auriculaire"
+				}
+			},
+			{
+				"year": "2020",
+				"name": "Formation Kinésiologie",
+				"image": {
+					"url": "/img/kinesiologie.svg",
+					"alternativeText": "Kinésiologie"
+				}
+			}
+		]
+	},
+	"Details": {
+		"title": "",
+		"leftColumn": "",
+		"rightColumn": "",
+		"linkTo": "/contact",
+		"linkLabel": "Prendre rendez-vous"
+	}
 }

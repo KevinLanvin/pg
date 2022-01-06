@@ -1,54 +1,46 @@
 {
-  "title": "Mes services",
-  "services": [
-    {
-      "title": "Soins Naturels",
-      "image": {
-        "url": "/img/soins-naturels-ventouses.JPG",
-        "alternativeText": "Soins Naturels"
-      },
-      "examples": [
-        "Ventouses",
-        "Moxibustion",
-        "Guasha",
-        "Réflexologie auriculaire"
-      ],
-      "linkTo": "/soins-naturels"
-    },
-    {
-      "title": "Soins Énergétiques",
-      "image": {
-        "url": "/img/soins-energetiques-reiki.JPG",
-        "alternativeText": "Soins Énergétiques"
-      },
-      "examples": [
-        "Reiki"
-      ],
-      "linkTo": "/soins-energetiques"
-    },
-    {
-      "title": "Kinésiologie",
-      "image": {
-        "url": "/img/kinesiologie-1.jpg",
-        "alternativeText": "Kinésiologie"
-      },
-      "examples": [
-        "One brain",
-        "Touch for health"
-      ],
-      "linkTo": "/kinesiologie"
-    },
-    {
-      "title": "Spécial Arrêt du tabac",
-      "image": {
-        "url": "/img/arret-du-tabac-hypnose.jpg",
-        "alternativeText": "Spécial arrêt du tabac"
-      },
-      "examples": [
-        "Hypnose",
-        "Réflexologie auriculaire"
-      ],
-      "linkTo": "/arret-tabac"
-    }
-  ]
+	"title": "Mes services",
+	"services": [
+		{
+			"title": "Techniques chinoises",
+			"image": {
+				"url": "/img/guasha-1.jpg",
+				"alternativeText": "Soins Naturels"
+			},
+			"examples": [
+				"Ventouses",
+				"Moxibustion",
+				"Guasha",
+				"Réflexologie auriculaire"
+			],
+			"linkTo": "/soins-naturels"
+		},
+		{
+			"title": "Reiki Magnétisme",
+			"image": {
+				"url": "/img/soins-energetiques-reiki.JPG",
+				"alternativeText": "Soins Énergétiques"
+			},
+			"examples": ["Reiki"],
+			"linkTo": "/soins-energetiques"
+		},
+		{
+			"title": "Kinésiologie",
+			"image": {
+				"url": "/img/kinesiologie-1.jpg",
+				"alternativeText": "Kinésiologie"
+			},
+			"examples": ["One brain", "Touch for health"],
+			"linkTo": "/kinesiologie"
+		},
+		{
+			"title": "Spécial Arrêt du tabac",
+			"image": {
+				"url": "/img/arret-du-tabac-hypnose.jpg",
+				"alternativeText": "Spécial arrêt du tabac"
+			},
+			"examples": ["Hypnose", "Réflexologie auriculaire"],
+			"linkTo": "/arret-tabac"
+		}
+	]
 }

@@ -1,94 +1,86 @@
 {
-  "Head": {
-    "title": "Pauline Gorlier - Soins Naturels et énergétiques à Lille",
-    "description": "Pauline Gorlier, Praticienne en Soins Naturels et Energétiques à Lille. Soignez votre corps et votre esprit pour retrouver l'équilibre dans votre vie.",
-    "url": "https://pauline-gorlier.com",
-    "image": "https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg"
-  },
-  "MainTitle": {
-    "title": "Praticienne en Soins Naturels et Energétiques",
-    "Banner": {
-      "url": "/img/banner.jpg",
-      "alternativeText": "Bannière"
-    }
-  },
-  "Description": {
-    "title": "Une approche globale",
-    "paragraph": "Je vous propose différents types de soins, pour enfants et adultes, dans la métropole lilloise. Je réalise des soins naturels, des soins énergétiques et de la kinésiologie. Mes soins vous apporteront une aide à différents niveaux : physique, émotionnel et énergétique.",
-    "citation": "Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu es amené à vivre. Jim Rohn",
-    "image": {
-      "url": "/img/description.jpg",
-      "alternativeText": "praticienne en soins naturels et énergétiques"
-    }
-  },
-  "Services": {
-    "title": "Mes services",
-    "services": [
-      {
-        "title": "Soins Naturels",
-        "image": {
-          "url": "/img/soins-naturels-ventouses.jpg",
-          "alternativeText": "soins naturels"
-        },
-        "examples": [
-          "Ventouses",
-          "Moxibustion",
-          "Guasha",
-          "Réflexologie auriculaire"
-        ]
-      },
-      {
-        "title": "Soins Énergétiques",
-        "image": {
-          "url": "/img/soins-energetiques-reiki.jpg",
-          "alternativeText": "soins énergétiques"
-        },
-        "examples": [
-          "Reiki"
-        ]
-      },
-      {
-        "title": "Kinésiologie",
-        "image": {
-          "url": "/img/description.jpg",
-          "alternativeText": "kinésiologie"
-        },
-        "examples": [
-          "Touch for health",
-          "One breath"
-        ]
-      },
-      {
-        "title": "Spécial Arrêt du tabac",
-        "image": {
-          "url": "/img/description.jpg",
-          "alternativeText": "Arrêt du tabac en hypnose et réflexologie auriculaire"
-        },
-        "examples": [
-          "Hypnose",
-          "Réflexologie auriculaire"
-        ]
-      }
-    ]
-  },
-  "QuandConsulter": {
-    "title": "Dans quel cas me consulter ?",
-    "paragraph": "Adultes comme enfants, mes soins s'adressent à toute personne souhaitant améliorer son bien-être physique, émotionnel ou énergétique. Quel que soit le moment de vie dans lequel vous vous trouvez, une réponse adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me consulter pour une problématique particulière ou simplement pour une séance de détente et relaxation.",
-    "linkTo": "/consultations",
-    "linkLabel": "Découvrir les problématiques",
-    "image": {
-      "url": "/img/quand-consulter.jpg",
-      "alternativeText": "consultation en soins naturels et énergétiques"
-    }
-  },
-  "QuiSuisJe": {
-    "title": "Qui suis-je ?",
-    "paragraph": "Je suis praticienne en soins naturels et énergétiques dans la métropole Lilloise. C'est avec un bagage en neuropsychologie et en soins alternatifs que je vous ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordiale dans toutes mes démarches. Ainsi, mes différentes approches vous apporteront bien-être et confiance pour appréhender au mieux votre vie future. ",
-    "linkTo": "/qui-suis-je",
-    "linkLabel": "Voir mon parcours",
-    "image": {
-      "url": "/img/praticienne-soins-naturels.jpg",
-      "alternativeText": "Pauline Gorlier praticienne en soins naturels et énergétiques"
-    }
-  }
+	"Head": {
+		"title": "Pauline Gorlier - Soins Naturels et énergétiques à Lille",
+		"description": "Pauline Gorlier, Praticienne bien-être à Lille. Soignez votre corps et votre esprit pour retrouver l'équilibre dans votre vie.",
+		"url": "https://pauline-gorlier.com",
+		"image": "https://pauline-gorlier.com/img/praticienne-soins-naturels-2.jpg"
+	},
+	"MainTitle": {
+		"title": "Praticienne Bien-être",
+		"Banner": {
+			"url": "/img/banner.jpg",
+			"alternativeText": "Bannière"
+		}
+	},
+	"Description": {
+		"title": "Une approche globale",
+		"paragraph": "Je vous accompagne, adultes et enfants, dans votre objectif à l’aide de pratiques naturelles et énergétiques dans la métropole lilloise. Mes diverses techniques (reiki, magnétisme, techniques chinoises, kinesiologie, hypnose) permettent un travail global sur la personne. Mon but est d’adopter une approche holistique. C’est à dire d’apporter un mieux être au niveau émotionnel, physique et énergétique tout en faisant le lien « corps-esprit ».",
+		"citation": "Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu es amené à vivre. Jim Rohn",
+		"image": {
+			"url": "/img/description.jpg",
+			"alternativeText": "praticienne en soins naturels et énergétiques"
+		}
+	},
+	"Services": {
+		"title": "Mes services",
+		"services": [
+			{
+				"title": "Soins Naturels",
+				"image": {
+					"url": "/img/soins-naturels-ventouses.jpg",
+					"alternativeText": "soins naturels"
+				},
+				"examples": [
+					"Ventouses",
+					"Moxibustion",
+					"Guasha",
+					"Réflexologie auriculaire"
+				]
+			},
+			{
+				"title": "Soins Énergétiques",
+				"image": {
+					"url": "/img/soins-energetiques-reiki.jpg",
+					"alternativeText": "soins énergétiques"
+				},
+				"examples": ["Reiki"]
+			},
+			{
+				"title": "Kinésiologie",
+				"image": {
+					"url": "/img/description.jpg",
+					"alternativeText": "kinésiologie"
+				},
+				"examples": ["Touch for health", "One breath"]
+			},
+			{
+				"title": "Spécial Arrêt du tabac",
+				"image": {
+					"url": "/img/description.jpg",
+					"alternativeText": "Arrêt du tabac en hypnose et réflexologie auriculaire"
+				},
+				"examples": ["Hypnose", "Réflexologie auriculaire"]
+			}
+		]
+	},
+	"QuandConsulter": {
+		"title": "Dans quel cas me consulter ?",
+		"paragraph": "Adultes comme enfants, mes séances s'adressent à toute personne souhaitant améliorer son bien-être physique, émotionnel ou énergétique. Quel que soit le moment de vie dans lequel vous vous trouvez, une réponse adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me consulter pour un besoin particulier ou simplement pour une séance de détente et relaxation.",
+		"linkTo": "/consultations",
+		"linkLabel": "Découvrir les problématiques",
+		"image": {
+			"url": "/img/quand-consulter.jpg",
+			"alternativeText": "consultation en soins naturels et énergétiques"
+		}
+	},
+	"QuiSuisJe": {
+		"title": "Qui suis-je ?",
+		"paragraph": "Je suis praticienne bien-être dans la métropole Lilloise. C'est avec un bagage en neuropsychologie et en techniques alternatives que je vous ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordiale dans toutes mes démarches. Ainsi, mes différentes approches vous apporteront bien-être et confiance pour appréhender au mieux votre vie future. ",
+		"linkTo": "/qui-suis-je",
+		"linkLabel": "Voir mon parcours",
+		"image": {
+			"url": "/img/praticienne-soins-naturels.jpg",
+			"alternativeText": "Pauline Gorlier praticienne en soins naturels et énergétiques"
+		}
+	}
 }

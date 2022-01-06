@@ -1,75 +1,82 @@
 @import '../../../styles/_vars';
 
 .contact-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  &__card-wrapper {
-    background: url('https://pauline-gorlier.com/img/flower-card.svg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 2*$gutter-large;
-  }
-  &__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: $color-white;
-    box-shadow: $shadow-dark;
-    padding: $gutter $gutter-large;
-    border-radius: $radius;
-    width: max-content;
-    margin: 0 auto;
-    h2 {
-      text-align: center;
-    }
-    a {
-      height: 30px;
-      margin: $gutter/2;
-      margin-bottom: 0;
-      color: $color-main;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    img {
-      height: 30px;
-      width: 30px;
-    }
-    p {
-      text-align: center;
-      font-weight: bold;
-      color: $color-main;
-      line-height: 1em;
-      margin: $gutter/2 0;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-  &__map {
-    padding: $gutter;
-    padding-right: 0;
-  }
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	&__image {
+		width: 80%;
+		margin: auto;
+		border-radius: 10px;
+	}
+	&__card-wrapper {
+		background: url('https://pauline-gorlier.com/img/flower-card.svg');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		padding: 2 * $gutter-large;
+	}
+	&__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: $color-white;
+		box-shadow: $shadow-dark;
+		padding: $gutter $gutter-large;
+		border-radius: $radius;
+		width: max-content;
+		margin: 0 auto;
+		h2 {
+			text-align: center;
+		}
+		a {
+			height: 30px;
+			margin: $gutter/2;
+			margin-bottom: 0;
+			color: $color-main;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		img {
+			height: 30px;
+			width: 30px;
+		}
+		p {
+			text-align: center;
+			font-weight: bold;
+			color: $color-main;
+			line-height: 1em;
+			margin: $gutter/2 0;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&__map {
+		padding: $gutter;
+		padding-right: 0;
+	}
 }
 
 @media (max-width: $breakpoint) {
-  .contact-section {
-    grid-template-columns: 1fr;
-    width: 100%;
-    &__card-wrapper {
-      width: 100%;
-      padding: $margin;
-      background-size: cover;
-    }
-    &__card {
-      padding: $gutter/2;
-      width: 100%;
-    }
-    &__map {
-      height: 50vh;
-      padding: 0;
-      margin: $gutter;
-    }
-  }
+	.contact-section {
+		grid-template-columns: 1fr;
+		width: 100%;
+		&__card-wrapper {
+			width: 100%;
+			padding: $margin;
+			background-size: cover;
+		}
+		&__card {
+			padding: $gutter/2;
+			width: 100%;
+		}
+		&__map {
+			height: 50vh;
+			padding: 0;
+			margin: $gutter;
+		}
+	}
 }
